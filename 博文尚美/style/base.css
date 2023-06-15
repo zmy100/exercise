@@ -1,0 +1,17 @@
+/* 清空内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 清除a标签超链接的下划线 */
+a {
+  text-decoration: none;
+}
+/* 清除列表前面的小圆点和数字 */
+ul,
+ol {
+  list-style: none;
+}
+.container{
+  text-align: center;
+}
