@@ -1,0 +1,36 @@
+body {
+  background-color: #f3f3f3;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+ul li,
+ol li {
+  list-style: none;
+}
+.fl {
+  float: left;
+}
+.flr {
+  float: right;
+}
+.active {
+  color: #53cac3;
+}
+.active-bgc {
+  background-color: #53cac3;
+}
+.center-top-item-top-button:hover {
+  background-color: #53cac3;
+  border-color: #fff;
+  color: #fff;
+  cursor: pointer;
+}
+a:hover {
+  color: #53cac3;
+}
