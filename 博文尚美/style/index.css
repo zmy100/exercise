@@ -9,13 +9,11 @@
 .container {
   width: 1082px;
   margin: 0 auto;
-  
 }
 .header {
   width: 100%;
   height: 81px;
   background-color: #ffffff;
-  
 }
 .header a {
   display: inline-block;
@@ -29,8 +27,8 @@
 }
 /* 头部目录 */
 ul.header-menu li {
-    margin-right: 50px;
-  }
+  margin-right: 50px;
+}
 ul.header-menu li:last-child {
   margin-right: 0;
 }
@@ -38,4 +36,41 @@ ul.header-menu li a {
   font-size: 14px;
   color: #646464;
   margin-top: 30px;
+}
+
+/* banner区域 */
+/* 版心图片 */
+.banner {
+  background-image: url(../img/banner.png);
+  width: 100%;
+  height: 469px;
+  background-size: cover;
+  position: relative;
+}
+/* 小圆点 */
+.banner ul.dots {
+  width: 81px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  bottom: 19px;
+}
+.banner ul.dots li {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin-right: 11px;
+}
+.banner ul.dots li:last-child {
+  margin-right: 0;
+}
+.banner ul.dots li a {
+  width: 10px;
+  height: 10px;
+  display: block;
+}
+.banner ul.dots li:hover {
+  background-color: #fff;
+}
+.banner ul.dots li.active {
+  background-color: #fff;
 }
