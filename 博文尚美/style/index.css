@@ -74,3 +74,33 @@ ul.header-menu li a {
 .banner ul.dots li.active {
   background-color: #fff;
 }
+
+/* 导航区域 */
+.nav {
+  width: 100%;
+  height: 408px;
+  background-color: olivedrab;
+  overflow: hidden;
+}
+.nav .title {
+  border: 1px solid #000;
+  margin-top: 63px;
+}
+/* 导航区域标题 */
+.nav .title .Chinese {
+  width: 344px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #363636;
+  text-align: center;
+  background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 11px;
+}
+.nav .title .Engish {
+  font-size: 14px;
+  color: #9f9f9f;
+  text-align: center;
+}
+
