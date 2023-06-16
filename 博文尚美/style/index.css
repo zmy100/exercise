@@ -149,3 +149,58 @@ ul.header-menu li a {
   font-size: 14px;
   color: #6d6d6d;
 }
+
+/* 案例区域 */
+.example {
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  background-color: #f8f8f8;
+}
+/* 案例区域标题 */
+.example .title .Chinese {
+  width: 344px;
+  margin: 0 auto;
+  font-size: 20px;
+  color: #66c5b4;
+  text-align: center;
+  background-image: url(../img/bg1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 55px;
+  margin-bottom: 14px;
+}
+.example .title .Engish {
+  font-size: 14px;
+  color: #9f9f9f;
+  text-align: center;
+  margin-bottom: 38px;
+}
+/* 案例区域内容图片 */
+.example .content {
+  width: 1055px;
+  height: 181px;
+  margin: 0 auto;
+}
+.example .content .item {
+  width: 339px;
+  height: 181px;
+  margin-right: 19px;
+}
+.example .content .item:last-child {
+  margin-right: 0;
+}
+/* 案例区域按钮 */
+.example .button {
+  margin: 0 auto;
+  width: 176px;
+  height: 37px;
+  border-radius: 37px;
+  background-color: #66c5b4;
+  text-align: center;
+  line-height: 37px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 36px;
+  margin-bottom: 66px;
+}
