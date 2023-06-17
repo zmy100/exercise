@@ -100,3 +100,93 @@
   margin: 0 auto;
 }
 /* intro区域 结束 */
+
+/* service区域 开始 */
+.service {
+  width: 100%;
+  height: 942px;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+/* service区域标题 */
+.service .service-title {
+  font-family: MicrosoftYaHei;
+  font-size: 50px;
+  color: #222222;
+  margin-top: 101px;
+  margin-bottom: 33px;
+  text-align: center;
+}
+/* service区域中间内容 */
+.service .service-center {
+  width: 616px;
+  height: 59px;
+  font-family: MicrosoftYaHei;
+  font-size: 22px;
+  color: #818181;
+  margin: 0 auto;
+  text-align: center;
+}
+/* service区域底部图片内容 */
+.service .service-content {
+  width: 1199px;
+  height: 520px;
+  margin-top: 44px;
+}
+.service .service-content .service-content-item {
+  width: 378px;
+  height: 520px;
+  background-image: url(../img/bottom.png);
+  margin-right: 32px;
+}
+.service .service-content .service-content-item:last-child {
+  margin-right: 0;
+}
+
+.service .service-content .service-content-item .service-content-item-img {
+  width: 378px;
+  height: 224px;
+}
+.service .service-content .service-content-item .service-content-item-title {
+  width: 129px;
+  height: 32px;
+  font-family: MicrosoftYaHei;
+  font-size: 32px;
+  color: #2e2e2e;
+  margin: 0 auto;
+  margin-top: 42px;
+  margin-bottom: 17px;
+}
+.service .service-content .service-content-item .service-content-item-content {
+  width: 208px;
+  height: 17px;
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #818181;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 77px;
+}
+.service .service-content .service-content-item .service-content-item-button {
+  text-align: center;
+  margin: 0 auto;
+  width: 180px;
+  height: 50px;
+  border-radius: 23px;
+  background-color: #1fbca9;
+  position: relative;
+}
+.service
+  .service-content
+  .service-content-item
+  .service-content-item-button
+  .service-content-item-button-order {
+  font-family: MicrosoftYaHei;
+  font-size: 22px;
+  color: #ffffff;
+  position: absolute;
+  top: 7px;
+  right: 27px;
+}
+
+/* service区域 结束 */
