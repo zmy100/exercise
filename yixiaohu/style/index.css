@@ -1,0 +1,69 @@
+/* 设置版心 */
+.container {
+  width: 1247px;
+  margin: 0 auto;
+}
+/* 设置浮动 */
+/* 左浮动 */
+.fl {
+  float: left;
+}
+/* 右浮动 */
+.flr {
+  float: right;
+}
+/* 当前激活页面的标记效果 */
+.active > a {
+  color: #1fbca9;
+  border-bottom: 2px solid #1fbca9;
+}
+/* header区域 开始 */
+.header {
+  width: 100%;
+  height: 108px;
+  background-color: #ffffff;
+}
+/* logo区域 */
+.header .logo {
+  width: 188px;
+  height: 53px;
+  margin-top: 33px;
+  margin-right: 89px;
+}
+/* header区域中间区域 */
+.header .header-center {
+  margin-top: 46px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  color: #7d7d7d;
+}
+.header .header-center .item {
+  margin-right: 30px;
+}
+.header .header-center .item:last-child {
+  margin-right: 0;
+}
+.header .header-center .item a {
+  padding: 11px;
+  color: #404040;
+}
+/* header区域右边区域 */
+.header .header-right {
+  margin-top: 46px;
+}
+.header .header-right .header-right-register a {
+  margin-right: 13px;
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #1fbca9;
+}
+.header .header-right .header-right-login a,
+.header .header-right .header-right-or {
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #7d7d7d;
+}
+.header .header-right .header-right-or {
+  margin-right: 10px;
+}
+/* header区域 结束 */
