@@ -100,7 +100,6 @@
   margin: 0 auto;
 }
 /* intro区域 结束 */
-
 /* service区域 开始 */
 .service {
   width: 100%;
@@ -142,7 +141,6 @@
 .service .service-content .service-content-item:last-child {
   margin-right: 0;
 }
-
 .service .service-content .service-content-item .service-content-item-img {
   width: 378px;
   height: 224px;
@@ -188,5 +186,4 @@
   top: 7px;
   right: 27px;
 }
-
 /* service区域 结束 */
