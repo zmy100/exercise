@@ -1,0 +1,23 @@
+
+.bg-ph1 {
+    width: 97px; height: 114px;
+    background: url('css_sprites.png') -177px -1px;
+}
+
+
+.bg-ph2 {
+    width: 88px; height: 115px;
+    background: url('css_sprites.png') -87px -1px;
+}
+
+
+.bg-ph3 {
+    width: 104px; height: 113px;
+    background: url('css_sprites.png') -276px -1px;
+}
+
+
+.bg-ph4 {
+    width: 84px; height: 98px;
+    background: url('css_sprites.png') -1px -1px;
+}
