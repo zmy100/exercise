@@ -1,23 +1,20 @@
 
-.bg-ph1 {
+.bg-phone {
     width: 97px; height: 114px;
-    background: url('css_sprites.png') -177px -1px;
+    background: url('css_sprites.png') -222px -10px;
 }
 
-
-.bg-ph2 {
+.bg-person {
     width: 88px; height: 115px;
-    background: url('css_sprites.png') -87px -1px;
+    background: url('css_sprites.png') -114px -10px;
 }
 
-
-.bg-ph3 {
+.bg-money {
     width: 104px; height: 113px;
-    background: url('css_sprites.png') -276px -1px;
+    background: url('css_sprites.png') -339px -10px;
 }
 
-
-.bg-ph4 {
+.bg-protect {
     width: 84px; height: 98px;
-    background: url('css_sprites.png') -1px -1px;
+    background: url('css_sprites.png') -10px -10px;
 }

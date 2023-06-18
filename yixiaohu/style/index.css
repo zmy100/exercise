@@ -255,3 +255,70 @@
   background-color: #1fbca9;
 }
 /* promise区域 结束 */
+
+/* commitment服务承诺区域 开始 */
+.commitment{
+  width: 100%;
+  height: 900px;
+  background-color: sandybrown;
+  overflow: hidden;
+}
+/* 服务承诺区域标题 */
+.commitment .commitment-title{
+  text-align: center;
+	font-size: 50px;
+	font-weight: normal;
+	color: #222222;
+  margin-top: 82px;
+  margin-bottom: 69px;
+}
+/* 服务承诺区域内容 */
+.commitment .commitment-content{
+width: 1200px;
+height: 627px;
+background-color: chocolate;
+}
+.commitment .commitment-content .commitment-content-item{
+  width: 600px;
+  height: 313px;
+}
+.commitment .commitment-content .commitment-content-item:nth-child(1){
+  background-color: forestgreen;
+}
+.commitment .commitment-content .commitment-content-item:nth-child(2){
+background-color: saddlebrown;
+}
+.commitment .commitment-content .commitment-content-item:nth-child(3){
+background-color: hotpink;
+}
+.commitment .commitment-content .commitment-content-item:nth-child(4){
+background-color: yellowgreen;
+}
+
+
+.commitment .commitment-content .commitment-content-item .commitment-content-item-img.phone{
+  width: 97px; height: 114px;
+  background: url(../img/css_sprites.png) -222px -10px;
+}
+.commitment .commitment-content .commitment-content-item .commitment-content-item-img.person{
+  width: 88px; height: 115px;
+  background: url(../img/css_sprites.png) -114px -10px;
+}
+.commitment .commitment-content .commitment-content-item .commitment-content-item-img.money{
+  width: 104px; height: 113px;
+  background: url(../img/css_sprites.png) -339px -10px;
+}
+.commitment .commitment-content .commitment-content-item .commitment-content-item-img.protect{
+  width: 84px; height: 98px;
+  background: url(../img/css_sprites.png) -10px -10px;
+}
+
+
+.commitment .commitment-content .commitment-content-item .commitment-content-item-title{
+
+}
+.commitment .commitment-content .commitment-content-item .commitment-content-item-content{
+
+}
+
+/* commitment服务承诺区域 结束 */
