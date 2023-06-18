@@ -12,11 +12,6 @@
 .flr {
   float: right;
 }
-/* 当前激活页面的标记效果 */
-.active > a {
-  color: #1fbca9;
-  border-bottom: 2px solid #1fbca9;
-}
 /* header区域 开始 */
 .header {
   width: 100%;
@@ -46,6 +41,11 @@
 .header .header-center .item a {
   padding: 11px;
   color: #404040;
+}
+/* 当前激活页面的标记效果 */
+.header .header-center .item.active > a {
+  color: #1fbca9;
+  border-bottom: 2px solid #1fbca9;
 }
 /* header区域右边区域 */
 .header .header-right {
@@ -187,7 +187,6 @@
   right: 27px;
 }
 /* service区域 结束 */
-
 /* promise区域 开始 */
 .promise {
   width: 100%;
