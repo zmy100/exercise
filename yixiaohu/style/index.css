@@ -255,90 +255,130 @@
   background-color: #1fbca9;
 }
 /* promise区域 结束 */
-
 /* commitment服务承诺区域 开始 */
-.commitment{
+.commitment {
   width: 100%;
   height: 900px;
   overflow: hidden;
 }
 /* 服务承诺区域标题 */
-.commitment .commitment-title{
+.commitment .commitment-title {
   text-align: center;
-	font-size: 50px;
-	font-weight: normal;
-	color: #222222;
+  font-size: 50px;
+  font-weight: normal;
+  color: #222222;
   margin-top: 82px;
+  padding-bottom: 69px;
 }
 /* 服务承诺区域内容 */
-.commitment .commitment-content{
-width: 1200px;
-height: 627px;
+.commitment .commitment-content {
+  width: 1210px;
+  height: 690px;
 }
-.commitment .commitment-content .commitment-content-item{
+.commitment .commitment-content .commitment-content-item {
   width: 600px;
   height: 345px;
 }
-.commitment .commitment-content .commitment-content-item:nth-child(1){
-  background-color: forestgreen;
+.commitment .commitment-content .commitment-content-item.phone1 {
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
 }
-.commitment .commitment-content .commitment-content-item:nth-child(2){
-background-color: saddlebrown;
+.commitment .commitment-content .commitment-content-item.person1 {
+  border-bottom: 1px solid #e3e3e3;
 }
-.commitment .commitment-content .commitment-content-item:nth-child(3){
-background-color: hotpink;
+.commitment .commitment-content .commitment-content-item.money1 {
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
 }
-.commitment .commitment-content .commitment-content-item:nth-child(4){
-background-color: yellowgreen;
+.commitment .commitment-content .commitment-content-item.protect1 {
+  border-bottom: 1px solid #e3e3e3;
 }
-
 /* 服务承诺区域内容图片 */
-.commitment .commitment-content .commitment-content-item .commitment-content-item-img{
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-img {
   margin-right: 42px;
-  margin-top: 98px;
 }
-.commitment .commitment-content .commitment-content-item .commitment-content-item-img.phone{
-  width: 97px; height: 114px;
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-img.phone {
+  width: 97px;
+  height: 114px;
   background: url(../img/css_sprites.png) -222px -10px;
-
+  margin-top: 42px;
   margin-left: 18px;
 }
-.commitment .commitment-content .commitment-content-item .commitment-content-item-img.person{
-  width: 88px; height: 115px;
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-img.person {
+  width: 88px;
+  height: 115px;
   background: url(../img/css_sprites.png) -114px -10px;
-
+  margin-top: 42px;
   margin-left: 45px;
 }
-.commitment .commitment-content .commitment-content-item .commitment-content-item-img.money{
-  width: 104px; height: 113px;
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-img.money {
+  width: 104px;
+  height: 113px;
   background: url(../img/css_sprites.png) -339px -10px;
-
+  margin-top: 98px;
   margin-left: 17px;
 }
-.commitment .commitment-content .commitment-content-item .commitment-content-item-img.protect{
-  width: 84px; height: 98px;
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-img.protect {
+  width: 84px;
+  height: 98px;
   background: url(../img/css_sprites.png) -10px -10px;
-
+  margin-top: 98px;
   margin-left: 45px;
 }
-.commitment .commitment-content .commitment-content-item .commitment-content-item-title{
+.commitment
+  .commitment-content
+  .commitment-content-item.phone1
+  .commitment-content-item-title,
+.commitment
+  .commitment-content
+  .commitment-content-item.person1
+  .commitment-content-item-title {
+  margin-top: 30px;
+  margin-bottom: 26px;
+}
+.commitment
+  .commitment-content
+  .commitment-content-item.money1
+  .commitment-content-item-title,
+.commitment
+  .commitment-content
+  .commitment-content-item.protect1
+  .commitment-content-item-title {
   margin-top: 81px;
   margin-bottom: 26px;
 }
-
-.commitment .commitment-content .commitment-content-item .commitment-content-item-title{
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-title {
   width: 180px;
-	height: 29px;
-	font-size: 28px;
-	font-weight: bold;
-	color: #494949;
+  height: 29px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #494949;
 }
-
-.commitment .commitment-content .commitment-content-item .commitment-content-item-content{
+.commitment
+  .commitment-content
+  .commitment-content-item
+  .commitment-content-item-content {
   width: 370px;
-	height: 75px;
-	font-size: 18px;
-	color: #818181;
+  height: 75px;
+  font-size: 18px;
+  color: #818181;
 }
-
 /* commitment服务承诺区域 结束 */
