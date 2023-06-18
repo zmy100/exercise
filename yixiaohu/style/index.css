@@ -187,3 +187,72 @@
   right: 27px;
 }
 /* service区域 结束 */
+
+/* promise区域 开始 */
+.promise {
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+/* 头像 */
+.promise .promise-img {
+  width: 134px;
+  height: 134px;
+  margin-top: 98px;
+  margin-right: 39px;
+}
+/* 名人名言 */
+.promise .promise-top {
+  width: 388px;
+  height: 28px;
+  margin-top: 104px;
+  margin-bottom: 27px;
+}
+.promise .promise-top .promise-top-chinese {
+  font-size: 27px;
+  font-weight: bold;
+  color: #818181;
+  margin-right: 9px;
+}
+.promise .promise-top .promise-top-english {
+  font-style: italic;
+  font-size: 27px;
+  letter-spacing: -1px;
+  color: #818181;
+}
+.promise .promise-center {
+  width: 1051px;
+  height: 93px;
+  font-size: 27px;
+  color: #818181;
+  margin-bottom: 99px;
+}
+/* 底部轮盘小圆点 */
+.promise ul.promise-bottom {
+  width: 121px;
+  left: 50%;
+  transform: translate(-50%);
+  position: absolute;
+  top: 353px;
+}
+.promise ul.promise-bottom li.promise-bottom-item {
+  border: 1px solid #ffffff;
+  background-color: #a0a0a0;
+  border-radius: 50%;
+  margin-right: 14px;
+}
+.promise ul.promise-bottom li.promise-bottom-item:last-child {
+  margin-right: 0;
+}
+.promise ul.promise-bottom li.promise-bottom-item a {
+  width: 18px;
+  height: 18px;
+  display: block;
+}
+.promise ul.promise-bottom li.promise-bottom-item:hover {
+  background-color: #1fbca9;
+}
+.promise ul.promise-bottom li.promise-bottom-item.active {
+  background-color: #1fbca9;
+}
+/* promise区域 结束 */
