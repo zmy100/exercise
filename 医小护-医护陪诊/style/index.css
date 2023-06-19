@@ -325,3 +325,48 @@
   bottom: 89px;
 }
 /* order预约区域 结束 */
+
+/* contact联系区域 开始 */
+.contact {
+  width: 100%;
+  height: 655px;
+  border: 1px solid transparent;
+}
+.contact .contact-title {
+  font-size: 60px;
+  color: #222222;
+  line-height: 94px;
+  text-align: center;
+  margin-top: 79px;
+  margin-bottom: 22px;
+}
+.contact .contact-contect {
+  font-size: 28px;
+  line-height: 44px;
+  color: #818181;
+  text-align: center;
+  margin-bottom: 23px;
+}
+.contact .contact-weixin {
+  width: 304px;
+  height: 24px;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+.contact .contact-weixin .contact-weixin-content {
+  font-size: 22px;
+  line-height: 30px;
+  color: #818181;
+}
+.contact .contact-weixin .contact-weixin-number {
+  font-family: ArialMT;
+  font-size: 22px;
+  color: #1fbca9;
+}
+.contact .contact-img {
+  width: 230px;
+  height: 226px;
+  background-image: url(../img/pic1.png);
+  margin: 0 auto;
+}
+/* contact联系区域 结束 */
