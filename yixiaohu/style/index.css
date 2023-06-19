@@ -500,12 +500,11 @@
   background-color: rebeccapurple;
 }
 
-/* 底部区域的中间部分 */
-/* 底部区域的中间部分的左边部分 */
+
+/* 底部区域的头部的左边部分 */
 .footer .footer-top .footer-top-item {
   width: 68px;
   height: 121px;
-  background-color: salmon;
   margin-top: 38px;
   margin-right: 163px;
 }
@@ -522,22 +521,19 @@
   font-size: 16px;
   font-weight: bold;
   color: #949494;
-  background-color: red;
 }
 .footer .footer-top .footer-top-item .footer-top-item-content {
   width: 56px;
   height: 84px;
   font-size: 14px;
   color: #949494;
-  background-color: green;
   margin-top: 14px;
   margin-left: 5.5px;
 }
-/* 底部区域的中间部分的右边部分 */
+/* 底部区域的头部的右边部分 */
 .footer .footer-top .footer-top-contact {
   width: 161px;
   height: 125px;
-  background-color: antiquewhite;
   margin-top: 37px;
   margin-right: 100px;
   position: relative;
@@ -545,19 +541,18 @@
 .footer .footer-top .footer-top-contact .footer-top-contact-top {
   width: 161px;
   height: 18px;
-  font-size: 24px;
+  font-size: 23px;
   color: #1fbca9;
-  background-color: yellow;
 }
 .footer .footer-top .footer-top-contact .footer-top-contact-center {
   width: 141px;
   height: 35px;
-  font-size: 14px;
+  font-size: 13px;
   color: #949494;
-  background-color: violet;
   position: absolute;
   top: 39px;
   left: 10px;
+  text-align: center;
 }
 .footer .footer-top .footer-top-contact .footer-top-contact-bottom {
   width: 114px;
@@ -566,7 +561,13 @@
   position: absolute;
   top: 92px;
   left: 24px;
+  font-size: 12px;
+  line-height: 33px;
+  text-align: center;
+  color: #ffffff;
 }
+
+/* 底部区域的中间部分 */
 
 /* 底部区域的底部 */
 
