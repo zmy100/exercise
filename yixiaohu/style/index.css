@@ -228,7 +228,7 @@
 }
 /* 底部轮盘小圆点 */
 .promise ul.promise-bottom {
-  width: 121px;
+  width: 122px;
   left: 50%;
   transform: translate(-50%);
   position: absolute;
@@ -387,7 +387,7 @@
 .contact {
   width: 100%;
   height: 655px;
-  overflow: hidden;
+  border: 1px solid transparent;
 }
 .contact .contact-title {
   font-size: 60px;
@@ -433,7 +433,7 @@
   width: 100%;
   height: 397px;
   background-color: #1fbca9;
-  overflow: hidden;
+  border: 1px solid transparent;
   position: relative;
 }
 .customer-service .customer-service-title {
@@ -476,7 +476,7 @@
   text-align: center;
   padding-top: 6px;
 }
-.customer-service .customer-service-img {
+.customer-service .customer-service-img img {
   width: 314px;
 	height: 579px;
   position: absolute;
