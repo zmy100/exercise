@@ -1,0 +1,40 @@
+.bg-paper {
+    width: 79px; height: 96px;
+    background: url('css_sprites.png') -1px -1px;
+}
+
+
+.bg-person {
+    width: 88px; height: 115px;
+    background: url('css_sprites.png') -254px -1px;
+}
+
+
+.bg-phone {
+    width: 97px; height: 114px;
+    background: url('css_sprites.png') -434px -1px;
+}
+
+
+.bg-price {
+    width: 88px; height: 94px;
+    background: url('css_sprites.png') -344px -1px;
+}
+
+
+.bg-simple {
+    width: 84px; height: 92px;
+    background: url('css_sprites.png') -82px -1px;
+}
+
+
+.bg-money {
+    width: 104px; height: 113px;
+    background: url('css_sprites.png') -533px -1px;
+}
+
+
+.bg-pay {
+    width: 84px; height: 98px;
+    background: url('css_sprites.png') -168px -1px;
+}
