@@ -1,184 +1,253 @@
 /* 设置版心 */
 .container {
-    width: 1247px;
-    margin: 0 auto;
-  }
-  /* 设置浮动 */
-  /* 左浮动 */
-  .fl {
-    float: left;
-  }
-  /* 右浮动 */
-  .flr {
-    float: right;
-  }
-  /* header区域 开始 */
-  .header {
-    width: 100%;
-    height: 108px;
-    background-color: #ffffff;
-  }
-  /* logo区域 */
-  .header .logo {
-    width: 188px;
-    height: 53px;
-    margin-top: 33px;
-    margin-right: 89px;
-  }
-  /* header区域中间区域 */
-  .header .header-center {
-    margin-top: 46px;
-    font-family: MicrosoftYaHei;
-    font-size: 14px;
-    color: #7d7d7d;
-  }
-  .header .header-center .item {
-    margin-right: 30px;
-  }
-  .header .header-center .item:last-child {
-    margin-right: 0;
-  }
-  .header .header-center .item a {
-    padding: 11px;
-    color: #404040;
-  }
-  /* 当前激活页面的标记效果 */
-  .header .header-center .item.active > a {
-    color: #1fbca9;
-    border-bottom: 2px solid #1fbca9;
-  }
-  /* header区域右边区域 */
-  .header .header-right {
-    margin-top: 46px;
-  }
-  .header .header-right .header-right-register a {
-    margin-right: 13px;
-    font-family: MicrosoftYaHei;
-    font-size: 16px;
-    color: #1fbca9;
-  }
-  .header .header-right .header-right-login a,
-  .header .header-right .header-right-or {
-    font-family: MicrosoftYaHei;
-    font-size: 16px;
-    color: #7d7d7d;
-  }
-  .header .header-right .header-right-or {
-    margin-right: 10px;
-  }
-  /* header区域 结束 */
-  /* banner区域开始 */
-.banner{
-    background-image: url(../img/banner.png);
-    width: 100%;
-	height: 601px;
-    background-position: center;
-    background-size: cover;
+  width: 1247px;
+  margin: 0 auto;
 }
-  /* banner区域结束 */
-
-  /* service区域 开始 */
-.service{
-    width: 100%;
-    height: 660px;
+/* 设置浮动 */
+/* 左浮动 */
+.fl {
+  float: left;
 }
-.service .service-item{
-    width: 599px;
-    height: 329px;
+/* 右浮动 */
+.flr {
+  float: right;
 }
-.service .service-item:nth-child(1){
-border-bottom: 1px solid #e3e3e3;
-border-right: 1px solid #e3e3e3;
+/* header区域 开始 */
+.header {
+  width: 100%;
+  height: 108px;
+  background-color: #ffffff;
 }
-.service .service-item:nth-child(2){
-    border-bottom: 1px solid #e3e3e3;
+/* logo区域 */
+.header .logo {
+  width: 188px;
+  height: 53px;
+  margin-top: 33px;
+  margin-right: 89px;
 }
-.service .service-item:nth-child(3){
-    border-right: 1px solid #e3e3e3;
+/* header区域中间区域 */
+.header .header-center {
+  margin-top: 46px;
+  font-family: MicrosoftYaHei;
+  font-size: 14px;
+  color: #7d7d7d;
 }
-.service .service-item .service-item-img{
-    margin-top: 90px;
-    margin-left: 70px;
-    margin-right: 44px;
+.header .header-center .item {
+  margin-right: 30px;
 }
-.service .service-item .service-item-img.phone{
-    width: 97px; height: 114px;
-    background: url(../img/css_sprites.png) -434px -1px;
+.header .header-center .item:last-child {
+  margin-right: 0;
 }
-.service .service-item .service-item-img.person{
-    width: 88px;
-	height: 115px;
-
-    background: url(../img/css_sprites.png) -254px -1px;
+.header .header-center .item a {
+  padding: 11px;
+  color: #404040;
 }
-.service .service-item .service-item-img.paper{
-    width: 79px;
-	height: 96px;
-
-    background: url(../img/css_sprites.png) -1px -1px;
+/* 当前激活页面的标记效果 */
+.header .header-center .item.active > a {
+  color: #1fbca9;
+  border-bottom: 2px solid #1fbca9;
 }
-.service .service-item .service-item-img.money{
-    width: 104px;
-	height: 113px;
-
-    background: url(../img/css_sprites.png) -533px -1px;
+/* header区域右边区域 */
+.header .header-right {
+  margin-top: 46px;
 }
-
-.service .service-item .service-item-title{
-    width: 170px;
-	height: 28px;
-	font-size: 28px;
-	color: #494949;
-    margin-top: 90px;
-    margin-bottom: 22px;
+.header .header-right .header-right-register a {
+  margin-right: 13px;
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #1fbca9;
 }
-.service .service-item .service-item-content{
-	width: 366px;
-	height: 130px;
-	font-size: 18px;
-	color: #818181;
+.header .header-right .header-right-login a,
+.header .header-right .header-right-or {
+  font-family: MicrosoftYaHei;
+  font-size: 16px;
+  color: #7d7d7d;
 }
-  /* service区域 结束 */
-
-  /* service-order服务预约区域 开始 */
-.service-order{
-    width: 100%;
-    height: 973px;
-    background-color: #f5f5f5;
-    border: 1px solid transparent;
+.header .header-right .header-right-or {
+  margin-right: 10px;
+}
+/* header区域 结束 */
+/* banner区域开始 */
+.banner {
+  background-image: url(../img/banner.png);
+  width: 100%;
+  height: 601px;
+  background-position: center;
+  background-size: cover;
+}
+/* banner区域结束 */
+/* service区域 开始 */
+.service {
+  width: 100%;
+  height: 660px;
+}
+.service .service-item {
+  width: 599px;
+  height: 329px;
+}
+.service .service-item:nth-child(1) {
+  border-bottom: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+}
+.service .service-item:nth-child(2) {
+  border-bottom: 1px solid #e3e3e3;
+}
+.service .service-item:nth-child(3) {
+  border-right: 1px solid #e3e3e3;
+}
+.service .service-item .service-item-img {
+  margin-top: 90px;
+  margin-left: 70px;
+  margin-right: 44px;
+}
+.service .service-item .service-item-img.phone {
+  width: 97px;
+  height: 114px;
+  background: url(../img/css_sprites.png) -434px -1px;
+}
+.service .service-item .service-item-img.person {
+  width: 88px;
+  height: 115px;
+  background: url(../img/css_sprites.png) -254px -1px;
+}
+.service .service-item .service-item-img.paper {
+  width: 79px;
+  height: 96px;
+  background: url(../img/css_sprites.png) -1px -1px;
+}
+.service .service-item .service-item-img.money {
+  width: 104px;
+  height: 113px;
+  background: url(../img/css_sprites.png) -533px -1px;
+}
+.service .service-item .service-item-title {
+  width: 170px;
+  height: 28px;
+  font-size: 28px;
+  color: #494949;
+  margin-top: 90px;
+  margin-bottom: 22px;
+}
+.service .service-item .service-item-content {
+  width: 366px;
+  height: 130px;
+  font-size: 18px;
+  color: #818181;
+}
+/* service区域 结束 */
+/* service-order服务预约区域 开始 */
+.service-order {
+  width: 100%;
+  height: 973px;
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
 }
 /* service-order服务预约区域标题部分 */
-.service-order .service-order-title{
-	font-size: 60px;
-	color: #222222;
-    text-align: center;
-    margin-top: 103px;
-    margin-bottom: 33px;
+.service-order .service-order-title {
+  font-size: 60px;
+  color: #222222;
+  text-align: center;
+  margin-top: 103px;
+  margin-bottom: 33px;
 }
 /* service-order服务预约区域内容部分 */
-.service-order .service-order-content{
-	width: 896px;
-	height: 72px;
-	font-size: 28px;
-	line-height: 44px;
-	letter-spacing: 0px;
-	color: #818181;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 67px;
+.service-order .service-order-content {
+  width: 896px;
+  height: 72px;
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: 0px;
+  color: #818181;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 67px;
 }
 /* service-order服务预约区域图片部分 */
-.service-order .service-order-img{
-    width: 1198px;
-    height: 466px;
+.service-order .service-order-img {
+  width: 1198px;
+  height: 466px;
+  position: relative;
 }
-.service-order .service-order-img .service-order-img-item{
-    width: 378px;
-	height: 489px;
-    background-image: url(../img/bg.png);
-    margin-right: 32px;
+.service-order .service-order-img .service-order-img-item {
+  width: 378px;
+  height: 489px;
+  background-image: url(../img/bg.png);
+  margin-right: 32px;
 }
-.service-order .service-order-img .service-order-img-item:last-child{
-    margin-right: 0;
+.service-order .service-order-img .service-order-img-item:last-child {
+  margin-right: 0;
 }
-  /* service-order服务预约区域 结束 */
+/* service-order服务预约区域图片部分内部区域 */
+.service-order
+  .service-order-img
+  .service-order-img-item
+  .service-order-img-item-title {
+  width: 323px;
+  height: 32px;
+  font-size: 32px;
+  color: #2e2e2e;
+  margin-top: 42px;
+  margin-bottom: 27px;
+  margin-left: 27px;
+}
+.service-order
+  .service-order-img
+  .service-order-img-item
+  .service-order-img-item-content {
+  width: 302px;
+  height: 73px;
+  font-size: 16px;
+  color: #818181;
+  margin-bottom: 127px;
+  margin-left: 38px;
+}
+.service-order
+  .service-order-img
+  .service-order-img-item
+  .service-order-img-item-times {
+  margin-left: 103px;
+  position: relative;
+}
+.service-order
+  .service-order-img
+  .service-order-img-item
+  .service-order-img-item-times
+  .service-order-img-item-times-price {
+  width: 121px;
+  height: 30px;
+  font-size: 32px;
+  color: #f48239;
+  position: absolute;
+  left: -28px;
+}
+.service-order
+  .service-order-img
+  .service-order-img-item
+  .service-order-img-item-times
+  .service-order-img-item-times-time {
+  width: 72px;
+  height: 15px;
+  font-size: 16px;
+  color: #6c6c6c;
+  position: absolute;
+  right: 108px;
+  top: 15px;
+}
+.service-order
+  .service-order-img
+  .service-order-img-item
+  .service-order-img-item-button
+  a {
+  width: 180px;
+  height: 50px;
+  background-color: #1fbca9;
+  border-radius: 50px;
+  margin-left: 100px;
+  position: absolute;
+  bottom: 60px;
+  font-size: 22px;
+  line-height: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+/* service-order服务预约区域 结束 */
