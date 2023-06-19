@@ -67,4 +67,75 @@
     margin-right: 10px;
   }
   /* header区域 结束 */
-  
+  /* banner区域开始 */
+.banner{
+    background-image: url(../img/banner.png);
+    width: 100%;
+	height: 601px;
+    background-position: center;
+    background-size: cover;
+}
+  /* banner区域结束 */
+
+  /* service区域 开始 */
+.service{
+    width: 100%;
+    height: 660px;
+}
+.service .service-item{
+    width: 599px;
+    height: 329px;
+}
+.service .service-item:nth-child(1){
+border-bottom: 1px solid #e3e3e3;
+border-right: 1px solid #e3e3e3;
+}
+.service .service-item:nth-child(2){
+    border-bottom: 1px solid #e3e3e3;
+}
+.service .service-item:nth-child(3){
+    border-right: 1px solid #e3e3e3;
+}
+.service .service-item .service-item-img{
+    margin-top: 90px;
+    margin-left: 70px;
+    margin-right: 44px;
+}
+.service .service-item .service-item-img.phone{
+    width: 97px; height: 114px;
+    background: url(../img/css_sprites.png) -434px -1px;
+}
+.service .service-item .service-item-img.person{
+    width: 88px;
+	height: 115px;
+
+    background: url(../img/css_sprites.png) -254px -1px;
+}
+.service .service-item .service-item-img.paper{
+    width: 79px;
+	height: 96px;
+
+    background: url(../img/css_sprites.png) -1px -1px;
+}
+.service .service-item .service-item-img.money{
+    width: 104px;
+	height: 113px;
+
+    background: url(../img/css_sprites.png) -533px -1px;
+}
+
+.service .service-item .service-item-title{
+    width: 170px;
+	height: 28px;
+	font-size: 28px;
+	color: #494949;
+    margin-top: 90px;
+    margin-bottom: 22px;
+}
+.service .service-item .service-item-content{
+	width: 366px;
+	height: 130px;
+	font-size: 18px;
+	color: #818181;
+}
+  /* service区域 结束 */
