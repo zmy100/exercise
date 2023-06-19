@@ -457,7 +457,7 @@
   top: 193px;
   left: 374px;
 }
-.customer-service .customer-service-button {
+.customer-service .customer-service-button a {
   width: 180px;
   height: 50px;
   background-color: #ffffff;
@@ -465,15 +465,12 @@
   position: absolute;
   top: 261px;
   left: 360px;
-}
-.customer-service .customer-service-button .customer-service-button-word {
   font-size: 22px;
   color: #1fbca9;
-  line-height: 32px;
-  letter-spacing: 0px;
+  line-height: 50px;
   text-align: center;
-  padding-top: 6px;
 }
+
 .customer-service .customer-service-img img {
   width: 314px;
   height: 579px;
@@ -486,6 +483,7 @@
 .footer {
   width: 100%;
   height: 439px;
+  background-color: #f6f6f6;
 }
 /* 底部区域的头部 */
 .footer .footer-top {
@@ -506,14 +504,14 @@
 .footer .footer-top .footer-top-item:nth-child(4) {
   margin-right: 0;
 }
-.footer .footer-top .footer-top-item .footer-top-item-title {
+.footer .footer-top .footer-top-item .footer-top-item-title a {
   width: 67px;
   height: 15px;
   font-size: 16px;
   font-weight: bold;
   color: #949494;
 }
-.footer .footer-top .footer-top-item .footer-top-item-content {
+.footer .footer-top .footer-top-item .footer-top-item-content a {
   width: 56px;
   height: 84px;
   font-size: 14px;
@@ -545,7 +543,7 @@
   left: 10px;
   text-align: center;
 }
-.footer .footer-top .footer-top-contact .footer-top-contact-bottom {
+.footer .footer-top .footer-top-contact .footer-top-contact-bottom a {
   width: 114px;
   height: 33px;
   background-color: #1fbca9;
