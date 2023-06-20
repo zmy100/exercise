@@ -236,8 +236,7 @@
 .service-order
   .service-order-img
   .service-order-img-item
-  .service-order-img-item-button
-  a {
+  .service-order-img-item-button {
   width: 180px;
   height: 50px;
   background-color: #1fbca9;
@@ -311,7 +310,7 @@
 }
 
 /* order预约区域的按钮 */
-.order .order-button a {
+.order .order-button {
   width: 180px;
   height: 50px;
   background-color: #1fbca9;
