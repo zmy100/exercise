@@ -1,0 +1,11 @@
+/* 设置版心 */
+.container{
+    width: 1535px;
+    margin: 0 auto;
+}
+/* 顶部导航 开始 */
+.top-nav{
+    height: 50px;
+    background-color: #333333;
+}
+/* 顶部导航 结束 */

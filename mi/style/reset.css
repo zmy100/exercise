@@ -1,0 +1,14 @@
+/* 清除内外边距 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 去掉a标签超链接下划线 */
+a{
+    text-decoration: none;
+}
+/* 去除无序列表前面的小圆点 */
+/* 去除有序列表前面的数字 */
+ul,ol{
+    list-style: none;
+}
