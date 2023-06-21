@@ -1,20 +1,19 @@
 /* 清除内外边距 */
 * {
-    margin: 0;
-    padding: 0;
-  }
-  /* 去除a标签超链接下划线 */
-  a{
-    text-decoration: none;
-  }
-  /* 设置鼠标移入超链接字体变色 */
-  a:hover {
-    color: #1fbca9 !important;
-  }
-  /* 去掉无序列表前面的小圆点 */
-  /* 去掉有序列表前面的数字 */
-  ul,
-  ol {
-    list-style: none;
-  }
-  
+  margin: 0;
+  padding: 0;
+}
+/* 去除a标签超链接下划线 */
+a {
+  text-decoration: none;
+}
+/* 设置鼠标移入超链接字体变色 */
+a:hover {
+  color: #1fbca9 !important;
+}
+/* 去掉无序列表前面的小圆点 */
+/* 去掉有序列表前面的数字 */
+ul,
+ol {
+  list-style: none;
+}
