@@ -1,14 +1,23 @@
-/* 清除内外边距 */
-*{
-    margin: 0;
-    padding: 0;
+* {
+  /* 清除内外边距 */
+  margin: 0;
+  padding: 0;
+  /* 盒子定宽高 */
+  box-sizing: border-box;
 }
-/* 去掉a标签超链接下划线 */
-a{
-    text-decoration: none;
+
+a {
+  /* 去掉a标签超链接下划线 */
+  text-decoration: none;
 }
-/* 去除无序列表前面的小圆点 */
-/* 去除有序列表前面的数字 */
-ul,ol{
-    list-style: none;
+ul,
+ol {
+  /* 去掉列表前面的修饰符 */
+  list-style: none;
+}
+input {
+  /* 去除自带的边框 */
+  border: none;
+  /* 去除默认的轮廓 */
+  outline: none;
 }
