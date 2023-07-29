@@ -198,8 +198,23 @@ div.top-nav-cart div.cart-list {
   border: 1px solid #e0e0e0;
   margin-left: -1px;
 }
+/* 搜索框内容和按钮鼠标移入边框变色 */
 .white-nav .search form:hover input.search-content,
 .white-nav .search form:hover input.search-button {
   border-color: #b0b0b0;
+}
+/* 搜索框按钮鼠标移入颜色、背景、边框变色 */
+.white-nav div.search form .search-button:hover {
+  color: #ffffff;
+  background-color: #ff6700;
+  border: 1px solid #ff6700;
+}
+/* 点击搜索框展开搜索热词 */
+.white-nav .search .keywords-list {
+  width: 245px;
+  height: 288px;
+  background-color: aquamarine;
+  position: absolute;
+  top: 50px;
 }
 /* 白色导航 结束  */
