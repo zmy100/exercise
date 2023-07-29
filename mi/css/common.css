@@ -12,8 +12,11 @@
 /* 顶部导航左侧内容 */
 .top-nav .top-nav-left a,
 .top-nav .top-nav-left span {
+  /* 左浮动，清除空格 */
   float: left;
+  /* 垂直居中 */
   line-height: 40px;
+  /* 设置字体大小 */
   font-size: 12px;
 }
 .top-nav .top-nav-left a {
