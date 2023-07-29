@@ -148,15 +148,16 @@ div.top-nav-cart div.cart-list {
 /* 鼠标移入购物车显示 */
 .top-nav .top-nav-cart a:hover div.cart-list {
   display: block;
+  background-color: #fff;
+  z-index: 100;
 }
 /* 顶部导航 结束 */
 
 /* 白色导航 开始  */
-/* logo部分 */
+/* 左侧logo部分 */
 .white-nav {
   width: 100%;
   height: 100px;
-  background-color: aquamarine;
 }
 .white-nav .logo .logo-img {
   width: 56px;
@@ -170,5 +171,35 @@ div.top-nav-cart div.cart-list {
   color: #333;
   font-size: 16px;
   line-height: 100px;
+}
+/* 右侧搜索框 */
+.white-nav .search {
+  position: relative;
+  width: 296px;
+  height: 100px;
+}
+.white-nav .search form {
+  height: 50px;
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+}
+/* 搜索框内容部分 */
+.white-nav .search-content {
+  width: 245px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  padding: 0 10px;
+}
+/* 搜索框按钮部分 */
+.white-nav .search-button {
+  width: 52px;
+  height: 50px;
+  border: 1px solid #e0e0e0;
+  margin-left: -1px;
+}
+.white-nav .search form:hover input.search-content,
+.white-nav .search form:hover input.search-button {
+  border-color: #b0b0b0;
 }
 /* 白色导航 结束  */
