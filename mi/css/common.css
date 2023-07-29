@@ -76,5 +76,37 @@
   color: ff6700;
   background-color: #ffffff;
 }
+/* 悬停显示小米商城app */
+.top-nav .top-nav-left a.download-app {
+  position: relative;
+}
+.top-nav .top-nav-left div.download {
+  width: 124px;
+  height: 148px;
+  position: absolute;
+  /* 水平居中 */
+  left: 50%;
+  margin-left: -62px;
+  /* 图片文字居中 */
+  text-align: center;
+  /* 图片下移 */
+  padding-top: 18px;
+  /* 文字样式 */
+  color: #000;
+  font-size: 14px;
+  /* 阴影 */
+  box-shadow: 0 1px 5px #aaa;
+  /* 默认隐藏 */
+  display: none;
+}
+.top-nav .top-nav-left a.download-app:hover div.download {
+  /* 鼠标移入显示下载图片 */
+  display: block;
+}
+.top-nav .top-nav-left div.download img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: -12px;
+}
 
 /* 顶部导航 结束 */
