@@ -80,6 +80,23 @@
 .top-nav .top-nav-left a.download-app {
   position: relative;
 }
+.top-nav .top-nav-left a.download-app::before {
+  /* 设置小三角 */
+  content: "";
+  display: block;
+  width: 0;
+  height: 0;
+  border-bottom: 8px solid #ffffff;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  /* 设置小三角的位置 */
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -8px;
+  /* 默认隐藏 */
+  display: none;
+}
 .top-nav .top-nav-left div.download {
   width: 124px;
   height: 148px;
@@ -99,7 +116,8 @@
   /* 默认隐藏 */
   display: none;
 }
-.top-nav .top-nav-left a.download-app:hover div.download {
+.top-nav .top-nav-left a.download-app:hover div.download,
+.top-nav .top-nav-left a.download-app:hover::before {
   /* 鼠标移入显示下载图片 */
   display: block;
 }
