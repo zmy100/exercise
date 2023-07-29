@@ -3,6 +3,15 @@
   width: 1226px;
   margin: 0 auto;
 }
+/* 设置浮动 */
+/* 左浮动 */
+.fl {
+  float: left;
+}
+/* 右浮动 */
+.flr {
+  float: right;
+}
 /* 顶部导航 开始 */
 .top-nav {
   width: 100%;
@@ -12,8 +21,6 @@
 /* 顶部导航左侧内容 */
 .top-nav .top-nav-left a,
 .top-nav .top-nav-left span {
-  /* 左浮动，清除空格 */
-  float: left;
   /* 垂直居中 */
   line-height: 40px;
   /* 设置字体大小 */
@@ -29,4 +36,45 @@
   color: #424242;
   margin: 0 6px;
 }
+
+/* 顶部导航右侧内容 */
+.top-nav .top-nav-userinfo a,
+.top-nav .top-nav-userinfo span {
+  /* 垂直居中 */
+  line-height: 40px;
+  /* 设置字体大小 */
+  font-size: 12px;
+}
+.top-nav .top-nav-userinfo a {
+  color: #b0b0b0;
+}
+.top-nav .top-nav-userinfo a:hover {
+  color: #ffffff;
+}
+.top-nav .top-nav-userinfo span {
+  color: #424242;
+  margin: 0 6px;
+}
+/* 顶部导航右侧内容购物车 */
+.top-nav .top-nav-cart {
+  width: 120px;
+  height: 40px;
+  background-color: #424242;
+  /* 垂直居中 */
+  line-height: 40px;
+  /* 水平居中 */
+  text-align: center;
+  /* 设置字体大小 */
+  font-size: 12px;
+  margin-left: 23px;
+}
+.top-nav .top-nav-cart a {
+  color: #b0b0b0;
+  display: block;
+}
+.top-nav .top-nav-cart a:hover {
+  color: ff6700;
+  background-color: #ffffff;
+}
+
 /* 顶部导航 结束 */
