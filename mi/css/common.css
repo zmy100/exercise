@@ -300,13 +300,13 @@ div.nav-menu div.nav-container ul li a p {
   font-size: 12px;
   color: #ff6700;
 }
-/* 鼠标移入Xiaomi手机隐藏导航目录显示 */
+/* 鼠标移入白色导航栏隐藏的导航目录显示 */
 div.nav-content div.nav-menu:hover,
-div.nav-content a:nth-child(2):hover + div.nav-menu {
+div.nav-content a:hover + div.nav-menu {
   display: block;
 }
-/* 鼠标移入Xiaomi手机字体变色 */
-div.nav-content a:nth-child(2):hover {
+/* 鼠标移入白色导航栏字体变色 */
+div.nav-content a:hover {
   color: #ff6700;
 }
 /* 隐藏全部商品分类 */
