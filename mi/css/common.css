@@ -254,6 +254,8 @@ div.nav-menu {
   left: 0;
   box-shadow: 0 3px 4px rgb(0 0 0 / 18%);
   border-top: 1px solid #e0e0e0;
+  /* 默认隐藏 */
+  display: none;
 }
 /* 设置版心 */
 div.nav-menu div.nav-container {
@@ -276,22 +278,39 @@ div.nav-menu div.nav-container ul li a {
   height: 230px;
   padding-top: 35px;
 }
+/* 设置商品介绍右侧竖线 */
 div.nav-menu div.nav-container ul li a div:nth-child(1) {
   height: 110px;
   margin-bottom: 15px;
   border-right: 1px solid #e0e0e0;
 }
-div.nav-menu div.nav-container ul li:last-child a div:nth-child(1){
+/* 去除最后一个商品介绍的右侧竖线 */
+div.nav-menu div.nav-container ul li:last-child a div:nth-child(1) {
   border-right: none;
 }
+/* 设置商品名称字体颜色、字体大小、行高 */
 div.nav-menu div.nav-container ul li a div:nth-child(2) {
   line-height: 20px;
   font-size: 12px;
   color: #333;
 }
+/* 设置商品价格字体颜色、字体大小、行高 */
 div.nav-menu div.nav-container ul li a p {
   line-height: 20px;
   font-size: 12px;
   color: #ff6700;
+}
+/* 鼠标移入Xiaomi手机隐藏导航目录显示 */
+div.nav-content div.nav-menu:hover,
+div.nav-content a:nth-child(2):hover + div.nav-menu {
+  display: block;
+}
+/* 鼠标移入Xiaomi手机字体变色 */
+div.nav-content a:nth-child(2):hover {
+  color: #ff6700;
+}
+/* 隐藏全部商品分类 */
+div.nav-content > a:first-child {
+  visibility: hidden;
 }
 /* 白色导航 结束  */
