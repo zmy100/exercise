@@ -118,6 +118,8 @@ body {
   box-shadow: 0 1px 5px #aaa;
   /* 默认隐藏 */
   display: none;
+  /* 背景颜色 */
+  background-color: #fff;
 }
 .top-nav .top-nav-left a.download-app:hover div.download,
 .top-nav .top-nav-left a.download-app:hover::before {
@@ -128,6 +130,8 @@ body {
   width: 90px;
   height: 90px;
   margin-bottom: -12px;
+  /* 背景颜色 */
+  background-color: #fff;
 }
 /* 购物车移入显示 */
 div.top-nav-cart {
@@ -223,6 +227,8 @@ div.top-nav-cart div.cart-list {
   margin-top: -1px;
   /* 默认隐藏 */
   display: none;
+  /* 背景颜色 */
+  background-color: #fff;
 }
 /* 调整搜索热词的字体、颜色、行高 */
 .white-nav .search .keywords-list ul li {
@@ -266,6 +272,8 @@ div.nav-menu div.nav-container {
   width: 1226px;
   height: 230px;
   margin: 0 auto;
+  /* 背景颜色 */
+  background-color: #fff;
 }
 div.nav-menu div.nav-container ul li {
   width: 204px;
