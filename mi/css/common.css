@@ -3,6 +3,10 @@
   width: 1226px;
   margin: 0 auto;
 }
+/* 顶部导航优化 */
+body {
+  min-width: 1226px;
+}
 /* 设置浮动 */
 /* 左浮动 */
 .fl {
