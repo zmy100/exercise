@@ -323,9 +323,46 @@ div.nav-content > a:first-child {
 div.carousel {
   width: 100%;
   height: 460px;
-  background-color: aquamarine;
 }
 div.carousel img {
   width: 100%;
 }
 /* 轮播图 结束 */
+
+/* 滑动门，网站简介 开始 */
+div.nav-content {
+  position: relative;
+}
+div.site-category {
+  width: 234px;
+  height: 460px;
+  background-color: rgba(105, 101, 101, 0.6);
+  position: absolute;
+  left: -136px;
+}
+div.site-category ul{
+  padding: 20px 0;
+}
+div.site-category ul li {
+  width: 234px;
+  height: 42px;
+  line-height: 42px;
+}
+div.white-nav div.nav-content div.site-category ul li a {
+  display: block;
+  width: 234px;
+  height: 42px;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 23px;
+  line-height: 42px;
+  margin-left: 0;
+}
+div.nav-content div.site-category ul li a:hover{
+  background-color: #ff6700;
+}
+div.nav-content div.site-category ul li a span.iconfont{
+  position: absolute;
+  right: 20px;
+}
+/* 滑动门，网站简介 结束 */
