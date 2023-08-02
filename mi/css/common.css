@@ -330,6 +330,7 @@ div.carousel img {
 /* 轮播图 结束 */
 
 /* 滑动门，网站简介 开始 */
+/* 网站简介 */
 div.nav-content {
   position: relative;
 }
@@ -340,7 +341,7 @@ div.site-category {
   position: absolute;
   left: -136px;
 }
-div.site-category ul{
+div.site-category ul {
   padding: 20px 0;
 }
 div.site-category ul li {
@@ -358,11 +359,64 @@ div.white-nav div.nav-content div.site-category ul li a {
   line-height: 42px;
   margin-left: 0;
 }
-div.nav-content div.site-category ul li a:hover{
+div.nav-content div.site-category ul li a:hover {
   background-color: #ff6700;
 }
-div.nav-content div.site-category ul li a span.iconfont{
+div.nav-content div.site-category ul li a span.iconfont {
   position: absolute;
   right: 20px;
+}
+/* 滑动门 */
+div.nav-content div.site-category div.slider-container {
+  width: 994px;
+  height: 460px;
+  /* 边框 */
+  border: 1px solid #e0e0e0;
+  /* 阴影 */
+  box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+  /* 定位 */
+  position: absolute;
+  left: 234px;
+  top: 0;
+  /* 背景颜色 */
+  background-color: #fff;
+  /* 默认隐藏 */
+  display: none;
+}
+/* 鼠标移入li标签显示滑动门 */
+div.white-nav
+  div.nav-content
+  div.site-category
+  ul
+  li:hover
+  div.slider-container {
+  display: block;
+}
+div.nav-content div.site-category div.slider-container ul {
+  width: 248px;
+  height: 460px;
+  padding: 0;
+  float: left;
+}
+div.nav-content div.site-category div.slider-container ul li {
+  width: 248px;
+  height: 76px;
+}
+div.nav-content div.site-category div.slider-container ul li a {
+  width: 248px;
+  height: 76px;
+  padding: 0 20px;
+  line-height: 76px;
+  color: #000;
+}
+div.nav-content div.site-category div.slider-container ul li a:hover {
+  color: #ff6700;
+  background-color: #fff;
+}
+div.nav-content div.site-category div.slider-container ul li a img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 12px;
 }
 /* 滑动门，网站简介 结束 */
