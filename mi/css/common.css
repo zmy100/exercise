@@ -335,6 +335,66 @@ div.carousel {
 div.carousel img {
   width: 100%;
 }
+/* 左右箭头 */
+div.carousel div.container {
+  position: relative;
+}
+div.carousel div.arrow-left,
+div.carousel div.arrow-right {
+  width: 42px;
+  height: 70px;
+  /* 文字水平居中 */
+  text-align: center;
+  /* 文字垂直居中 */
+  line-height: 70px;
+  position: absolute;
+  /* 颜色 */
+  color: #808080;
+}
+/* 左箭头定位 */
+div.carousel div.arrow-left {
+  left: 234px;
+  top: 50%;
+  margin-top: -35px;
+}
+/* 右箭头定位 */
+div.carousel div.arrow-right {
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+}
+div.carousel div.arrow-left:hover,
+div.carousel div.arrow-right:hover {
+  /* 鼠标移入，变成小手 */
+  cursor: pointer;
+  /* 背景颜色 */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* 移入变白 */
+  color: #fff;
+}
+/* 导航圆点 */
+div.carousel div.dots {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+div.carousel div.dots a {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+  /* 边框 */
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
+  /* 变成圆 */
+  border-radius: 10px;
+}
+/* 被激活，鼠标移入的边框和背景状态 */
+div.carousel div.dots a.active,
+div.carousel div.dots a:hover {
+  border-color: rgba(0, 0, 0, 0.4);
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
 /* 轮播图 结束 */
 
 /* 滑动门，网站简介 开始 */
@@ -343,6 +403,7 @@ div.nav-content {
   position: relative;
 }
 div.site-category {
+  z-index: 10;
   width: 234px;
   height: 460px;
   background-color: rgba(105, 101, 101, 0.6);
