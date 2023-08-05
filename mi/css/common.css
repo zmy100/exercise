@@ -167,6 +167,7 @@ div.top-nav-cart div.cart-list {
 .white-nav {
   width: 100%;
   height: 100px;
+  position: relative;
 }
 .white-nav .logo .logo-img {
   width: 56px;
@@ -411,7 +412,8 @@ div.site-category {
   height: 460px;
   background-color: rgba(105, 101, 101, 0.6);
   position: absolute;
-  left: -136px;
+  left: 50%;
+  margin-left: -613px;
 }
 div.site-category ul {
   padding: 20px 0;
