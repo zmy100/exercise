@@ -231,6 +231,8 @@ div.top-nav-cart div.cart-list {
   display: none;
   /* 背景颜色 */
   background-color: #fff;
+  /* 搜索热词被覆盖 */
+  z-index: 20;
 }
 /* 调整搜索热词的字体、颜色、行高 */
 .white-nav .search .keywords-list ul li {
