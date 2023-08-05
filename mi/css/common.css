@@ -120,6 +120,8 @@ body {
   display: none;
   /* 背景颜色 */
   background-color: #fff;
+  /* 修改二维码被压到下面的bug */
+  z-index:20;
 }
 .top-nav .top-nav-left a.download-app:hover div.download,
 .top-nav .top-nav-left a.download-app:hover::before {
