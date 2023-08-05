@@ -121,7 +121,7 @@ body {
   /* 背景颜色 */
   background-color: #fff;
   /* 修改二维码被压到下面的bug */
-  z-index:20;
+  z-index: 20;
 }
 .top-nav .top-nav-left a.download-app:hover div.download,
 .top-nav .top-nav-left a.download-app:hover::before {
@@ -272,14 +272,14 @@ div.nav-menu {
   display: none;
   /* 白色导航的下拉商品区, 被盖住了 */
   z-index: 20;
+  /* 背景颜色 */
+  background-color: #fff;
 }
 /* 设置版心 */
 div.nav-menu div.nav-container {
   width: 1226px;
   height: 230px;
   margin: 0 auto;
-  /* 背景颜色 */
-  background-color: #fff;
 }
 div.nav-menu div.nav-container ul li {
   width: 204px;
@@ -405,9 +405,6 @@ div.carousel div.dots a:hover {
 
 /* 滑动门，网站简介 开始 */
 /* 网站简介 */
-div.nav-content {
-  position: relative;
-}
 div.site-category {
   z-index: 10;
   width: 234px;
