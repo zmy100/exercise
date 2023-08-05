@@ -489,3 +489,71 @@ div.nav-content div.site-category div.slider-container ul li a img {
   margin-right: 12px;
 }
 /* 滑动门，网站简介 结束 */
+
+/* 新品频道 开始 */
+div.new-channel {
+  width: 100%;
+  height: 170px;
+  margin-top: 14px;
+}
+div.new-channel div.channel-list {
+  width: 234px;
+  height: 170px;
+  background-color: #5f5750;
+}
+div.new-channel div.channel-list ul li {
+  width: 76px;
+  height: 82px;
+  text-align: center;
+  position: relative;
+}
+div.new-channel div.channel-list ul li a {
+  display: block;
+  padding-top: 18px;
+  font-size: 12px;
+  color: #fff;
+  opacity: 0.7;
+}
+div.new-channel div.channel-list ul li a:hover {
+  color: #fff;
+}
+div.new-channel div.channel-list ul li span.iconfont {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+div.new-channel div.channel-list ul li span.desc {
+  display: block;
+}
+div.new-channel div.channel-list ul li.right::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 70px;
+  background-color: #665e57;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+}
+div.new-channel div.channel-list ul li.bottom::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  background-color: #665e57;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -35px;
+}
+div.new-channel div.new-product {
+  width: 316px;
+  height: 170px;
+  margin-left: 14px;
+}
+div.new-channel div.new-product img {
+  width: 316px;
+  height: 170px;
+}
+/* 新品频道 结束 */
