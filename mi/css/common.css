@@ -270,6 +270,8 @@ div.nav-menu {
   border-top: 1px solid #e0e0e0;
   /* 默认隐藏 */
   display: none;
+  /* 白色导航的下拉商品区, 被盖住了 */
+  z-index: 20;
 }
 /* 设置版心 */
 div.nav-menu div.nav-container {
