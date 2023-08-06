@@ -285,19 +285,58 @@ div.page-body div.area {
 div.page-body div.area div.sidebar {
   width: 234px;
   height: 614px;
-  background-color: rebeccapurple;
+}
+div.page-body div.area div.sidebar img {
+  width: 234px;
+  height: 614px;
 }
 div.page-body div.area div.right-side {
   width: 992px;
   height: 614px;
-  background-color: red;
 }
 div.page-body div.area div.right-side div.mid {
   width: 234px;
   height: 300px;
-  background-color: cadetblue;
+  background-color: #ffffff;
   margin-left: 14px;
   margin-bottom: 14px;
+  /* 所有元素居中 */
+  text-align: center;
+}
+div.page-body div.area div.right-side div.mid a {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+div.page-body div.area div.right-side div.mid img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 18px;
+}
+div.page-body div.area div.right-side div.mid h3 {
+  margin: 0 10px 2px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+div.page-body div.area div.right-side div.mid p:nth-of-type(1) {
+  margin: 0 10px 10px;
+  height: 18px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+div.page-body div.area div.right-side div.mid p:nth-of-type(2) {
+  margin: 0 10px 14px;
+  color: #ff6700;
+  font-size: 14px;
+}
+/* 加了这个类，就会有阴影，并且向上移动 */
+div.move:hover {
+  /* 加阴影 */
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+  /* 向上移动 */
+  transform: translate3d(0, -2px, 0);
 }
 /* 手机板块主体部分 结束 */
 /* 主页主体内容区 结束 */
