@@ -232,14 +232,37 @@ div.page-body {
   margin-top: 28px;
   padding-top: 28px;
 }
-div.page-body div.img-news{
+/* 新闻图片 开始 */
+div.page-body div.img-news {
   margin-bottom: 16px;
 }
-div.page-body div.img-news a{
-    display: block;
+div.page-body div.img-news a {
+  display: block;
 }
 div.page-body div.img-news a img {
   width: 1226px;
   height: 120px;
 }
+/* 新闻图片 结束 */
+
+/* 板块标题 开始 */
+div.page-body div.box-title {
+  width: 1226px;
+  height: 58px;
+  background-color: aquamarine;
+}
+div.page-body div.box-title div.title h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+div.page-body div.box-title div.remark{
+  height: 58px;
+  line-height: 58px;
+  color: #333;
+}
+
+/* 板块标题 结束 */
+
 /* 主页主体内容区 结束 */
