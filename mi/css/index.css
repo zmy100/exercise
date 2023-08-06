@@ -249,7 +249,7 @@ div.page-body div.img-news a img {
 div.page-body div.box-title {
   width: 1226px;
   height: 58px;
-  background-color: aquamarine;
+
 }
 div.page-body div.box-title div.title h2 {
   font-size: 22px;
@@ -257,12 +257,26 @@ div.page-body div.box-title div.title h2 {
   line-height: 58px;
   color: #333;
 }
-div.page-body div.box-title div.remark{
+div.page-body div.box-title div.remark {
+  font-size: 16px;
   height: 58px;
   line-height: 58px;
   color: #333;
 }
-
+div.page-body div.box-title div.remark a {
+  color: #424242;
+}
+div.page-body div.box-title div.remark a:hover {
+  color: #ff6700;
+}
+div.page-body div.box-title div.remark ul li {
+  margin-left: 30px;
+}
+div.page-body div.box-title div.remark ul li a:hover {
+  color: #ff6700;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #ff6700;
+}
 /* 板块标题 结束 */
 
 /* 主页主体内容区 结束 */
