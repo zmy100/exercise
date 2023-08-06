@@ -224,3 +224,22 @@ div.new-channel div.new-product img {
   height: 170px;
 }
 /* 新品频道 结束 */
+
+/* 主页主体内容区 开始 */
+div.page-body {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 28px;
+  padding-top: 28px;
+}
+div.page-body div.img-news{
+  margin-bottom: 16px;
+}
+div.page-body div.img-news a{
+    display: block;
+}
+div.page-body div.img-news a img {
+  width: 1226px;
+  height: 120px;
+}
+/* 主页主体内容区 结束 */
