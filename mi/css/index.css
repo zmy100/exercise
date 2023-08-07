@@ -453,4 +453,31 @@ div.site-info {
   height: 206px;
   background-color: #fafafa;
 }
+/* 页脚服务 开始 */
+div.site-footer div.footer-service {
+  width: 1226px;
+  height: 80px;
+  padding-top: 27px;
+  border-bottom: 1px solid #e0e0e0;
+}
+div.site-footer div.footer-service ul {
+  height: 25px;
+}
+div.site-footer div.footer-service ul li {
+  width: 245px;
+  height: 25px;
+  border-right: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+div.site-footer div.footer-service ul li:last-of-type {
+  border-right: none;
+}
+div.site-footer div.footer-service ul li a {
+  display: block;
+  height: 25px;
+  color: #616161;
+}
+/* 页脚服务 结束 */
 /* 页面底部 结束 */
