@@ -231,10 +231,14 @@ div.page-body {
   background-color: #f5f5f5;
   margin-top: 28px;
   padding-top: 28px;
+  padding-bottom: 12px;
 }
 /* 新闻图片 开始 */
 div.page-body div.img-news {
   margin-bottom: 16px;
+}
+div.page-body div.img-news:last-of-type {
+  margin-top: 30px;
 }
 div.page-body div.img-news a {
   display: block;
@@ -435,3 +439,18 @@ div.page-body div.area div.sidebar div.sidebar-top {
 }
 /* 板块主体部分 结束 */
 /* 主页主体内容区 结束 */
+
+/* 页面底部 开始 */
+div.site-footer,
+div.site-info {
+  width: 100%;
+}
+div.site-footer {
+  height: 500px;
+  background-color: #ffffff;
+}
+div.site-info {
+  height: 206px;
+  background-color: #fafafa;
+}
+/* 页面底部 结束 */
