@@ -446,7 +446,6 @@ div.site-info {
   width: 100%;
 }
 div.site-footer {
-  height: 500px;
   background-color: #ffffff;
 }
 div.site-info {
@@ -484,12 +483,10 @@ div.site-footer div.footer-service ul li a {
 /* 左侧部分 */
 div.site-footer div.footer-links {
   width: 1226px;
-  height: 420px;
   padding: 40px 0;
 }
 div.site-footer div.footer-links dl.col-links {
   width: 160px;
-  height: 340px;
 }
 div.site-footer div.footer-links dl.col-links dt {
   margin: -1px 0 26px;
@@ -540,6 +537,12 @@ div.site-footer div.footer-links div.col-contact a {
 div.site-footer div.footer-links div.col-contact a:hover {
   background: #ff6700;
   color: #fff;
+}
+/* 清除浮动造成的父元素高度塌陷 */
+div.site-footer div.footer-links::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 /* 底部链接区域 结束 */
 /* 页面底部 结束 */
