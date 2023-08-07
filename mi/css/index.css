@@ -269,16 +269,14 @@ div.page-body div.box-title div.remark {
 div.page-body div.box-title div.remark a {
   color: #424242;
 }
-div.page-body div.box-title div.remark a:hover {
-  color: #ff6700;
-}
-div.page-body div.box-title div.remark ul li {
-  margin-left: 30px;
-}
-div.page-body div.box-title div.remark ul li a:hover {
+div.page-body div.box-title div.remark a:hover,
+div.page-body div.box-title div.remark a.highlight {
   color: #ff6700;
   padding-bottom: 3px;
   border-bottom: 2px solid #ff6700;
+}
+div.page-body div.box-title div.remark ul li {
+  margin-left: 30px;
 }
 /* 板块标题 结束 */
 /* 板块主体部分 开始 */
@@ -445,14 +443,10 @@ div.site-footer,
 div.site-info {
   width: 100%;
 }
+/* 页脚服务 开始 */
 div.site-footer {
   background-color: #ffffff;
 }
-div.site-info {
-  height: 206px;
-  background-color: #fafafa;
-}
-/* 页脚服务 开始 */
 div.site-footer div.footer-service {
   width: 1226px;
   height: 80px;
@@ -545,4 +539,11 @@ div.site-footer div.footer-links::after {
   clear: both;
 }
 /* 底部链接区域 结束 */
+
+/* 网站信息板块区域 开始 */
+div.site-info {
+  height: 206px;
+  background-color: #fafafa;
+}
+/* 网站信息板块区域 结束 */
 /* 页面底部 结束 */
