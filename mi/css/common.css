@@ -74,10 +74,13 @@ body {
 .top-nav .top-nav-cart a {
   color: #b0b0b0;
   display: block;
+  /* 鼠标移出过渡效果 */
+  transition: all 0s linear 0.3s;
 }
 .top-nav .top-nav-cart a:hover {
   color: #ff6700;
   background-color: #ffffff;
+  transition: none;
 }
 /* 悬停显示小米商城app */
 .top-nav .top-nav-left a.download-app {
@@ -128,7 +131,7 @@ body {
   /* 鼠标移入显示下载图片 */
   display: block;
 }
-.top-nav .top-nav-left a.download-app:hover div.download{
+.top-nav .top-nav-left a.download-app:hover div.download {
   height: 148px;
   padding-top: 18px;
 }
@@ -147,21 +150,23 @@ div.top-nav-cart div.cart-list {
   /* 清除购物车下面的黑色边框 */
   z-index: -10;
   width: 316px;
-  height: 100px;
+  /* height: 100px; */
+  height: 0;
+  overflow: hidden;
   background-color: #ffffff;
   /* 设置位置 */
   position: absolute;
   right: 0;
   line-height: 100px;
   box-shadow: 0 10px 10px rgb(0 0 0 / 15%);
-  /* 隐藏 */
-  display: none;
   /* 字体颜色 */
   color: #424242;
+  /* 鼠标移入过渡效果 */
+  transition: all 0.3s;
 }
 /* 鼠标移入购物车显示 */
 .top-nav .top-nav-cart a:hover div.cart-list {
-  display: block;
+  height: 100px;
   background-color: #fff;
   z-index: 100;
 }
