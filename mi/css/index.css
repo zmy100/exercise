@@ -633,5 +633,45 @@ div.side-toolbar a div.iconfont {
   padding-top: 18px;
   margin-bottom: 8px;
 }
-
+/* 手机APP鼠标悬停二维码 */
+div.wx-code {
+  width: 130px;
+  height: 192px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: -144px;
+  padding: 14px;
+  background-color: #fff;
+  /* 默认隐藏 */
+  display: none;
+}
+div.wx-code img {
+  width: 100px;
+  height: 100px;
+  margin: 6px 0;
+}
+div.wx-code span {
+  display: block;
+  width: 82px;
+  height: 42px;
+  font-size: 14px;
+  text-align: center;
+  margin: 8px auto 0 auto;
+  line-height: 20px;
+  color: #757575;
+}
+div.wx-code div.arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -10px;
+  top: 35px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+}
+div.side-toolbar a:first-of-type:hover div.wx-code {
+  display: block;
+}
 /* 右侧工具栏 结束 */
