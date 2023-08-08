@@ -102,7 +102,8 @@ body {
 }
 .top-nav .top-nav-left div.download {
   width: 124px;
-  height: 148px;
+  height: 0;
+  overflow: hidden;
   position: absolute;
   /* 水平居中 */
   left: 50%;
@@ -110,23 +111,26 @@ body {
   /* 图片文字居中 */
   text-align: center;
   /* 图片下移 */
-  padding-top: 18px;
+  padding-top: 0;
   /* 文字样式 */
   color: #000;
   font-size: 14px;
   /* 阴影 */
   box-shadow: 0 1px 5px #aaa;
-  /* 默认隐藏 */
-  display: none;
   /* 背景颜色 */
   background-color: #fff;
   /* 修改二维码被压到下面的bug */
   z-index: 20;
+  /* 过渡效果 */
+  transition: all 0.3s;
 }
-.top-nav .top-nav-left a.download-app:hover div.download,
 .top-nav .top-nav-left a.download-app:hover::before {
   /* 鼠标移入显示下载图片 */
   display: block;
+}
+.top-nav .top-nav-left a.download-app:hover div.download{
+  height: 148px;
+  padding-top: 18px;
 }
 .top-nav .top-nav-left div.download img {
   width: 90px;
