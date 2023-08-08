@@ -675,3 +675,54 @@ div.side-toolbar a:first-of-type:hover div.wx-code {
   display: block;
 }
 /* 右侧工具栏 结束 */
+
+/* 字体图标 */
+.icon-gouwuchekong::before {
+  position: relative;
+  top: 1px;
+}
+.icon-xiangzuojiantou::before,
+.icon-xiangyoujiantou1::before {
+  font-size: 36px;
+}
+.icon-shizhongclock77::before,
+.icon-qiye::before,
+.icon-f_cursive_circle::before,
+.icon-SIMka::before,
+.icon-chongzhi::before,
+.icon-upay::before {
+  font-size: 20px;
+}
+.icon-youjiantou1::before{
+  color: #b0b0b0;
+  font-size: 23px;
+  position: relative;
+  top: 2px;
+}
+.icon-youjiantou::before{
+  font-size: 48px;
+}
+.icon-editor2::before,
+.icon-7tianwuliyoutuihuo::before,
+.icon-15tianwuliyoutuihuo::before,
+.icon-liwuhuodong::before,
+.icon-31dingwei::before{
+  font-size: 24px;
+  position: relative;
+  top: 2px;
+  left: -4px;
+}
+.icon-faxiaoxi::before{
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
+.icon-shouji::before,
+.icon-icon03::before,
+.icon-editor2::before,
+.icon-kefu-ermai::before,
+.icon-shiwu-gouwuche::before,
+.icon-huidingbu::before{
+  font-size: 30px;
+}
