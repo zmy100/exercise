@@ -472,6 +472,9 @@ div.site-footer div.footer-service ul li a {
   height: 25px;
   color: #616161;
 }
+div.site-footer div.footer-service ul li a:hover{
+  color: #ff6700;
+}
 /* 页脚服务 结束 */
 /* 底部链接区域 开始 */
 /* 左侧部分 */
