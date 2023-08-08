@@ -220,6 +220,8 @@ div.top-nav-cart div.cart-list {
   border: 1px solid #e0e0e0;
   margin-left: -1px;
   background-color: #fff;
+  /* 过渡效果 */
+  transition: all 0.3s;
 }
 /* 搜索框内容和按钮鼠标移入边框变色 */
 .white-nav .search form:hover input.search-content,
