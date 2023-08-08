@@ -203,6 +203,9 @@ div.top-nav-cart div.cart-list {
 }
 /* 搜索框按钮部分 */
 .white-nav .search-button {
+  font-size: 18px;
+  font-weight: 900;
+  color: #616161;
   width: 52px;
   height: 50px;
   border: 1px solid #e0e0e0;

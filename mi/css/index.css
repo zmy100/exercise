@@ -472,7 +472,7 @@ div.site-footer div.footer-service ul li a {
   height: 25px;
   color: #616161;
 }
-div.site-footer div.footer-service ul li a:hover{
+div.site-footer div.footer-service ul li a:hover {
   color: #ff6700;
 }
 /* 页脚服务 结束 */
@@ -625,6 +625,7 @@ div.side-toolbar a {
   border: 1px solid #f5f5f5;
   color: #757575;
   text-align: center;
+  font-size: 14px;
 }
 div.side-toolbar a:last-of-type {
   margin-top: 14px;
@@ -696,26 +697,26 @@ div.side-toolbar a:first-of-type:hover div.wx-code {
 .icon-upay::before {
   font-size: 20px;
 }
-.icon-youjiantou1::before{
+.icon-youjiantou1::before {
   color: #b0b0b0;
   font-size: 23px;
   position: relative;
   top: 2px;
 }
-.icon-youjiantou::before{
+.icon-youjiantou::before {
   font-size: 48px;
 }
 .icon-editor2::before,
 .icon-7tianwuliyoutuihuo::before,
 .icon-15tianwuliyoutuihuo::before,
 .icon-liwuhuodong::before,
-.icon-31dingwei::before{
+.icon-31dingwei::before {
   font-size: 24px;
   position: relative;
   top: 2px;
   left: -4px;
 }
-.icon-faxiaoxi::before{
+.icon-faxiaoxi::before {
   font-size: 13px;
   position: relative;
   top: -2px;
@@ -726,6 +727,6 @@ div.side-toolbar a:first-of-type:hover div.wx-code {
 .icon-editor2::before,
 .icon-kefu-ermai::before,
 .icon-shiwu-gouwuche::before,
-.icon-huidingbu::before{
+.icon-huidingbu::before {
   font-size: 30px;
 }
