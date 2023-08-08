@@ -209,6 +209,8 @@ div.top-nav-cart div.cart-list {
   height: 50px;
   border: 1px solid #e0e0e0;
   padding: 0 10px;
+    /* 过渡效果 */
+    transition: all 0.3s;
 }
 /* 搜索框按钮部分 */
 .white-nav .search-button {
@@ -268,12 +270,12 @@ div.top-nav-cart div.cart-list {
   background-color: #fafafa;
 }
 /* 搜索框内容被聚焦，搜索热词显示 */
-.white-nav .search form:hover input.search-content:focus + .keywords-list {
+.white-nav .search form input.search-content:focus + .keywords-list {
   display: block;
 }
 /* 搜索框内容被聚焦，搜索框内容和搜索按钮边框变色 */
-.white-nav .search form:hover input.search-content:focus,
-.white-nav .search form:hover input.search-content:focus ~ .search-button {
+.white-nav .search form input.search-content:focus,
+.white-nav .search form input.search-content:focus ~ .search-button {
   border: 1px solid #ff6700;
 }
 /* 白色导航的导航目录 */
