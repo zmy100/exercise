@@ -337,12 +337,13 @@ div.nav-menu div.nav-container ul li a p {
 }
 /* 鼠标移入白色导航栏隐藏的导航目录显示 */
 div.nav-content div.nav-menu:hover,
-div.nav-content a:hover + div.nav-menu {
+div.nav-content a:hover + div.nav-menu,
+#nav-menu-show {
   height: 230px;
   box-shadow: 0 3px 4px rgb(0 0 0 / 18%);
   border-top: 1px solid #e0e0e0;
   /* 过渡效果 */
-  transition: height 0.3s;
+  transition: height 0.5s;
 }
 /* 鼠标移入白色导航栏字体变色 */
 div.nav-content a:hover {

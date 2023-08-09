@@ -218,4 +218,28 @@ window.onload = function () {
       },
     ],
   ];
+  // 找对象
+  var navMenu = document.querySelector("div.nav-menu");
+  // 找到div.nav-content下面的所有a标签
+  var whiteNavHrefArray = document.querySelectorAll("div.nav-content>a");
+  var navMenuShowTimer = 0;
+  // 遍历数组
+  for (var i = 0; i < whiteNavHrefArray.length; i++) {
+    if (i !== 0 && i !== 9 && i !== 10) {
+      // 添加鼠标移入事件
+      whiteNavHrefArray[i].onmouseenter = function () {
+        // 每次鼠标移入延时器清空
+        clearTimeout(navMenuShowTimer);
+        navMenu.id = "nav-menu-show";
+        console.log(this.dataset.index);
+      };
+      // 添加鼠标移出事件
+      whiteNavHrefArray[i].onmouseout = function () {
+        // 添加延时器
+        navMenuShowTimer = setTimeout(function () {
+          navMenu.id = "";
+        }, 100);
+      };
+    }
+  }
 };
