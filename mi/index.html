@@ -18,8 +18,10 @@
       href="https://s01.mifile.cn/favicon.ico"
       type="image/x-icon"
     />
-    <!-- 引入白色导航的js -->
+    <!-- 引入白色导航js -->
     <script src="script/white-nav.js"></script>
+    <!-- 引入滑动门js -->
+    <script src="script/sliding-door.js"></script>
   </head>
   <body>
     <!-- 顶部导航 开始 -->
@@ -27,17 +29,23 @@
       <div class="container">
         <!-- 顶部导航左侧内容 -->
         <div class="top-nav-left">
-          <a href="javascript:;" class="fl">小米官网</a><span class="fl">|</span>
-          <a href="javascript:;" class="fl">小米商城</a><span class="fl">|</span>
-          <a href="javascript:;" class="fl">MIUI</a><span class="fl">|</span>
-          <a href="javascript:;" class="fl">IoT</a><span class="fl">|</span>
-          <a href="javascript:;" class="fl">云服务</a><span class="fl">|</span>
-          <a href="javascript:;" class="fl">天星数科</a><span class="fl">|</span>
-          <a href="javascript:;" class="fl">有品</a><span class="fl">|</span>
+          <a href="javascript:;" class="fl">小米官网</a
+          ><span class="fl">|</span>
+          <a href="javascript:;" class="fl">小米商城</a
+          ><span class="fl">|</span> <a href="javascript:;" class="fl">MIUI</a
+          ><span class="fl">|</span> <a href="javascript:;" class="fl">IoT</a
+          ><span class="fl">|</span> <a href="javascript:;" class="fl">云服务</a
+          ><span class="fl">|</span>
+          <a href="javascript:;" class="fl">天星数科</a
+          ><span class="fl">|</span> <a href="javascript:;" class="fl">有品</a
+          ><span class="fl">|</span>
           <a href="javascript:;" class="fl">小爱开放平台</a
-          ><span class="fl">|</span> <a href="javascript:;" class="fl">企业团购</a
-          ><span class="fl">|</span> <a href="javascript:;" class="fl">资质证照</a
-          ><span class="fl">|</span> <a href="javascript:;" class="fl">协议规则</a
+          ><span class="fl">|</span>
+          <a href="javascript:;" class="fl">企业团购</a
+          ><span class="fl">|</span>
+          <a href="javascript:;" class="fl">资质证照</a
+          ><span class="fl">|</span>
+          <a href="javascript:;" class="fl">协议规则</a
           ><span class="fl">|</span>
           <a href="javascript:;" class="fl download-app"
             >下载app
@@ -62,8 +70,8 @@
           </a>
         </div>
         <div class="top-nav-userinfo flr">
-          <a href="javascript:;">登录</a><span>|</span> <a href="javascript:;">注册</a
-          ><span>|</span>
+          <a href="javascript:;">登录</a><span>|</span>
+          <a href="javascript:;">注册</a><span>|</span>
           <a href="javascript:;">消息通知</a>
         </div>
       </div>
@@ -90,12 +98,12 @@
           <!-- 网站简介 -->
           <div class="site-category">
             <ul>
-              <li>
+              <li data-index="0">
                 <a href="javascript:;"
                   >手机<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
                 <!-- 滑动门 -->
-                <div class="slider-container col-1">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -148,11 +156,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="1">
                 <a href="javascript:;"
                   >电视<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-3">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -305,11 +313,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="2">
                 <a href="javascript:;"
                   >家电<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-4">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -512,11 +520,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="3">
                 <a href="javascript:;"
                   >笔记本 平板<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-4">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -719,11 +727,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="4">
                 <a href="javascript:;"
                   >出行 穿戴<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-4">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -926,11 +934,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="5">
                 <a href="javascript:;"
                   >耳机 音箱<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-4">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -1133,11 +1141,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="6">
                 <a href="javascript:;"
                   >健康 儿童<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-3">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -1290,11 +1298,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="7">
                 <a href="javascript:;"
                   >生活 箱包<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-3">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -1447,11 +1455,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="8">
                 <a href="javascript:;"
                   >智能 路由器<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-2">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -1554,11 +1562,11 @@
                   </ul>
                 </div>
               </li>
-              <li>
+              <li data-index="9">
                 <a href="javascript:;"
                   >电源 配件<span class="iconfont icon-xiangyoujiantou"></span
                 ></a>
-                <div class="slider-container col-2">
+                <div class="slider-container">
                   <ul>
                     <li>
                       <a href="javascript:;"
@@ -2487,7 +2495,9 @@
           </div>
           <div class="remark flr">
             <ul>
-              <li class="fl"><a href="javascript:;" class="highlight">耳机</a></li>
+              <li class="fl">
+                <a href="javascript:;" class="highlight">耳机</a>
+              </li>
               <li class="fl"><a href="javascript:;">穿戴</a></li>
             </ul>
           </div>
@@ -2617,7 +2627,9 @@
           </div>
           <div class="remark flr">
             <ul>
-              <li class="fl"><a href="javascript:;" class="highlight">热门</a></li>
+              <li class="fl">
+                <a href="javascript:;" class="highlight">热门</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -2746,7 +2758,9 @@
           </div>
           <div class="remark flr">
             <ul>
-              <li class="fl"><a href="javascript:;" class="highlight">热门</a></li>
+              <li class="fl">
+                <a href="javascript:;" class="highlight">热门</a>
+              </li>
               <li class="fl"><a href="javascript:;">电视影音</a></li>
             </ul>
           </div>
@@ -3508,10 +3522,10 @@
         <!-- 底部链接区域 开始 -->
         <div class="footer-links">
           <!-- 左侧部分 -->
-          <dl class="col-links fl">
+          <dl class=inks fl">
             <dt></dt>
           </dl>
-          <dl class="col-links fl">
+          <dl class=inks fl">
             <dt>选购指南</dt>
             <dd><a href="javascript:;">手机</a></dd>
             <dd><a href="javascript:;">电视</a></dd>
@@ -3524,7 +3538,7 @@
             <dd><a href="javascript:;">音箱</a></dd>
             <dd><a href="javascript:;">配件</a></dd>
           </dl>
-          <dl class="col-links fl">
+          <dl class=inks fl">
             <dt>服务中心</dt>
             <dd><a href="javascript:;">申请售后</a></dd>
             <dd><a href="javascript:;">售后政策</a></dd>
@@ -3535,13 +3549,13 @@
             <dd><a href="javascript:;">防伪查询</a></dd>
             <dd><a href="javascript:;">F码通道</a></dd>
           </dl>
-          <dl class="col-links fl">
+          <dl class=inks fl">
             <dt>线下门店</dt>
             <dd><a href="javascript:;">小米之家</a></dd>
             <dd><a href="javascript:;">服务网点</a></dd>
             <dd><a href="javascript:;">授权体验店/专区</a></dd>
           </dl>
-          <dl class="col-links fl">
+          <dl class=inks fl">
             <dt>关于小米</dt>
             <dd><a href="javascript:;">了解小米</a></dd>
             <dd><a href="javascript:;">加入小米</a></dd>
@@ -3549,7 +3563,7 @@
             <dd><a href="javascript:;">可持续发展</a></dd>
             <dd><a href="javascript:;">廉洁举报</a></dd>
           </dl>
-          <dl class="col-links fl">
+          <dl class=inks fl">
             <dt>关注我们</dt>
             <dd><a href="javascript:;">新浪微博</a></dd>
             <dd><a href="javascript:;">官方微信</a></dd>
@@ -3557,7 +3571,7 @@
             <dd><a href="javascript:;">公益基金会</a></dd>
           </dl>
           <!-- 右侧部分 -->
-          <div class="col-contact flr">
+          <div class=ontact flr">
             <p class="phone">400-100-5678</p>
             <p class="comment">8:00-18:00（仅收市话费）</p>
             <a href="javascript:;"

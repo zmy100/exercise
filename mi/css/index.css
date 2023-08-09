@@ -160,6 +160,10 @@ div.nav-content div.site-category div.slider-container ul li a {
   color: #000;
   /* 过渡效果 */
   transition: color 0.2s;
+  /* 文字超出，显示省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 div.nav-content div.site-category div.slider-container ul li a:hover {
   color: #ff6700;
