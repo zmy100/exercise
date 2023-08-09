@@ -218,10 +218,12 @@ window.onload = function () {
       },
     ],
   ];
+
   // 找对象
   var navMenu = document.querySelector("div.nav-menu");
   // 找到div.nav-content下面的所有a标签
   var whiteNavHrefArray = document.querySelectorAll("div.nav-content>a");
+  // 定义延时标记
   var navMenuShowTimer = 0;
   // 遍历数组
   for (var i = 0; i < whiteNavHrefArray.length; i++) {
@@ -230,16 +232,42 @@ window.onload = function () {
       whiteNavHrefArray[i].onmouseenter = function () {
         // 每次鼠标移入延时器清空
         clearTimeout(navMenuShowTimer);
+        // 展开白色面板
         navMenu.id = "nav-menu-show";
-        console.log(this.dataset.index);
+        showData(this.dataset.index);
       };
       // 添加鼠标移出事件
       whiteNavHrefArray[i].onmouseout = function () {
         // 添加延时器
         navMenuShowTimer = setTimeout(function () {
+          // 鼠标移出隐藏
           navMenu.id = "";
         }, 100);
       };
     }
+  }
+  // 展示数据的函数
+  function showData(index) {
+    // 获取当前白色面板需要的数据
+    var currentData = ajaxData[index];
+    // 拼接html代码，写入dom元素里面
+    var htmlString = "";
+    htmlString += '<div class="nav-container">';
+    htmlString += "<ul>";
+    // 遍历数组，拼接li标签
+    for (var i = 0; i < currentData.length; i++) {
+      var obj = currentData[i];
+      htmlString += '<li class="fl">';
+      htmlString += '<a href="javascript:;">';
+      htmlString += '<div><img src="' + obj.img + '" alt="" /></div>';
+      htmlString += "<div>" + obj.title + "</div>";
+      htmlString += "<p>" + obj.price + "</p>";
+      htmlString += "</a>";
+      htmlString += "</li>";
+    }
+    htmlString += "<ul>";
+    htmlString += "</div>";
+    // 写入到dom元素里面
+    navMenu.innerHTML = htmlString;
   }
 };
