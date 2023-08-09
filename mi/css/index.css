@@ -6,6 +6,13 @@ div.carousel {
 }
 div.carousel img {
   width: 100%;
+  opacity: 0;
+  transition: all 1s;
+  display: none;
+}
+div.carousel img.img-active {
+  opacity: 1;
+  display: block;
 }
 /* 左右箭头 */
 div.carousel div.container {
