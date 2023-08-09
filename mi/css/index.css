@@ -105,6 +105,18 @@ div.nav-content div.site-category ul li a span.iconfont {
   right: 20px;
 }
 /* 滑动门 */
+div.nav-content div.site-category div.slider-container.col-4 {
+  width: 994px;
+}
+div.nav-content div.site-category div.slider-container.col-3 {
+  width: 797px;
+}
+div.nav-content div.site-category div.slider-container.col-2 {
+  width: 498px;
+}
+div.nav-content div.site-category div.slider-container.col-1 {
+  width: 250px;
+}
 div.nav-content div.site-category div.slider-container {
   width: 994px;
   height: 460px;
@@ -146,6 +158,8 @@ div.nav-content div.site-category div.slider-container ul li a {
   padding: 0 20px;
   line-height: 76px;
   color: #000;
+  /* 过渡效果 */
+  transition: color 0.2s;
 }
 div.nav-content div.site-category div.slider-container ul li a:hover {
   color: #ff6700;
