@@ -52,8 +52,8 @@ div.carousel div.dots {
 }
 div.carousel div.dots a {
   display: inline-block;
-  width: 10px;
-  height: 10px;
+  width: 9px;
+  height: 9px;
   margin: 0 4px;
   /* 边框 */
   border: 2px solid hsla(0, 0%, 100%, 0.3);
