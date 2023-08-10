@@ -1,0 +1,757 @@
+/* 主页的CSS */
+/* 轮播图 开始 */
+div.carousel {
+  width: 100%;
+  height: 460px;
+}
+div.carousel img {
+  width: 100%;
+  opacity: 0;
+  transition: all 1s;
+  display: none;
+}
+div.carousel img.img-active {
+  opacity: 1;
+  display: block;
+}
+/* 左右箭头 */
+div.carousel div.container {
+  position: relative;
+}
+div.carousel div.arrow-left,
+div.carousel div.arrow-right {
+  width: 42px;
+  height: 70px;
+  /* 文字水平居中 */
+  text-align: center;
+  /* 文字垂直居中 */
+  line-height: 70px;
+  position: absolute;
+  /* 颜色 */
+  color: #808080;
+}
+/* 左箭头定位 */
+div.carousel div.arrow-left {
+  left: 234px;
+  top: 50%;
+  margin-top: -35px;
+}
+/* 右箭头定位 */
+div.carousel div.arrow-right {
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+}
+div.carousel div.arrow-left:hover,
+div.carousel div.arrow-right:hover {
+  /* 鼠标移入，变成小手 */
+  cursor: pointer;
+  /* 背景颜色 */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* 移入变白 */
+  color: #fff;
+}
+/* 导航圆点 */
+div.carousel div.dots {
+  position: absolute;
+  right: 30px;
+  bottom: 20px;
+}
+div.carousel div.dots a {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin: 0 4px;
+  /* 边框 */
+  border: 2px solid hsla(0, 0%, 100%, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
+  /* 变成圆 */
+  border-radius: 10px;
+}
+/* 被激活，鼠标移入的边框和背景状态 */
+div.carousel div.dots a.active,
+div.carousel div.dots a:hover {
+  border-color: rgba(0, 0, 0, 0.4);
+  background-color: hsla(0, 0%, 100%, 0.3);
+}
+/* 轮播图 结束 */
+/* 滑动门，网站简介 开始 */
+/* 网站简介 */
+div.site-category {
+  z-index: 10;
+  width: 234px;
+  height: 460px;
+  background-color: rgba(105, 101, 101, 0.6);
+  position: absolute;
+  left: 50%;
+  margin-left: -613px;
+}
+div.site-category ul {
+  padding: 20px 0;
+}
+div.site-category ul li {
+  width: 234px;
+  height: 42px;
+  line-height: 42px;
+}
+div.white-nav div.nav-content div.site-category ul li a {
+  display: block;
+  width: 234px;
+  height: 42px;
+  color: #fff;
+  font-size: 14px;
+  padding-left: 23px;
+  line-height: 42px;
+  margin-left: 0;
+}
+div.nav-content div.site-category ul li a:hover {
+  background-color: #ff6700;
+}
+div.nav-content div.site-category ul li a span.iconfont {
+  position: absolute;
+  right: 20px;
+}
+/* 滑动门 */
+div.nav-content div.site-category div.slider-container.col-4 {
+  width: 994px;
+}
+div.nav-content div.site-category div.slider-container.col-3 {
+  width: 797px;
+}
+div.nav-content div.site-category div.slider-container.col-2 {
+  width: 498px;
+}
+div.nav-content div.site-category div.slider-container.col-1 {
+  width: 250px;
+}
+div.nav-content div.site-category div.slider-container {
+  width: 994px;
+  height: 460px;
+  /* 边框 */
+  border: 1px solid #e0e0e0;
+  /* 阴影 */
+  box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+  /* 定位 */
+  position: absolute;
+  left: 234px;
+  top: 0;
+  /* 背景颜色 */
+  background-color: #fff;
+  /* 默认隐藏 */
+  display: none;
+}
+/* 鼠标移入li标签显示滑动门 */
+div.white-nav
+  div.nav-content
+  div.site-category
+  ul
+  li:hover
+  div.slider-container {
+  display: block;
+}
+div.nav-content div.site-category div.slider-container ul {
+  width: 248px;
+  height: 460px;
+  padding: 0;
+  float: left;
+}
+div.nav-content div.site-category div.slider-container ul li {
+  width: 248px;
+  height: 76px;
+}
+div.nav-content div.site-category div.slider-container ul li a {
+  width: 248px;
+  height: 76px;
+  padding: 0 20px;
+  line-height: 76px;
+  color: #000;
+  /* 过渡效果 */
+  transition: color 0.2s;
+  /* 文字超出，显示省略号 */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+div.nav-content div.site-category div.slider-container ul li a:hover {
+  color: #ff6700;
+  background-color: #fff;
+}
+div.nav-content div.site-category div.slider-container ul li a img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+/* 滑动门，网站简介 结束 */
+/* 新品频道 开始 */
+div.new-channel {
+  width: 100%;
+  height: 170px;
+  margin-top: 14px;
+}
+div.new-channel div.channel-list {
+  width: 234px;
+  height: 170px;
+  background-color: #5f5750;
+}
+div.new-channel div.channel-list ul li {
+  width: 76px;
+  height: 82px;
+  text-align: center;
+  position: relative;
+}
+div.new-channel div.channel-list ul li a {
+  display: block;
+  padding-top: 18px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+div.new-channel div.channel-list ul li a:hover {
+  color: #fff;
+}
+div.new-channel div.channel-list ul li span.iconfont {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
+div.new-channel div.channel-list ul li span.desc {
+  display: block;
+}
+div.new-channel div.channel-list ul li.right::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 70px;
+  background-color: #665e57;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -35px;
+}
+div.new-channel div.channel-list ul li.bottom::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 1px;
+  background-color: #665e57;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -35px;
+}
+div.new-channel div.new-product {
+  width: 316px;
+  height: 170px;
+  margin-left: 14px;
+}
+div.new-channel div.new-product img {
+  width: 316px;
+  height: 170px;
+}
+/* 新品频道 结束 */
+
+/* 主页主体内容区 开始 */
+div.page-body {
+  width: 100%;
+  background-color: #f5f5f5;
+  margin-top: 28px;
+  padding-top: 28px;
+  padding-bottom: 12px;
+}
+/* 新闻图片 开始 */
+div.page-body div.img-news {
+  margin-bottom: 16px;
+}
+div.page-body div.img-news:last-of-type {
+  margin-top: 30px;
+}
+div.page-body div.img-news a {
+  display: block;
+}
+div.page-body div.img-news a img {
+  width: 1226px;
+  height: 120px;
+}
+/* 新闻图片 结束 */
+
+/* 板块标题 开始 */
+div.page-body div.box-title {
+  width: 1226px;
+  height: 58px;
+}
+div.page-body div.box-title div.title h2 {
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 58px;
+  color: #333;
+}
+div.page-body div.box-title div.remark {
+  font-size: 16px;
+  height: 58px;
+  line-height: 58px;
+  color: #333;
+}
+div.page-body div.box-title div.remark a {
+  color: #424242;
+}
+div.page-body div.box-title div.remark a:hover,
+div.page-body div.box-title div.remark a.highlight {
+  color: #ff6700;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #ff6700;
+}
+div.page-body div.box-title div.remark ul li {
+  margin-left: 30px;
+}
+/* 板块标题 结束 */
+/* 板块主体部分 开始 */
+div.page-body div.area {
+  width: 1226px;
+  height: 614px;
+}
+div.page-body div.area div.sidebar {
+  width: 234px;
+  height: 614px;
+}
+div.page-body div.area div.sidebar img {
+  width: 234px;
+  height: 614px;
+}
+div.page-body div.area div.right-side {
+  width: 992px;
+  height: 614px;
+}
+div.page-body div.area div.right-side div.mid {
+  width: 234px;
+  height: 300px;
+  background-color: #ffffff;
+  margin-left: 14px;
+  margin-bottom: 14px;
+  /* 所有元素居中 */
+  text-align: center;
+}
+div.page-body div.area div.right-side div.mid a {
+  display: block;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 0;
+}
+div.page-body div.area div.right-side div.mid img {
+  width: 160px;
+  height: 160px;
+  margin-bottom: 18px;
+}
+div.page-body div.area div.right-side div.mid h3 {
+  margin: 0 10px 2px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+div.page-body div.area div.right-side div.mid p:nth-of-type(1) {
+  margin: 0 10px 10px;
+  height: 18px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+div.page-body div.area div.right-side div.mid p:nth-of-type(2) {
+  margin: 0 10px 14px;
+  color: #ff6700;
+  font-size: 14px;
+}
+/* 加了这个类，就会有阴影，并且向上移动 */
+div.move:hover {
+  /* 加阴影 */
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+  /* 向上移动 */
+  transform: translate3d(0, -2px, 0);
+}
+/* 板块右下角 */
+.transparent {
+  background-color: transparent;
+}
+div.page-body div.area div.right-side div.mid.transparent {
+  background-color: transparent;
+}
+div.page-body div.area div.right-side div.mid div.mid-top,
+div.page-body div.area div.right-side div.mid div.mid-bottom {
+  position: relative;
+  width: 234px;
+  height: 143px;
+  background-color: #fff;
+}
+div.page-body div.area div.right-side div.mid div.mid-top {
+  margin-bottom: 14px;
+}
+div.page-body div.area div.right-side div.mid div.mid-top a {
+  padding-top: 40px;
+  display: block;
+  width: 234px;
+  height: 143px;
+}
+div.page-body div.area div.right-side div.mid div.mid-top div.mid-top-img {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  right: 20px;
+  top: 32px;
+}
+div.page-body div.area div.right-side div.mid div.mid-top div.mid-top-img img {
+  width: 80px;
+  height: 80px;
+}
+div.page-body div.area div.right-side div.mid div.mid-top h3.title {
+  width: 94px;
+  height: 63px;
+  text-align: left;
+  color: #333;
+  margin: -10px 110px 5px 30px;
+  font-size: 14px;
+  font-weight: 400;
+}
+div.page-body div.area div.right-side div.mid div.mid-top p.price {
+  width: 94px;
+  height: 21px;
+  margin: 0 110px 0 30px;
+  font-size: 13px;
+  color: #ff6700;
+  text-align: left;
+}
+
+div.page-body div.area div.right-side div.mid div.mid-bottom div.iconfont {
+  position: absolute;
+  right: 35px;
+  top: 48px;
+  width: 48px;
+  height: 48px;
+  color: #ff6700;
+  line-height: 48px;
+}
+div.page-body div.area div.right-side div.mid div.mid-bottom a {
+  padding-top: 50px;
+}
+div.page-body div.area div.right-side div.mid div.mid-bottom div.more {
+  width: 94px;
+  height: 45px;
+  display: block;
+  margin: 0 110px 0 30px;
+  font-size: 18px;
+  color: #333;
+  text-align: left;
+}
+div.page-body div.area div.right-side div.mid div.mid-bottom div.more small {
+  display: block;
+  font-size: 12px;
+  color: #757575;
+  padding-top: 4px;
+}
+/* 板块左侧 */
+div.page-body div.area div.sidebar div.sidebar-top a,
+div.page-body div.area div.sidebar div.sidebar-bottom a {
+  display: block;
+  width: 234px;
+  height: 300px;
+  background-color: orange;
+}
+div.page-body div.area div.sidebar div.sidebar-top img,
+div.page-body div.area div.sidebar div.sidebar-bottom img {
+  width: 234px;
+  height: 300px;
+}
+div.page-body div.area div.sidebar div.sidebar-top {
+  margin-bottom: 14px;
+}
+/* 板块主体部分 结束 */
+/* 主页主体内容区 结束 */
+
+/* 页面底部 开始 */
+div.site-footer,
+div.site-info {
+  width: 100%;
+}
+/* 页脚服务 开始 */
+div.site-footer {
+  background-color: #ffffff;
+}
+div.site-footer div.footer-service {
+  width: 1226px;
+  height: 80px;
+  padding-top: 27px;
+  border-bottom: 1px solid #e0e0e0;
+}
+div.site-footer div.footer-service ul {
+  height: 25px;
+}
+div.site-footer div.footer-service ul li {
+  width: 245px;
+  height: 25px;
+  border-right: 1px solid #e0e0e0;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+div.site-footer div.footer-service ul li:last-of-type {
+  border-right: none;
+}
+div.site-footer div.footer-service ul li a {
+  display: block;
+  height: 25px;
+  color: #616161;
+}
+div.site-footer div.footer-service ul li a:hover {
+  color: #ff6700;
+}
+/* 页脚服务 结束 */
+/* 底部链接区域 开始 */
+/* 左侧部分 */
+div.site-footer div.footer-links {
+  width: 1226px;
+  padding: 40px 0;
+}
+div.site-footer div.footer-links dl.col-links {
+  width: 160px;
+}
+div.site-footer div.footer-links dl.col-links dt {
+  margin: -1px 0 26px;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #424242;
+}
+div.site-footer div.footer-links dl.col-links dd {
+  margin: 10px 0 0;
+  font-size: 12px;
+}
+div.site-footer div.footer-links dl.col-links dd a {
+  color: #757575;
+  font-size: 12px;
+}
+div.site-footer div.footer-links dl.col-links dd a:hover {
+  color: #ff6700;
+}
+/* 右侧部分 */
+div.site-footer div.footer-links div.col-contact {
+  width: 252px;
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  color: #616161;
+}
+div.site-footer div.footer-links div.col-contact p.phone {
+  font-size: 22px;
+  line-height: 1;
+  color: #ff6700;
+  margin-bottom: 5px;
+}
+div.site-footer div.footer-links div.col-contact p.comment {
+  font-size: 12px;
+  color: #616161;
+  margin-bottom: 5px;
+}
+div.site-footer div.footer-links div.col-contact a {
+  display: inline-block;
+  width: 118px;
+  height: 28px;
+  font-size: 12px;
+  line-height: 28px;
+  border: 1px solid #ff6700;
+  background: #fff;
+  color: #ff6700;
+  transition: all 0.4s;
+}
+div.site-footer div.footer-links div.col-contact a:hover {
+  background: #ff6700;
+  color: #fff;
+}
+/* 清除浮动造成的父元素高度塌陷 */
+div.site-footer div.footer-links::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* 底部链接区域 结束 */
+
+/* 网站信息板块区域 开始 */
+div.site-info {
+  padding: 30px 0;
+  background-color: #fafafa;
+  position: relative;
+}
+/* div.site-info div.container{
+  position: relative;
+} */
+div.site-info img.logo {
+  width: 56px;
+  height: 56px;
+  margin-right: 20px;
+  /* position: absolute;
+  top: 0;
+  left: 0; */
+}
+div.site-info div.info-text {
+  margin-left: 66px;
+  width: 100%;
+}
+div.site-info div.info-text p {
+  line-height: 18px;
+}
+div.site-info div.info-text p.sites a {
+  color: #757575;
+  font-size: 12px;
+}
+div.site-info div.info-text p.sites span {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+div.site-info div.info-text p.comment a,
+div.site-info div.info-text p.comment span {
+  color: #b0b0b0;
+  font-size: 12px;
+}
+div.site-info div.info-text p a:hover {
+  color: #ff6700;
+}
+div.site-info div.info-links {
+  width: 1149px;
+  height: 28px;
+  margin: 4px 0 15px;
+  padding-left: 77px;
+}
+div.site-info div.info-links a {
+  display: inline-block;
+  width: 83px;
+  height: 33px;
+}
+div.site-info div.info-links a img {
+  width: 83px;
+  height: 28px;
+}
+/* 底部标语 */
+div.site-info div.slogan {
+  clear: both;
+  margin: 40px auto 0;
+  width: 100%;
+  height: 19px;
+  background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png)
+    no-repeat center 0;
+}
+/* 网站信息板块区域 结束 */
+/* 页面底部 结束 */
+/* 右侧工具栏 开始 */
+div.side-toolbar {
+  width: 84px;
+  height: 566px;
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+}
+div.side-toolbar a {
+  display: block;
+  width: 84px;
+  height: 92px;
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+  color: #757575;
+  text-align: center;
+  font-size: 14px;
+}
+div.side-toolbar a:last-of-type {
+  margin-top: 14px;
+}
+div.side-toolbar a:hover {
+  color: #ff6700;
+}
+div.side-toolbar a div.iconfont {
+  padding-top: 18px;
+  margin-bottom: 8px;
+}
+/* 手机APP鼠标悬停二维码 */
+div.wx-code {
+  width: 130px;
+  height: 192px;
+  background-color: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: -144px;
+  padding: 14px;
+  background-color: #fff;
+  /* 默认隐藏 */
+  display: none;
+}
+div.wx-code img {
+  width: 100px;
+  height: 100px;
+  margin: 6px 0;
+}
+div.wx-code span {
+  display: block;
+  width: 82px;
+  height: 42px;
+  font-size: 14px;
+  text-align: center;
+  margin: 8px auto 0 auto;
+  line-height: 20px;
+  color: #757575;
+}
+div.wx-code div.arrow {
+  width: 0;
+  height: 0;
+  position: absolute;
+  right: -10px;
+  top: 35px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #fff;
+}
+div.side-toolbar a:first-of-type:hover div.wx-code {
+  display: block;
+}
+/* 右侧工具栏 结束 */
+
+/* 字体图标 */
+.icon-gouwuchekong::before {
+  position: relative;
+  top: 1px;
+}
+.icon-xiangzuojiantou::before,
+.icon-xiangyoujiantou1::before {
+  font-size: 36px;
+}
+.icon-shizhongclock77::before,
+.icon-qiye::before,
+.icon-f_cursive_circle::before,
+.icon-SIMka::before,
+.icon-chongzhi::before,
+.icon-upay::before {
+  font-size: 20px;
+}
+.icon-youjiantou1::before {
+  color: #b0b0b0;
+  font-size: 23px;
+  position: relative;
+  top: 2px;
+}
+.icon-youjiantou::before {
+  font-size: 48px;
+}
+.icon-editor2::before,
+.icon-7tianwuliyoutuihuo::before,
+.icon-15tianwuliyoutuihuo::before,
+.icon-liwuhuodong::before,
+.icon-31dingwei::before {
+  font-size: 24px;
+  position: relative;
+  top: 2px;
+  left: -4px;
+}
+.icon-faxiaoxi::before {
+  font-size: 13px;
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
+.icon-shouji::before,
+.icon-icon03::before,
+.icon-editor2::before,
+.icon-kefu-ermai::before,
+.icon-shiwu-gouwuche::before,
+.icon-huidingbu::before {
+  font-size: 30px;
+}
