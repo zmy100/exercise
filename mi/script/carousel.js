@@ -13,14 +13,38 @@ window.addEventListener("load", function () {
   var currentDotNumber = 0;
   // 定义一个全局变量，来表示当前图片的位置/数字
   var currentImgNumber = 0;
+  // 函数节流，上锁
+  var lock = false;
   // 给左右按钮添加点击事件
   leftButton.onclick = function () {
+    // 上锁
+    if (lock) {
+      return;
+    }
+    lock = true;
+    // 小圆点高亮
     dotHighLight(--currentDotNumber);
+    // 图片显示
     imgShow(--currentImgNumber);
+    // 延时1s
+    setTimeout(() => {
+      lock = false;
+    }, 1000);
   };
   rightButton.onclick = function () {
+    // 上锁
+    if (lock) {
+      return;
+    }
+    lock = true;
+    // 小圆点高亮
     dotHighLight(++currentDotNumber);
+    // 图片显示
     imgShow(++currentImgNumber);
+    // 延时1s
+    setTimeout(() => {
+      lock = false;
+    }, 1000);
   };
   // 定义函数
   // 小圆点高亮
@@ -64,4 +88,16 @@ window.addEventListener("load", function () {
     // 让指定索引的图片显示
     imgsArray[index].classList.add("img-active");
   }
+  //小圆点和图片联动
+  // 遍历小圆点数组，添加点击事件
+  dotsArray.forEach(function (element, index) {
+    // 给小圆点添加点击事件
+    element.onclick = function () {
+      // 获取小圆点当前的索引
+      var currentIndex = this.dataset.index;
+      // 按钮高亮，显示图片
+      dotHighLight((currentDotNumber = currentIndex));
+      imgShow((currentImgNumber = currentIndex));
+    };
+  });
 });
