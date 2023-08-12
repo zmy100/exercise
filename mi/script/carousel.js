@@ -93,11 +93,11 @@ window.addEventListener("load", function () {
   // 调用自动播放函数
   autoPlay();
   // 鼠标移入，自动播放暂停
-  carouselContainer.onmouseover = function () {
+  carouselContainer.onmouseenter = function () {
     clearInterval(autoPlayTimer);
   };
   // 鼠标移出，开启自动播放
-  carouselContainer.onmouseout = function () {
+  carouselContainer.onmouseleave = function () {
     autoPlay();
   };
 });

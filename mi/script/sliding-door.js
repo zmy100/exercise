@@ -648,7 +648,7 @@ window.addEventListener("load", function () {
   //遍历数组
   for (var i = 0; i < liArray.length; i++) {
     //添加鼠标移入事件
-    liArray[i].onmouseover = function () {
+    liArray[i].onmouseenter = function () {
       //获取li的索引，data-index,传入函数
       showData(this, this.dataset.index);
     };

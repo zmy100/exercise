@@ -220,9 +220,11 @@ window.addEventListener("load", function () {
   ];
 
   // 找对象
-  var navMenu = document.querySelector("div.nav-menu");
+  var navMenu = this.document.querySelector("div.nav-menu");
   // 找到div.nav-content下面的所有a标签
-  var whiteNavHrefArray = document.querySelectorAll("div.nav-content>a");
+  var whiteNavHrefArray = this.document.querySelectorAll("div.nav-content>a");
+  // 找搜索框
+  var inputSearch = this.document.querySelector("input.search-content");
   // 定义延时标记
   var navMenuShowTimer = 0;
   // 遍历数组
@@ -235,9 +237,11 @@ window.addEventListener("load", function () {
         // 展开白色面板
         navMenu.id = "nav-menu-show";
         showData(this.dataset.index);
+        // 让搜索框失去焦点，关闭热词列表
+        inputSearch.blur();
       };
       // 添加鼠标移出事件
-      whiteNavHrefArray[i].onmouseout = function () {
+      whiteNavHrefArray[i].onmouseleave = function () {
         // 添加延时器
         navMenuShowTimer = setTimeout(function () {
           // 鼠标移出隐藏
