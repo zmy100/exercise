@@ -1,5 +1,9 @@
 window.addEventListener("load", function () {
   // 找对象
+  // 找轮播图
+  var carouselContainer = this.document.querySelector(
+    "div.carousel>div.container"
+  );
   // 找小圆点数组
   var dotsArray = this.document.querySelectorAll("div.dots>a");
   // 找左右按钮
@@ -15,6 +19,8 @@ window.addEventListener("load", function () {
   var currentImgNumber = 0;
   // 函数节流，上锁
   var lock = false;
+  // 定义轮播图自动播放
+  var autoPlayTimer = 0;
   // 给左右按钮添加点击事件
   leftButton.onclick = function () {
     // 上锁
@@ -100,4 +106,23 @@ window.addEventListener("load", function () {
       imgShow((currentImgNumber = currentIndex));
     };
   });
+
+  // 定义函数，自动播放
+  function autoPlay() {
+    // 只要添加新的定时器，就要把之前的定时器关掉，防止累加，速度过快
+    clearInterval(autoPlayTimer);
+    autoPlayTimer = setInterval(() => {
+      rightButton.click();
+    }, 2000);
+  }
+  // 调用自动播放函数
+  autoPlay();
+  // 鼠标移入，自动播放暂停
+  carouselContainer.onmouseover = function () {
+    clearInterval(autoPlayTimer);
+  };
+  // 鼠标移出，开启自动播放
+  carouselContainer.onmouseout = function () {
+    autoPlay();
+  };
 });
