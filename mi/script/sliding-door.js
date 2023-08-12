@@ -645,7 +645,6 @@ window.addEventListener("load", function () {
   //获取dom元素
   // 找对象
   var liArray = document.querySelectorAll("div.site-category>ul>li");
-  console.log(liArray.length);
   //遍历数组
   for (var i = 0; i < liArray.length; i++) {
     //添加鼠标移入事件
