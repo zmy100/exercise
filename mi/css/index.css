@@ -314,6 +314,12 @@ div.page-body div.box-title div.remark a.highlight {
   color: #ff6700;
   padding-bottom: 3px;
 }
+/* 添加分类移入的过渡动画效果 */
+div.page-body div.box-title div.remark li a {
+  border-bottom: 2px solid transparent;
+  padding-bottom: 3px;
+  transition: color 0.2s, border-color 0.2s;
+}
 div.page-body div.box-title div.remark li a:hover,
 div.page-body div.box-title div.remark a.highlight {
   border-bottom: 2px solid #ff6700;
