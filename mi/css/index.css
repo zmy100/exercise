@@ -300,13 +300,25 @@ div.page-body div.box-title div.remark {
 }
 div.page-body div.box-title div.remark a {
   color: #424242;
+  /* 过渡效果 */
+  transition: all 0.2s;
+}
+div.page-body div.box-title div.remark a span {
+  color: #b0b0b0;
+  /* 过渡效果 */
+  transition: all 0.2s;
 }
 div.page-body div.box-title div.remark a:hover,
+div.page-body div.box-title div.remark a:hover span,
 div.page-body div.box-title div.remark a.highlight {
   color: #ff6700;
   padding-bottom: 3px;
+}
+div.page-body div.box-title div.remark li a:hover,
+div.page-body div.box-title div.remark a.highlight {
   border-bottom: 2px solid #ff6700;
 }
+
 div.page-body div.box-title div.remark ul li {
   margin-left: 30px;
 }
@@ -319,6 +331,10 @@ div.page-body div.area {
 div.page-body div.area div.sidebar {
   width: 234px;
   height: 614px;
+}
+/* 让图片把a标签撑起来 */
+div.page-body div.area div.sidebar a {
+  display: inline-block;
 }
 div.page-body div.area div.sidebar img {
   width: 234px;
@@ -364,6 +380,10 @@ div.page-body div.area div.right-side div.mid p:nth-of-type(2) {
   margin: 0 10px 14px;
   color: #ff6700;
   font-size: 14px;
+}
+div.move {
+  /* 过渡效果 */
+  transition: all 0.2s;
 }
 /* 加了这个类，就会有阴影，并且向上移动 */
 div.move:hover {
@@ -730,7 +750,6 @@ div.side-toolbar a:first-of-type:hover div.wx-code {
   font-size: 20px;
 }
 .icon-youjiantou1::before {
-  color: #b0b0b0;
   font-size: 23px;
   position: relative;
   top: 2px;
