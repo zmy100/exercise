@@ -4,7 +4,7 @@ div.carousel {
   width: 100%;
   height: 460px;
 }
-div.container {
+div.carousel div.container {
   height: 460px;
 }
 div.carousel img {
