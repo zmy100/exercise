@@ -73,7 +73,7 @@ window.addEventListener("load", function () {
   htmlString += `</a>`;
   htmlString += `</div>`;
   // 拼右边的代码
-  htmlString += `<div class="right-side flr">`;
+  htmlString += `<div class="right-side right-side-show flr">`;
   // for循环
   phoneData.rightSide.forEach((element) => {
     htmlString += `<div class="mid fl move">`;

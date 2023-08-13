@@ -349,6 +349,12 @@ div.page-body div.area div.sidebar img {
 div.page-body div.area div.right-side {
   width: 992px;
   height: 614px;
+  /* 默认隐藏 */
+  display: none;
+}
+/* 加了right-side-show类显示 */
+div.page-body div.area div.right-side.right-side-show {
+  display: block;
 }
 div.page-body div.area div.right-side div.mid {
   width: 234px;
