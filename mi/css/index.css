@@ -532,9 +532,11 @@ div.site-footer div.footer-service ul li:last-of-type {
   border-right: none;
 }
 div.site-footer div.footer-service ul li a {
-  display: block;
+  display: inline-block;
   height: 25px;
   color: #616161;
+  /* 过渡效果 */
+  transition: color 0.2s;
 }
 div.site-footer div.footer-service ul li a:hover {
   color: #ff6700;
@@ -593,7 +595,8 @@ div.site-footer div.footer-links div.col-contact a {
   border: 1px solid #ff6700;
   background: #fff;
   color: #ff6700;
-  transition: all 0.4s;
+  /* 过渡效果 */
+  transition: all 0.2s;
 }
 div.site-footer div.footer-links div.col-contact a:hover {
   background: #ff6700;
