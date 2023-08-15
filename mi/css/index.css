@@ -693,6 +693,8 @@ div.side-toolbar a {
   color: #757575;
   text-align: center;
   font-size: 14px;
+  /* 过渡效果 */
+  transition: all 0.2s;
 }
 div.side-toolbar a:last-of-type {
   margin-top: 14px;
@@ -715,7 +717,7 @@ div.wx-code {
   padding: 14px;
   background-color: #fff;
   /* 默认隐藏 */
-  display: none;
+  opacity: 0;
 }
 div.wx-code img {
   width: 100px;
@@ -743,7 +745,8 @@ div.wx-code div.arrow {
   border-left: 10px solid #fff;
 }
 div.side-toolbar a:first-of-type:hover div.wx-code {
-  display: block;
+  transition: opacity 0.2s;
+  opacity: 1;
 }
 /* 右侧工具栏 结束 */
 
