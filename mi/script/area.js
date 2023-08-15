@@ -618,6 +618,76 @@ window.addEventListener("load", function () {
       },
     },
   ];
+  // 定义变量, 表示映射关系
+  var areaMap = ["家电->jd", "智能->zn", "搭配->dp", "配件->pj", "周边->zb"];
+
+  // 遍历数据，展示数据
+  areaData.forEach((element) => {
+    // 得到的是每个版本对应的数据对象
+    // 调用函数，给box-title添加数据
+    // 找到dom元素，通过类名来找
+    var className = getClassNameByAreaName(element.areaName);
+    var dom = this.document.querySelector("div.box-title." + className);
+    showBoxTitleData(dom, [element.areaName, element.data.right]);
+  });
+
+  /**
+   * 拼接数据，展示到div.box-title里面
+   * @param {obj} dom dom元素，指定是哪个div
+   * @param {array} data 需要遍历拼接的数据
+   */
+  function showBoxTitleData(dom, data) {
+    console.log(dom);
+    // 定义空变量
+    var htmlString = "";
+    // 拼接html代码
+    htmlString += `<div class="title fl"><h2> ${data[0]} </h2></div>`;
+    htmlString += `<div class="remark flr">`;
+    htmlString += `<ul>`;
+    // for循环
+    data[1].forEach((element, index) => {
+      htmlString += `<li class="fl">`;
+      htmlString += `<a data-index="0" onmouseenter="changeTab(this)" href="javascript:;" class="${
+        index === 0 ? "highlight" : ""
+      }" >${element.areaName}</a>`;
+      htmlString += `</li>`;
+    });
+    htmlString += `</ul>`;
+    htmlString += `</div>`;
+    // 展示数据
+    dom.innerHTML = htmlString;
+  }
+
+  /**
+   * 拼接数据，展示到div.area里面
+   * @param {obj} dom dom元素，指定是哪个div
+   * @param {array} data 需要遍历拼接的数据
+   */
+  function showAreaData(dom, data) {
+    // 定义空变量
+    var htmlString = "";
+    // 拼接html代码
+
+    // 展示数据
+    dom.innerHTML = htmlString;
+  }
+
+  // 通过板块名称，获取对应的类名
+  function getClassNameByAreaName(areaName) {
+    // 定义一个空的变量，存放类名
+    var className = "";
+    // 遍历数组
+    for (var i = 0; i < areaMap.length; i++) {
+      // 判断类名是否在定义的areaMap中
+      if (areaMap[i].indexOf(areaName) !== -1) {
+        className = areaMap[i].split("->")[1];
+        break;
+      }
+    }
+    // 返回类名
+    return className;
+  }
+  //   console.log(getClassNameByAreaName("智能"));
 });
 /**
  * 鼠标移入tab，显示当前tab对应的内容，隐藏其他的内容，当前tab高亮
