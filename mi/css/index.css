@@ -679,7 +679,7 @@ div.site-info div.slogan {
 /* 右侧工具栏 开始 */
 div.side-toolbar {
   width: 84px;
-  height: 566px;
+  /* height: 566px; */
   position: fixed;
   right: 0;
   bottom: 70px;
@@ -698,6 +698,8 @@ div.side-toolbar a {
 }
 div.side-toolbar a:last-of-type {
   margin-top: 14px;
+  /* 回顶部默认隐藏 */
+  display: none;
 }
 div.side-toolbar a:hover {
   color: #ff6700;
