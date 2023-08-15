@@ -26,6 +26,8 @@
     <script src="script/carousel.js"></script>
     <!-- 引入手机板块js -->
     <script src="script/phone.js"></script>
+    <!-- 引入其他板块js -->
+    <script src="script/area.js"></script>
   </head>
   <body>
     <!-- 顶部导航 开始 -->
@@ -2523,9 +2525,22 @@
           <div class="remark flr">
             <ul>
               <li class="fl">
-                <a href="javascript:;" class="highlight">耳机</a>
+                <a
+                  data-index="0"
+                  onmouseenter="changeTab(this)"
+                  href="javascript:;"
+                  class="highlight"
+                  >耳机</a
+                >
               </li>
-              <li class="fl"><a href="javascript:;">穿戴</a></li>
+              <li class="fl">
+                <a
+                  data-index="1"
+                  onmouseenter="changeTab(this)"
+                  href="javascript:;"
+                  >穿戴</a
+                >
+              </li>
             </ul>
           </div>
         </div>
@@ -2540,7 +2555,7 @@
               />
             </a>
           </div>
-          <div class="right-side right-side-show flr">
+          <div data-index="0" class="right-side right-side-show flr">
             <div class="mid fl move">
               <a href="javascript:;">
                 <img
@@ -2642,7 +2657,7 @@
               </div>
             </div>
           </div>
-          <div class="right-side flr">
+          <div data-index="1" class="right-side flr">
             <div class="mid fl move">
               <a href="javascript:;">
                 <img
