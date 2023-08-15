@@ -620,7 +620,6 @@ window.addEventListener("load", function () {
   ];
   // 定义变量, 表示映射关系
   var areaMap = ["家电->jd", "智能->zn", "搭配->dp", "配件->pj", "周边->zb"];
-
   // 遍历数据，展示数据
   areaData.forEach((element) => {
     // 得到的是每个版本对应的数据对象
@@ -633,7 +632,6 @@ window.addEventListener("load", function () {
     var dom1 = this.document.querySelector("div.area." + className);
     showAreaData(dom1, [element.data.left, element.data.right]);
   });
-
   /**
    * 拼接数据，展示到div.box-title里面
    * @param {obj} dom dom元素，指定是哪个div
@@ -650,7 +648,7 @@ window.addEventListener("load", function () {
     // for循环
     data[1].forEach((element, index) => {
       htmlString += `<li class="fl">`;
-      htmlString += `<a data-index="0" onmouseenter="changeTab(this)" href="javascript:;" class="${
+      htmlString += `<a data-index="${index}" onmouseenter="changeTab(this)" href="javascript:;" class="${
         index === 0 ? "highlight" : ""
       }" >${element.areaName}</a>`;
       htmlString += `</li>`;
@@ -660,7 +658,6 @@ window.addEventListener("load", function () {
     // 展示数据
     dom.innerHTML = htmlString;
   }
-
   /**
    * 拼接数据，展示到div.area里面
    * @param {obj} dom dom元素，指定是哪个div
@@ -680,11 +677,51 @@ window.addEventListener("load", function () {
     htmlString += `</div>`;
     htmlString += `</div>`;
     // 右侧区域
-
+    data[1].forEach((element, index) => {
+      htmlString += `<div data-index="${index}" class="right-side ${
+        index === 0 ? "right-side-show" : ""
+      } flr">`;
+      // 遍历右侧区域商品卡片
+      // 因为有可能有8个数据, 但是最后一个数据是分上下的, 所以这里最多只遍历7个, 生成7张卡片
+      element.data.slice(0, 7).forEach((value, key) => {
+        htmlString += `<div class="mid fl move">`;
+        htmlString += `<a href="javascript:;"><img src="${value.img}" alt="" />`;
+        htmlString += `<h3>${value.title}</h3>`;
+        htmlString += `<p>${value.desc}</p>`;
+        htmlString += `<p>${value.price}</p>`;
+        htmlString += `</a>`;
+        htmlString += `</div>`;
+      });
+      // 最后一个
+      htmlString += `<div class="mid fl transparent">`;
+      // mid-top 需要的数据, 有可能有, 有可能没有, 需要判断一下
+      if (element.data[7]) {
+        htmlString += `<div class="mid-top move">`;
+        htmlString += `<a href="javascript:;">`;
+        htmlString += `<div class="mid-top-img">`;
+        htmlString += `<img src="${element.data[7].img}" alt="" />`;
+        htmlString += `</div>`;
+        htmlString += `<h3 class="title">${element.data[7].title}</h3>`;
+        htmlString += `<p class="price">${element.data[7].price}</p>`;
+        htmlString += `</a>`;
+        htmlString += `</div>`;
+      }
+      // mid-top区域
+      htmlString += `<div class="mid-bottom move">`;
+      htmlString += `<a href="javascript:;">`;
+      htmlString += `<div class="iconfont icon-youjiantou"><span></span></div>`;
+      htmlString += `<div class="more">`;
+      htmlString += `浏览更多`;
+      htmlString += `<small>${element.areaName}</small>`;
+      htmlString += `</div>`;
+      htmlString += `</a>`;
+      htmlString += `</div>`;
+      htmlString += `</div>`;
+      htmlString += `</div>`;
+    });
     // 展示数据
     dom.innerHTML = htmlString;
   }
-
   // 通过板块名称，获取对应的类名
   function getClassNameByAreaName(areaName) {
     // 定义一个空的变量，存放类名
