@@ -629,6 +629,9 @@ window.addEventListener("load", function () {
     var className = getClassNameByAreaName(element.areaName);
     var dom = this.document.querySelector("div.box-title." + className);
     showBoxTitleData(dom, [element.areaName, element.data.right]);
+    // 调用函数，给area添加数据
+    var dom1 = this.document.querySelector("div.area." + className);
+    showAreaData(dom1, [element.data.left, element.data.right]);
   });
 
   /**
@@ -667,6 +670,16 @@ window.addEventListener("load", function () {
     // 定义空变量
     var htmlString = "";
     // 拼接html代码
+    // 左侧区域
+    htmlString += `<div class="sidebar fl transparent">`;
+    htmlString += `<div class="sidebar-top move">`;
+    htmlString += `<a href="javascript:;"><img src="${data[0][0].img}" alt="" /> </a>`;
+    htmlString += `</div>`;
+    htmlString += `<div class="sidebar-bottom move">`;
+    htmlString += `<a href="javascript:;"> <img src="${data[0][1].img}" alt="" /> </a>`;
+    htmlString += `</div>`;
+    htmlString += `</div>`;
+    // 右侧区域
 
     // 展示数据
     dom.innerHTML = htmlString;
