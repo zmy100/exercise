@@ -11,3 +11,8 @@ a {
 li {
   list-style: none;
 }
+/* 去除input框默认样式 */
+input {
+  outline: none;
+  border: none;
+}
