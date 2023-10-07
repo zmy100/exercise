@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/common.css" />
     <link rel="stylesheet" href="style/iconfont.css" />
     <style>
+      /* 首页头部 */
       .header {
         width: 335rem;
         height: 30rem;
@@ -17,13 +18,7 @@
         left: 20rem;
         z-index: 10;
       }
-      .footer {
-        width: 375rem;
-        height: 48rem;
-        background-color: orange;
-        position: fixed;
-        bottom: 0;
-      }
+      /* 首页主体部分 */
       .body {
         position: fixed;
         top: 0;
@@ -32,23 +27,47 @@
         right: 0;
         background-color: darkcyan;
       }
+      /* 首页底部 */
+      .footer {
+        width: 375rem;
+        height: 48rem;
+        position: fixed;
+        bottom: 0;
+        border-top: 1px solid #dadada;
+        display: flex;
+        justify-content: space-around;
+      }
+      .footer__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+      .footer__item__iconfont {
+        font-size: 20px;
+        line-height: 1.2;
+      }
+      /* 首页底部高亮变色 */
+      .footer__item-active {
+        color: #bf2a2f;
+      }
     </style>
   </head>
   <body>
     <div class="header"></div>
     <div class="body"></div>
     <div class="footer">
-      <div class="footer-item">
-        <span class="footer-item-iconfont iconfont icon-shouye"></span>
-        <span class="footer-item-text">首页</span>
+      <div class="footer__item footer__item-active">
+        <span class="footer__item__iconfont iconfont icon-shouye"></span>
+        <span class="footer__item__text">首页</span>
       </div>
-      <div class="footer-item">
-        <span class="footer-item-iconfont iconfont icon-position"></span>
-        <span class="footer-item-text">目的地</span>
+      <div class="footer__item">
+        <span class="footer__item__iconfont iconfont icon-position"></span>
+        <span class="footer__item__text">目的地</span>
       </div>
-      <div class="footer-item">
-        <span class="footer-item-iconfont iconfont icon-wode"></span>
-        <span class="footer-item-text">我的</span>
+      <div class="footer__item">
+        <span class="footer__item__iconfont iconfont icon-wode"></span>
+        <span class="footer__item__text">我的</span>
       </div>
     </div>
   </body>
