@@ -43,7 +43,39 @@
         bottom: 48rem;
         left: 0;
         right: 0;
-        background-color: darkcyan;
+      }
+      .body__slider {
+        font-size: 0;
+      }
+      /* 主体部分轮播图 */
+      .body__slider__img {
+        width: 375rem;
+        height: 180rem;
+      }
+      /* 主体部分导航栏 */
+      .body__nav {
+        width: 375rem;
+        height: 210rem;
+        display: flex;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content: center;
+      }
+      .body__nav__item {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 12rem;
+        color: #999;
+        margin-bottom: 20.5rem;
+      }
+      .body__nav__item__img {
+        width: 44rem;
+        height: 44rem;
+        border-radius: 44rem;
+        margin-bottom: 5.5rem;
       }
       /* 首页底部 */
       .footer {
@@ -72,6 +104,7 @@
     </style>
   </head>
   <body>
+    <!-- 首页头部 -->
     <div class="header">
       <span class="header_iconfont iconfont icon-sousuo"></span>
       <input
@@ -80,7 +113,47 @@
         placeholder="搜索目的地/折扣/关键字"
       />
     </div>
-    <div class="body"></div>
+    <!-- 首页主体部分 -->
+    <div class="body">
+      <div class="body__slider">
+        <img src="./img/slider.jpg" alt="" class="body__slider__img" />
+      </div>
+      <div class="body__nav">
+        <div class="body__nav__item">
+          <img src="./img/ct.png" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">餐厅预订</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/hf.png" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">和服体验</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/cd.jpg" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">茶道</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/yc.gif" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">用车服务</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/qs.jpg" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">轻奢</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/ym.jpg" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">医美</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/xc.jpg" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">行程定制</span>
+        </div>
+        <div class="body__nav__item">
+          <img src="./img/ms.jpg" alt="" class="body__nav__item__img" />
+          <span class="body__nav__item__text">免税品</span>
+        </div>
+      </div>
+    </div>
+    <!-- 底部导航 -->
     <div class="footer">
       <div class="footer__item footer__item-active">
         <span class="footer__item__iconfont iconfont icon-shouye"></span>
