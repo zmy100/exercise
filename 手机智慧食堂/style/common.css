@@ -21,3 +21,24 @@ input::-ms-input-placeholder {
   /* Microsoft Edge */
   color: white;
 }
+
+/* 搜索框 */
+.header__input {
+  width: 100%;
+  height: 100%;
+  border-radius: 27.5rem;
+  padding-left: 46rem;
+  box-sizing: border-box;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.2);
+  border: 0 solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5rem 10rem 0 rgba(0, 0, 0, 0.05);
+  border-radius: 27.5rem;
+}
+.header_iconfont {
+  color: #100e0e;
+  position: absolute;
+  z-index: 20;
+  margin-left: 20rem;
+  margin-top: 7rem;
+}

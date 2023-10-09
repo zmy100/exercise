@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 引入CSS -->
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/common.css" />
+    <link rel="stylesheet" href="style/iconfont.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <style>
+      /* 头部区域 */
+      .header {
+        width: 375rem;
+        height: 149rem;
+        background-image: url(./img/des_bgimg.jpg);
+        background-size: contain;
+        padding-top: 57rem;
+      }
+      .header__p {
+        font-weight: bold;
+        font-size: 18rem;
+        color: #fff;
+        text-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.5);
+        text-align: center;
+        margin-bottom: 17rem;
+      }
+      .header__search {
+        position: relative;
+      }
+      .header__input {
+        width: 335rem;
+        height: 30rem;
+        display: block;
+        margin: 0 auto;
+      }
+      .header_iconfont {
+        left: 20rem;
+      }
+      /* 主体区域 */
+      .main {
+        position: fixed;
+        top: 149rem;
+        bottom: 48rem;
+        left: 0;
+        right: 0;
+        background-color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 头部区域 -->
+    <div class="header">
+      <p class="header__p">目的地</p>
+      <div class="header__search">
+        <span class="header_iconfont iconfont icon-sousuo"></span>
+        <input
+          type="text"
+          class="header__input"
+          placeholder="搜索目的地/折扣/关键字"
+        />
+      </div>
+    </div>
+    <!-- 主体区域 -->
+    <div class="main"></div>
+    <!-- 底部导航 -->
+    <div class="footer">
+      <div class="footer__item">
+        <span class="footer__item__iconfont iconfont icon-shouye"></span>
+        <span class="footer__item__text">首页</span>
+      </div>
+      <div class="footer__item footer__item-active">
+        <span class="footer__item__iconfont iconfont icon-position"></span>
+        <span class="footer__item__text">目的地</span>
+      </div>
+      <div class="footer__item">
+        <span class="footer__item__iconfont iconfont icon-wode"></span>
+        <span class="footer__item__text">我的</span>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+/* 底部导航 */
+.footer {
+  width: 375rem;
+  height: 48rem;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  border-top: 1rem solid #dadada;
+  display: flex;
+  justify-content: space-around;
+}
+.footer__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer__item__iconfont {
+  font-size: 20rem;
+  line-height: 1.2;
+}
+/* 底部导航高亮变色 */
+.footer__item-active {
+  color: #bf2a2f;
+}
