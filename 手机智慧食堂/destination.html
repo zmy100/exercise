@@ -48,14 +48,10 @@
         display: flex;
         background-color: orange;
       }
+      /* 主体区域左侧部分 */
       .main__left {
         width: 76px;
         background-color: #fafafa;
-      }
-      .main__right {
-        width: 299px;
-        background-color: #fff;
-        /* padding: 20px 0; */
       }
       .main__left__ul__li {
         width: 76px;
@@ -79,6 +75,29 @@
         position: absolute;
         left: 0;
         border-left: 2px solid #bf2a2f;
+      }
+      /* 主体区域右侧部分 */
+      .main__right {
+        width: 299px;
+        background-color: #fff;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 120px 120px;
+        grid-auto-rows: 68px;
+        grid-auto-columns: 120px;
+        gap: 20px;
+        overflow-y: auto;
+        overflow-x: hidden;
+      }
+      .main__right__item {
+        width: 120px;
+        height: 68px;
+        font-size: 16px;
+        color: #fff;
+        text-align: center;
+        line-height: 68px;
+        background-image: url(./img/des_china.jpg);
+        background-size: cover;
       }
     </style>
   </head>
@@ -108,7 +127,24 @@
           <li class="main__left__ul__li">南极洲</li>
         </ul>
       </div>
-      <div class="main__right"></div>
+      <div class="main__right">
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+        <div class="main__right__item">中国</div>
+      </div>
     </div>
     <!-- 底部导航 -->
     <div class="footer">
