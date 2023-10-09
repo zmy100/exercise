@@ -61,6 +61,7 @@
         flex-wrap: wrap;
         justify-content: space-around;
         align-content: center;
+        padding-top: 25rem;
       }
       .body__nav__item {
         width: 25%;
@@ -77,10 +78,63 @@
         border-radius: 44rem;
         margin-bottom: 5.5rem;
       }
+
+      /* 中间过渡灰色 */
+      .body__gap {
+        width: 375rem;
+        height: 10rem;
+        background-color: #f5f5f5;
+      }
+      /* 商品区域 */
+      .body__products {
+        width: 375rem;
+        padding: 20rem;
+      }
+      /* 商品区域大标题 */
+      .body__products__title {
+        font-size: 16rem;
+        color: #191919;
+        margin-bottom: 10rem;
+      }
+      /* 商品区域具体商品列表区域 */
+      .body__products__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .body__products__list__item {
+        width: 47%;
+      }
+      .body__products__list__item__img {
+        width: 158rem;
+        height: 105rem;
+        margin-bottom: 6rem;
+      }
+      .body__products__list__item__title {
+        font-size: 14rem;
+        color: #333333;
+        height: 40rem;
+        line-height: 20rem;
+        /* 超出两行部分省略，显示省略号 */
+        -webkit-line-clamp: 2; /* 设置文本最多显示的行数为2行 */
+        word-break: break-all; /* 强制换行 */
+        overflow: hidden; /* 控制溢出部分的处理方式，hidden表示隐藏超出容器的部分 */
+        text-overflow: ellipsis; /* 设置文本溢出时显示省略号（...）*/
+        -webkit-box-orient: vertical; /* 设置文本容器内的盒状元素排列方式为垂直方向 */
+        display: -webkit-box; /* 使用基于 Webkit 内核的浏览器设置元素为盒状元素展示方式（flex）*/
+      }
+      .body__products__list__item__price {
+        font-size: 14rem;
+        color: #e93b3b;
+        line-height: 20rem;
+        font-weight: bold;
+        margin-bottom: 8rem;
+      }
       /* 首页底部 */
       .footer {
         width: 375rem;
         height: 48rem;
+        background-color: #fff;
         position: fixed;
         bottom: 0;
         border-top: 1rem solid #dadada;
@@ -115,9 +169,11 @@
     </div>
     <!-- 首页主体部分 -->
     <div class="body">
+      <!-- 主体部分轮播图 -->
       <div class="body__slider">
         <img src="./img/slider.jpg" alt="" class="body__slider__img" />
       </div>
+      <!-- 主体部分导航栏 -->
       <div class="body__nav">
         <div class="body__nav__item">
           <img src="./img/ct.png" alt="" class="body__nav__item__img" />
@@ -150,6 +206,112 @@
         <div class="body__nav__item">
           <img src="./img/ms.jpg" alt="" class="body__nav__item__img" />
           <span class="body__nav__item__text">免税品</span>
+        </div>
+      </div>
+      <!-- 中间过渡灰色 -->
+      <div class="body__gap"></div>
+      <!-- 商品区域 -->
+      <div class="body__products">
+        <!-- 商品区域大标题 -->
+        <div class="body__products__title">精选折扣</div>
+        <!-- 商品区域具体商品列表区域 -->
+        <div class="body__products__list">
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
+          <div class="body__products__list__item">
+            <img
+              src="./img/fj.jpg"
+              alt=""
+              class="body__products__list__item__img"
+            />
+            <div class="body__products__list__item__title">
+              私人定制 | 巴黎凡尔赛宫+枫丹白露宫
+              包车1日啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊啊
+            </div>
+            <div class="body__products__list__item__price">2199元起</div>
+          </div>
         </div>
       </div>
     </div>
