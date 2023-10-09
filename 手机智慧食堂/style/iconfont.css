@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-xiangyou:before {
+  content: "\e62c";
+}
+
 .icon-kefu:before {
   content: "\e63c";
 }

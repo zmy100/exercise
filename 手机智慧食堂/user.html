@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- 引入CSS -->
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/common.css" />
+    <link rel="stylesheet" href="style/iconfont.css" />
+    <link rel="stylesheet" href="style/footer.css" />
+    <style>
+      /* 头部区域 */
+      .header {
+        width: 375rem;
+        height: 149rem;
+        background-image: url(./img/user_bgimg.png);
+        background-size: cover;
+      }
+      /* 主体区域 */
+      .main__user-info {
+        text-align: center;
+        transform: translate(0rem, -72rem);
+        margin-bottom: -40rem;
+      }
+      .main__user-info__img {
+        width: 130rem;
+        height: 130rem;
+        border-radius: 130rem;
+        margin-bottom: 20rem;
+      }
+      .main__user-info__username {
+        font-size: 20rem;
+        color: #203152;
+      }
+      .main__user-info__phone {
+        font-size: 14rem;
+        color: #7c8698;
+      }
+      .main__user-options {
+        padding: 0 20rem;
+      }
+      .main__user-options li {
+        margin: 20rem 0;
+        display: flex;
+        justify-content: space-between;
+      }
+      .main__user-options__left {
+        font-size: 14rem;
+        color: #262626;
+      }
+      .main__user-options__right {
+        font-size: 14rem;
+        color: #c2c4ca;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 头部区域 -->
+    <div class="header"></div>
+    <!-- 主体区域 -->
+    <div class="main">
+      <div class="main__user-info">
+        <img src="./img/user_photo.jpg" alt="" class="main__user-info__img" />
+        <div class="main__user-info__username">王豆豆</div>
+        <div class="main__user-info__phone">18911023266</div>
+      </div>
+      <div class="main__user-options">
+        <ul>
+          <li>
+            <span class="main__user-options__left">我的行程计划</span>
+            <span
+              class="main__user-options__right iconfont icon-xiangyou"
+            ></span>
+          </li>
+          <li>
+            <span class="main__user-options__left">我的收藏</span>
+            <span
+              class="main__user-options__right iconfont icon-xiangyou"
+            ></span>
+          </li>
+          <li>
+            <span class="main__user-options__left">售后于客服</span>
+            <span
+              class="main__user-options__right iconfont icon-xiangyou"
+            ></span>
+          </li>
+          <li>
+            <span class="main__user-options__left">我的优惠券</span>
+            <span
+              class="main__user-options__right iconfont icon-xiangyou"
+            ></span>
+          </li>
+          <li>
+            <span class="main__user-options__left">常用旅客管理</span>
+            <span
+              class="main__user-options__right iconfont icon-xiangyou"
+            ></span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- 底部导航 -->
+    <div class="footer">
+      <div class="footer__item">
+        <span class="footer__item__iconfont iconfont icon-shouye"></span>
+        <span class="footer__item__text">首页</span>
+      </div>
+      <div class="footer__item">
+        <span class="footer__item__iconfont iconfont icon-position"></span>
+        <span class="footer__item__text">目的地</span>
+      </div>
+      <div class="footer__item footer__item-active">
+        <span class="footer__item__iconfont iconfont icon-wode"></span>
+        <span class="footer__item__text">我的</span>
+      </div>
+    </div>
+  </body>
+</html>
