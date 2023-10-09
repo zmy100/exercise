@@ -77,38 +77,81 @@
         padding-bottom: 11rem;
         border-bottom: 2rem solid #dadada;
       }
-
       .main__title {
-        font-size: 20px;
+        font-size: 20rem;
         color: #333;
-        border-left: 6px solid #bf2a2f;
-        padding-left: 14px;
+        border-left: 6rem solid #bf2a2f;
+        padding-left: 14rem;
         font-weight: normal;
-        margin-top: 40px;
-        margin-bottom: 30px;
+        margin-top: 40rem;
+        margin-bottom: 30rem;
       }
+      /* 产品简介区域 */
       .main__product__desc {
-        padding: 0 20px;
+        padding: 0 20rem;
       }
       .main__product__desc__ul__li {
-        font-size: 14px;
+        font-size: 14rem;
         color: #333;
-        line-height: 24px;
+        line-height: 24rem;
       }
+      /* 预订流程区域 */
       .main__order__img {
-        width: 301px;
-        height: 210px;
+        width: 301rem;
+        height: 210rem;
         margin: 0 auto;
         display: block;
       }
-      /* 底部区域
-      div.footer {
+      /* 退款流程区域 */
+      .main__refund__content {
+        padding: 0 20rem;
+        font-size: 14rem;
+        color: #333;
+        line-height: 24rem;
+      }
+      /* 底部区域 */
+      .main__footer {
         width: 375rem;
         height: 50rem;
-        background-color: orange;
-        position: fixed;
-        bottom: 0;
-      } */
+        background-color: #fff;
+        border-top: 1rem solid #dadada;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .main__footer__left {
+        display: flex;
+      }
+      .main__footer__left__button {
+        width: 76rem;
+        height: 34rem;
+        border: 1rem solid #bf2a2f;
+        border-radius: 3rem;
+        margin-right: 10rem;
+        font-size: 14rem;
+        color: #bf2a2f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main__footer__left__button__iconfont {
+        font-size: 20rem;
+        margin-right: 6rem;
+      }
+
+      .main__footer__right {
+        background-color: #bf2a2f;
+        border: 1rem solid #bf2a2f;
+        border-radius: 3rem;
+        width: 120rem;
+        height: 34rem;
+        font-size: 14rem;
+        color: #fff;
+        text-align: center;
+        line-height: 34rem;
+      }
     </style>
   </head>
   <body>
@@ -148,6 +191,7 @@
           <div class="main__desc__info__sale">已售 138份</div>
         </div>
       </div>
+      <!-- 产品简介区域 -->
       <h1 class="main__title">产品简介</h1>
       <div class="main__product__desc">
         <ul>
@@ -166,10 +210,32 @@
           </li>
         </ul>
       </div>
+      <!-- 预订流程区域 -->
       <h1 class="main__title">预订流程</h1>
       <img src="./img/detail_order.png" alt="" class="main__order__img" />
+      <!-- 退款流程区域 -->
+      <h1 class="main__title">退款流程</h1>
+      <p class="main__refund__content">
+        本商品为特价商品，成功付款后视为消费，原则上不予变更、取消。特殊原因可与商家协商，按照实际损失收取费用。
+      </p>
+      <!-- 底部区域 -->
+      <div class="main__footer">
+        <div class="main__footer__left">
+          <div class="main__footer__left__button">
+            <span
+              class="main__footer__left__button__iconfont iconfont icon-kefu"
+            ></span>
+            <span class="main__footer__left__button__content">咨询</span>
+          </div>
+          <div class="main__footer__left__button">
+            <span
+              class="main__footer__left__button__iconfont iconfont icon-aixin"
+            ></span>
+            <span class="main__footer__left__button__content">收藏</span>
+          </div>
+        </div>
+        <div class="main__footer__right">立即预定</div>
+      </div>
     </div>
-    <!-- 底部区域 -->
-    <!-- <div class="main__footer"></div> -->
   </body>
 </html>
