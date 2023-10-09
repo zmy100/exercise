@@ -45,7 +45,40 @@
         bottom: 48rem;
         left: 0;
         right: 0;
+        display: flex;
         background-color: orange;
+      }
+      .main__left {
+        width: 76px;
+        background-color: #fafafa;
+      }
+      .main__right {
+        width: 299px;
+        background-color: #fff;
+        /* padding: 20px 0; */
+      }
+      .main__left__ul__li {
+        width: 76px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+        color: #333;
+      }
+      .main__left li.active {
+        font-weight: bold;
+        color: #bf2a2f;
+        background-color: #fff;
+        position: relative;
+      }
+      .main__left li.active::before {
+        display: block;
+        content: "";
+        width: 2px;
+        height: 40px;
+        position: absolute;
+        left: 0;
+        border-left: 2px solid #bf2a2f;
       }
     </style>
   </head>
@@ -58,12 +91,25 @@
         <input
           type="text"
           class="header__input"
-          placeholder="搜索目的地/折扣/关键字"
+          placeholder="搜索您想去的国家"
         />
       </div>
     </div>
     <!-- 主体区域 -->
-    <div class="main"></div>
+    <div class="main">
+      <div class="main__left">
+        <ul>
+          <li class="main__left__ul__li active">亚洲</li>
+          <li class="main__left__ul__li">欧洲</li>
+          <li class="main__left__ul__li">非洲</li>
+          <li class="main__left__ul__li">大洋洲</li>
+          <li class="main__left__ul__li">北美</li>
+          <li class="main__left__ul__li">南美</li>
+          <li class="main__left__ul__li">南极洲</li>
+        </ul>
+      </div>
+      <div class="main__right"></div>
+    </div>
     <!-- 底部导航 -->
     <div class="footer">
       <div class="footer__item">
