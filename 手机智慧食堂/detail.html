@@ -124,12 +124,14 @@
       .main__footer__left {
         display: flex;
       }
+      .main__footer__left__a-two{
+        transform: translate(10rem);
+      }
       .main__footer__left__button {
         width: 76rem;
         height: 34rem;
         border: 1rem solid #bf2a2f;
         border-radius: 3rem;
-        margin-right: 10rem;
         font-size: 14rem;
         color: #bf2a2f;
         display: flex;
@@ -140,7 +142,6 @@
         font-size: 20rem;
         margin-right: 6rem;
       }
-
       .main__footer__right {
         background-color: #bf2a2f;
         border: 1rem solid #bf2a2f;
@@ -221,20 +222,26 @@
       <!-- 底部区域 -->
       <div class="main__footer">
         <div class="main__footer__left">
-          <div class="main__footer__left__button">
-            <span
-              class="main__footer__left__button__iconfont iconfont icon-kefu"
-            ></span>
-            <span class="main__footer__left__button__content">咨询</span>
-          </div>
-          <div class="main__footer__left__button">
-            <span
-              class="main__footer__left__button__iconfont iconfont icon-aixin"
-            ></span>
-            <span class="main__footer__left__button__content">收藏</span>
-          </div>
+          <a href="#" class="main__footer__left__a-one">
+            <div class="main__footer__left__button">
+              <span
+                class="main__footer__left__button__iconfont iconfont icon-kefu"
+              ></span>
+              <span class="main__footer__left__button__content">咨询</span>
+            </div>
+          </a>
+          <a href="#" class="main__footer__left__a-two">
+            <div class="main__footer__left__button">
+              <span
+                class="main__footer__left__button__iconfont iconfont icon-aixin"
+              ></span>
+              <span class="main__footer__left__button__content">收藏</span>
+            </div>
+          </a>
         </div>
-        <div class="main__footer__right">立即预定</div>
+        <a href="#">
+          <div class="main__footer__right">立即预定</div>
+        </a>
       </div>
     </div>
   </body>
