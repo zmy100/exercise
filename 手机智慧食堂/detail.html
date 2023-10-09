@@ -37,7 +37,9 @@
         bottom: 0;
         right: 0;
         left: 0;
-        background-color: gray;
+        /* background-color: gray; */
+        /* 加上滚轮 */
+        overflow-y: auto;
       }
       .main__img {
         width: 375rem;
@@ -46,7 +48,6 @@
       }
       .main__desc {
         width: 375rem;
-        /* background-color: orange; */
         padding-left: 20rem;
         padding-right: 20rem;
       }
@@ -75,6 +76,30 @@
         padding-top: 12rem;
         padding-bottom: 11rem;
         border-bottom: 2rem solid #dadada;
+      }
+
+      .main__title {
+        font-size: 20px;
+        color: #333;
+        border-left: 6px solid #bf2a2f;
+        padding-left: 14px;
+        font-weight: normal;
+        margin-top: 40px;
+        margin-bottom: 30px;
+      }
+      .main__product__desc {
+        padding: 0 20px;
+      }
+      .main__product__desc__ul__li {
+        font-size: 14px;
+        color: #333;
+        line-height: 24px;
+      }
+      .main__order__img {
+        width: 301px;
+        height: 210px;
+        margin: 0 auto;
+        display: block;
       }
       /* 底部区域
       div.footer {
@@ -123,6 +148,26 @@
           <div class="main__desc__info__sale">已售 138份</div>
         </div>
       </div>
+      <h1 class="main__title">产品简介</h1>
+      <div class="main__product__desc">
+        <ul>
+          <li class="main__product__desc__ul__li">
+            多地出发:全国各地出发，同样适合周边城市的穷游er
+          </li>
+          <li class="main__product__desc__ul__li">
+            多种选择:提供不同星级酒店可供选择，满足不同穷游er的需求
+          </li>
+          <li class="main__product__desc__ul__li">超级赠送:h值赠送5选1</li>
+          <li class="main__product__desc__ul__li">
+            接机服务:贴心赠送专车接送机，出机场不再茫然
+          </li>
+          <li class="main__product__desc__ul__li">
+            包含餐食:便利贴心，节省一笔开支
+          </li>
+        </ul>
+      </div>
+      <h1 class="main__title">预订流程</h1>
+      <img src="./img/detail_order.png" alt="" class="main__order__img" />
     </div>
     <!-- 底部区域 -->
     <!-- <div class="main__footer"></div> -->
