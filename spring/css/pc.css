@@ -48,6 +48,9 @@ div.banner img {
   width: 41vw;
   height: 24vw;
 }
+div.banner .sunflower__text.bottom {
+  display: none;
+}
 div.banner .sunflower__text h1 {
   font-family: Helvetica-Bold;
   font-size: 2vw;
@@ -65,7 +68,4 @@ div.banner .sunflower__text p {
   font-weight: 100vw;
   letter-spacing: 0vw;
   color: #2c2c2c;
-}
-.sunflower {
-  width: 66vw;
 }

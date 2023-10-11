@@ -37,3 +37,37 @@ div.pattern img {
   width: 44vw;
   height: 44vw;
 }
+/* sunflower banner区域 */
+div.banner {
+  width: calc(100vw - 17px);
+  height: 106vw;
+  background-color: #fffdf3;
+}
+div.banner img {
+  width: calc(100vw - 17px);
+  height: 61vw;
+  margin-bottom: 10vw;
+}
+/* top文字部分隐藏 */
+div.banner .sunflower__text.top {
+  display: none;
+}
+div.banner .sunflower__text h1 {
+  font-family: Helvetica-Bold;
+  font-size: 4vw;
+  font-weight: 500vw;
+  font-stretch: normal;
+  line-height: 5vw;
+  letter-spacing: 0vw;
+  color: #000000;
+  margin-bottom: 6vw;
+  margin-left: 11vw;
+}
+div.banner .sunflower__text p {
+  font-family: Helvetica-Light;
+  font-size: 3vw;
+  font-weight: 100vw;
+  letter-spacing: 0vw;
+  color: #2c2c2c;
+  margin: 0 11vw;
+}
