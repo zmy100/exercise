@@ -1,6 +1,6 @@
 /* 头部区域 */
 div.header {
-  width: 100vw;
+  width: calc(100vw - 17px);
   height: 41vw;
   background-image: url(../img/header_pc.png);
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@ div.header {
 }
 /* pattern区域 */
 div.patterns {
-  width: 100vw;
+  width: calc(100vw - 17px);
   height: 39vw;
   background-color: olive;
   padding-top: 9vw;
