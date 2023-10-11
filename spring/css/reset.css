@@ -1,18 +1,32 @@
+/* 样式重置 */
 /* 清除内外边距 */
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* 去除a标签默认下划线 */
 a {
   text-decoration: none;
 }
-/* 去除input框默认属性 */
+/* 清除input框默认样式 */
 input {
   border: none;
   outline: none;
 }
-/* 去除ul列表默认属性 */
-ul {
+/* 清除列表样式 */
+ul,
+ol {
   list-style: none;
+}
+/* 清除浮动 */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
 }

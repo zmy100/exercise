@@ -1,0 +1,40 @@
+/* 头部区域 */
+div.header {
+  width: 100vw;
+  height: 147vw;
+  background-image: url(../img/header_mobile.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+/* pattern区域 */
+div.patterns {
+  width: 100vw;
+  height: 152vw;
+  background-color: olive;
+  padding-top: 19vw;
+}
+h1.title {
+  font-family: Helvetica-Bold;
+  font-size: 5vw;
+  font-weight: 500vw;
+  font-stretch: normal;
+  line-height: 8vw;
+  letter-spacing: 0vw;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 19vw;
+}
+div.pattern {
+  width: 93vw;
+  height: 93vw;
+  background-color: aqua;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap:wrap ;
+}
+div.pattern img {
+  width: 44vw;
+  height: 44vw;
+}
