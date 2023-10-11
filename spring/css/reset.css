@@ -1,0 +1,18 @@
+/* 清除内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* 去除a标签默认下划线 */
+a {
+  text-decoration: none;
+}
+/* 去除input框默认属性 */
+input {
+  border: none;
+  outline: none;
+}
+/* 去除ul列表默认属性 */
+ul {
+  list-style: none;
+}

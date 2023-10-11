@@ -1,0 +1,12 @@
+/* 头部区域 */
+div.header {
+  width: 100%;
+}
+div.header img {
+  width: 100%;
+}
+/* 设置版心 */
+.container {
+  width: 1270px;
+  margin: 0 auto;
+}
