@@ -11,7 +11,6 @@ div.header {
 div.patterns {
   width: calc(100vw - 17px);
   height: 39vw;
-  background-color: olive;
   padding-top: 9vw;
 }
 h1.title {
@@ -27,7 +26,6 @@ h1.title {
 div.pattern {
   width: 67vw;
   height: 16vw;
-  background-color: aqua;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -35,4 +33,39 @@ div.pattern {
 div.pattern img {
   width: 16vw;
   height: 16vw;
+}
+/* sunflower banner区域 */
+div.banner {
+  width: calc(100vw - 17px);
+  height: 28vw;
+  background-color: #fffdf3;
+  padding: 0 17vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.banner img {
+  width: 41vw;
+  height: 24vw;
+}
+div.banner .sunflower__text h1 {
+  font-family: Helvetica-Bold;
+  font-size: 2vw;
+  font-weight: 500vw;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #000000;
+  margin-bottom: 2vw;
+}
+div.banner .sunflower__text p {
+  width: 23vw;
+  font-family: Helvetica-Light;
+  font-size: 1vw;
+  font-weight: 100vw;
+  letter-spacing: 0vw;
+  color: #2c2c2c;
+}
+.sunflower {
+  width: 66vw;
 }
