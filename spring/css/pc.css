@@ -120,6 +120,16 @@ div.swiper-button {
   background-color: #eeeeee;
   position: absolute;
   top: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 鼠标移入样式 */
+  cursor: pointer;
+}
+div.swiper-button .iconfont {
+  font-size: 2vw;
+  font-weight: 600;
+  color: #232323;
 }
 div.swiper-button.swiper-button-prev {
   left: 12vw;
