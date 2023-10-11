@@ -16,7 +16,7 @@ div.patterns {
 h1.title {
   font-family: Helvetica-Bold;
   font-size: 2vw;
-  font-weight: 500vw;
+  font-weight: 800;
   font-stretch: normal;
   letter-spacing: 0vw;
   color: #000000;
@@ -54,7 +54,7 @@ div.banner .sunflower__text.bottom {
 div.banner .sunflower__text h1 {
   font-family: Helvetica-Bold;
   font-size: 2vw;
-  font-weight: 500vw;
+  font-weight: 800;
   font-stretch: normal;
   line-height: 2vw;
   letter-spacing: 0vw;
@@ -65,7 +65,65 @@ div.banner .sunflower__text p {
   width: 23vw;
   font-family: Helvetica-Light;
   font-size: 1vw;
-  font-weight: 100vw;
+  font-weight: 200;
   letter-spacing: 0vw;
   color: #2c2c2c;
+}
+/* sunflower swiper区域 */
+div.swiper {
+  width: calc(100vw - 17px);
+  height: 35vw;
+  background-color: #ffffff;
+  padding-top: 6vw;
+  position: relative;
+}
+div.swiper .swiper-wrapper {
+  width: 67vw;
+  height: 22vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+div.swiper .swiper-wrapper .swiper-slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.swiper .swiper-wrapper .swiper-slide img {
+  width: 16vw;
+  height: 16vw;
+}
+div.swiper .swiper-wrapper .swiper-slide .title {
+  font-family: Helvetica-Light;
+  font-size: 1vw;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #232323;
+  margin-top: 1vw;
+}
+div.swiper .swiper-wrapper .swiper-slide .price {
+  font-family: Helvetica-Bold;
+  font-size: 1vw;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #232323;
+}
+/* swiper 左右按钮 */
+div.swiper-button {
+  width: 3vw;
+  height: 3vw;
+  border-radius: 3vw;
+  background-color: #eeeeee;
+  position: absolute;
+  top: 12vw;
+}
+div.swiper-button.swiper-button-prev {
+  left: 12vw;
+}
+div.swiper-button.swiper-button-next {
+  right: 12vw;
 }

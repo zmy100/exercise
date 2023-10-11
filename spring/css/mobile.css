@@ -16,7 +16,7 @@ div.patterns {
 h1.title {
   font-family: Helvetica-Bold;
   font-size: 5vw;
-  font-weight: 500vw;
+  font-weight: 800;
   font-stretch: normal;
   line-height: 8vw;
   letter-spacing: 0vw;
@@ -55,7 +55,7 @@ div.banner .sunflower__text.top {
 div.banner .sunflower__text h1 {
   font-family: Helvetica-Bold;
   font-size: 4vw;
-  font-weight: 500vw;
+  font-weight: 800;
   font-stretch: normal;
   line-height: 5vw;
   letter-spacing: 0vw;
@@ -66,7 +66,7 @@ div.banner .sunflower__text h1 {
 div.banner .sunflower__text p {
   font-family: Helvetica-Light;
   font-size: 3vw;
-  font-weight: 100vw;
+  font-weight: 200;
   letter-spacing: 0vw;
   color: #2c2c2c;
   margin: 0 11vw;
