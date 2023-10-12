@@ -261,7 +261,7 @@ div.ask .img {
   width: 66vw;
   height: 24vw;
   margin: 0 auto;
-  background-image: url(../img/ask.png);
+  background-image: url(../img/ask_pc.png);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -296,5 +296,4 @@ div.ask .img .item .item-content {
 }
 div.ask .gap {
   height: 9vw;
-  background-color: #ffffff;
 }

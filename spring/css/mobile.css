@@ -209,3 +209,64 @@ div.try p.content2 {
   text-align: center;
   margin: 0 auto;
 }
+/* ask区域 */
+div.ask {
+  width: calc(100vw - 17px);
+  height: 109vw;
+  background-color: #ffffff;
+  padding-top: 17vw;
+}
+div.ask h1 {
+  width: 77vw;
+  height: 12vw;
+  font-family: Helvetica-Bold;
+  font-size: 5vw;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: 8vw;
+  letter-spacing: 0vw;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 11vw;
+}
+div.ask .img {
+  width: 91vw;
+  height: 47vw;
+  margin: 0 auto;
+  background-image: url(../img/ask_mobile.png);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+div.ask .img .item {
+  text-align: center;
+}
+div.ask .img .item.one {
+  width: 17vw;
+}
+div.ask .img .item.two {
+  width: 29vw;
+}
+div.ask .img .item.three {
+  width: 21vw;
+}
+div.ask .img .item .item-img {
+  width: 10vw;
+  height: 10vw;
+  margin-bottom: 1vw;
+}
+div.ask .img .item .item-content {
+  font-family: Helvetica-Bold;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 4vw;
+  letter-spacing: 0vw;
+  color: #ffffff;
+}
+div.ask .gap {
+  height: 12vw;
+}
