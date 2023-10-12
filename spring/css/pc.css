@@ -43,7 +43,7 @@ div.banner {
   justify-content: space-between;
   align-items: center;
 }
-
+/* 设置四个区域的banner颜色和隐藏文字 开始 */
 div.sunflower {
   background-color: #fffdf3;
 }
@@ -62,7 +62,13 @@ div.Passi {
 div.Passi .text.bottom {
   display: none;
 }
-
+div.Wind {
+  background-color: #f3f9ff;
+}
+div.Wind .text.top {
+  display: none;
+}
+/* 设置四个区域的banner颜色和隐藏文字 结束 */
 div.banner img {
   width: 41vw;
   height: 24vw;

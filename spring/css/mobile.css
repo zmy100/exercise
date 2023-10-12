@@ -42,7 +42,7 @@ div.banner {
   width: calc(100vw - 17px);
   height: 112vw;
 }
-
+/* 设置四个区域的banner颜色 开始 */
 div.sunflower {
   background-color: #fffdf3;
 }
@@ -52,7 +52,10 @@ div.Pastel {
 div.Passi {
   background-color: #faf6fb;
 }
-
+div.Wind {
+  background-color: #f3f9ff;
+}
+/* 设置四个区域的banner颜色 结束 */
 div.banner img {
   width: calc(100vw - 17px);
   height: 61vw;
