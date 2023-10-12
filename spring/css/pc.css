@@ -324,9 +324,12 @@ div.post-win .content {
   justify-content: space-between;
   align-items: center;
 }
-div.post-win .content img {
+div.post-win .content .img {
   width: 50vw;
   height: 38vw;
+  background-image: url(../img/post-win_pc.png);
+  background-size: cover;
+  background-position: center;
 }
 div.post-win .content .text {
   width: 38vw;

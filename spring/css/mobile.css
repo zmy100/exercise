@@ -39,7 +39,7 @@ div.pattern img {
 }
 /*  banner区域 */
 div.banner {
-  width: calc(100vw - 17px);
+  width: 100vw;
   height: 112vw;
 }
 /* 设置四个区域的banner颜色 开始 */
@@ -57,7 +57,7 @@ div.Wind {
 }
 /* 设置四个区域的banner颜色 结束 */
 div.banner img {
-  width: calc(100vw - 17px);
+  width: 100vw;
   height: 61vw;
   margin-bottom: 6vw;
 }
@@ -86,7 +86,7 @@ div.banner .text p {
 }
 /*  swiper区域 */
 div.swiper {
-  width: calc(100vw - 17px);
+  width: 100vw;
   height: 135vw;
   background-color: #ffffff;
 }
@@ -133,7 +133,7 @@ div.swiper-button {
 }
 /* try区域 */
 div.try {
-  width: calc(100vw - 17px);
+  width: 100vw;
   height: 88vw;
   background-image: url(../img/try_mobile.png);
   background-size: cover;
@@ -211,7 +211,7 @@ div.try p.content2 {
 }
 /* ask区域 */
 div.ask {
-  width: calc(100vw - 17px);
+  width: 100vw;
   height: 109vw;
   background-color: #ffffff;
   padding-top: 17vw;
@@ -269,4 +269,114 @@ div.ask .img .item .item-content {
 }
 div.ask .gap {
   height: 12vw;
+}
+/* post-win区域  */
+div.post-win {
+  width: 100vw;
+  height: 175vw;
+}
+div.post-win h1 {
+  width: 33vw;
+  height: 4vw;
+  font-family: Helvetica-Bold;
+  font-size: 5vw;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: 8vw;
+  letter-spacing: 0vw;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 13vw;
+}
+div.post-win .content {
+  width: 100vw;
+  height: 158vw;
+  background-color: #f4fcf8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+div.post-win .content .img {
+  width: 100vw;
+  height: 61vw;
+  background-image: url(../img/post-win_mobile.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 9vw;
+}
+div.post-win .content .text {
+  width: 74vw;
+  height: 79vw;
+}
+div.post-win .content .text h3 {
+  width: 39vw;
+  height: 3vw;
+  font-family: Helvetica-Bold;
+  font-size: 3vw;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: 5vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 3vw;
+}
+div.post-win .content .text p.one {
+  width: 72vw;
+  height: 25vw;
+  font-family: Helvetica;
+  font-size: 3vw;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 5vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 7vw;
+}
+div.post-win .content .text p.one a {
+  font-family: Helvetica-Bold;
+  font-size: 3vw;
+  font-weight: 600;
+  letter-spacing: 0vw;
+  color: #fd831c;
+}
+div.post-win .content .text p.two {
+  width: 66vw;
+  height: 3vw;
+  font-family: Helvetica;
+  font-size: 3vw;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 5vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 4vw;
+}
+div.post-win .content .text p.three {
+  width: 75vw;
+  height: 7vw;
+  font-family: Helvetica;
+  font-size: 3vw;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 5vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 3vw;
+}
+div.post-win .content .text p.four {
+  width: 79vw;
+  height: 12vw;
+  font-family: Helvetica;
+  font-size: 3vw;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 5vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 7vw;
+}
+div.post-win .content .text img {
+  width: 5vw;
+  height: 5vw;
 }
