@@ -56,6 +56,12 @@ div.Pastel {
 div.Pastel .text.top {
   display: none;
 }
+div.Passi {
+  background-color: #faf6fb;
+}
+div.Passi .text.bottom {
+  display: none;
+}
 
 div.banner img {
   width: 41vw;
