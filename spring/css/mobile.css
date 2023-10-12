@@ -49,10 +49,10 @@ div.banner img {
   margin-bottom: 10vw;
 }
 /* top文字部分隐藏 */
-div.banner .sunflower__text.top {
+div.banner .text.top {
   display: none;
 }
-div.banner .sunflower__text h1 {
+div.banner .text h1 {
   font-family: Helvetica-Bold;
   font-size: 4vw;
   font-weight: 800;
@@ -63,7 +63,7 @@ div.banner .sunflower__text h1 {
   margin-bottom: 6vw;
   margin-left: 11vw;
 }
-div.banner .sunflower__text p {
+div.banner .text p {
   font-family: Helvetica-Light;
   font-size: 3vw;
   font-weight: 200;

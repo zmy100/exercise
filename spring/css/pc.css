@@ -34,24 +34,34 @@ div.pattern img {
   width: 16vw;
   height: 16vw;
 }
-/* sunflower banner区域 */
+/* banner区域 */
 div.banner {
   width: calc(100vw - 17px);
   height: 28vw;
-  background-color: #fffdf3;
   padding: 0 17vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+div.sunflower {
+  background-color: #fffdf3;
+}
+div.sunflower  .text.bottom {
+  display: none;
+}
+div.Pastel {
+  background-color: #fff4f5;
+}
+div.Pastel  .text.top {
+  display: none;
+}
+
 div.banner img {
   width: 41vw;
   height: 24vw;
 }
-div.banner .sunflower__text.bottom {
-  display: none;
-}
-div.banner .sunflower__text h1 {
+div.banner .text h1 {
   font-family: Helvetica-Bold;
   font-size: 2vw;
   font-weight: 800;
@@ -61,15 +71,15 @@ div.banner .sunflower__text h1 {
   color: #000000;
   margin-bottom: 2vw;
 }
-div.banner .sunflower__text p {
+div.banner .text p {
   width: 23vw;
   font-family: Helvetica-Light;
   font-size: 1vw;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: 0vw;
   color: #2c2c2c;
 }
-/* sunflower swiper区域 */
+/* swiper区域 */
 div.swiper {
   width: calc(100vw - 17px);
   height: 35vw;
@@ -96,7 +106,7 @@ div.swiper .swiper-wrapper .swiper-slide img {
 div.swiper .swiper-wrapper .swiper-slide .title {
   font-family: Helvetica-Light;
   font-size: 1vw;
-  font-weight: normal;
+  font-weight: 500;
   font-stretch: normal;
   line-height: 2vw;
   letter-spacing: 0vw;
