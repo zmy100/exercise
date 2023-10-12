@@ -179,13 +179,16 @@ div.try h1 {
   margin-bottom: 2vw;
 }
 div.try p.content {
+  width: 46vw;
+  height: 5vw;
   font-family: Helvetica;
-  font-size: 2vw;
-  font-weight: normal;
+  font-size: 1.5vw;
+  font-weight: 500;
   font-stretch: normal;
   letter-spacing: 0vw;
   color: #ffffff;
   text-align: center;
+  margin: 0 auto;
   margin-bottom: 2vw;
 }
 div.try div.search {
@@ -195,7 +198,7 @@ div.try div.search {
   display: flex;
   margin-bottom: 2vw;
 }
-div.try input.search {
+div.try div.search .search__input {
   width: 36vw;
   height: 3vw;
   border: 1px solid #ffffff;
@@ -204,25 +207,33 @@ div.try input.search {
   color: #ffffff;
   text-align: center;
 }
-div.try div.search .button {
+div.try div.search .search__button {
   width: 11vw;
   height: 3vw;
   border: solid 0vw #ffffff;
   background-color: #fff;
   font-family: Helvetica-Bold;
-  font-size: 2vw;
-  font-weight: 600;
+  font-size: 1.5vw;
+  font-weight: 800;
   font-stretch: normal;
   letter-spacing: 0vw;
   color: #0b1a14;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 鼠标移入显示小手 */
+  cursor: pointer;
 }
 div.try p.content2 {
+  width: 49vw;
+  height: 3vw;
+  line-height: 1.4vw;
   font-family: HelveticaNeueLTPro-Th;
   font-size: 1vw;
-  font-weight: normal;
+  font-weight: 500;
   font-stretch: normal;
   letter-spacing: 0vw;
   color: #ffffff;
   text-align: center;
+  margin: 0 auto;
 }
