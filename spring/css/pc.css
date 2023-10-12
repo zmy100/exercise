@@ -159,3 +159,70 @@ div.swiper-button.swiper-button-prev {
 div.swiper-button.swiper-button-next {
   right: 12vw;
 }
+/* try区域 */
+div.try {
+  width: calc(100vw - 17px);
+  height: 29vw;
+  background-image: url(../img/try.png);
+  background-size: cover;
+  padding-top: 4vw;
+}
+div.try h1 {
+  font-family: Helvetica-Bold;
+  font-size: 3vw;
+  font-weight: 800;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+div.try p.content {
+  font-family: Helvetica;
+  font-size: 2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+div.try div.search {
+  width: 47vw;
+  height: 3vw;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 2vw;
+}
+div.try input.search {
+  width: 36vw;
+  height: 3vw;
+  border: 1px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.25);
+  font-size: 2vw;
+  color: #ffffff;
+  text-align: center;
+}
+div.try div.search .button {
+  width: 11vw;
+  height: 3vw;
+  border: solid 0vw #ffffff;
+  background-color: #fff;
+  font-family: Helvetica-Bold;
+  font-size: 2vw;
+  font-weight: 600;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #0b1a14;
+  text-align: center;
+}
+div.try p.content2 {
+  font-family: HelveticaNeueLTPro-Th;
+  font-size: 1vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #ffffff;
+  text-align: center;
+}
