@@ -37,16 +37,23 @@ div.pattern img {
   width: 44vw;
   height: 44vw;
 }
-/* sunflower banner区域 */
+/*  banner区域 */
 div.banner {
   width: calc(100vw - 17px);
-  height: 106vw;
+  height: 112vw;
+}
+
+div.sunflower {
   background-color: #fffdf3;
 }
+div.Pastel {
+  background-color: #fff4f5;
+}
+
 div.banner img {
   width: calc(100vw - 17px);
   height: 61vw;
-  margin-bottom: 10vw;
+  margin-bottom: 6vw;
 }
 /* top文字部分隐藏 */
 div.banner .text.top {
@@ -60,18 +67,18 @@ div.banner .text h1 {
   line-height: 5vw;
   letter-spacing: 0vw;
   color: #000000;
-  margin-bottom: 6vw;
+  margin-bottom: 5vw;
   margin-left: 11vw;
 }
 div.banner .text p {
   font-family: Helvetica-Light;
   font-size: 3vw;
-  font-weight: 200;
+  font-weight: 500;
   letter-spacing: 0vw;
   color: #2c2c2c;
   margin: 0 11vw;
 }
-/* sunflower swiper区域 */
+/*  swiper区域 */
 div.swiper {
   width: calc(100vw - 17px);
   height: 135vw;
