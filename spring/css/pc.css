@@ -150,7 +150,7 @@ div.swiper-button {
 }
 div.swiper-button .iconfont {
   font-size: 2vw;
-  font-weight: 600;
+  font-weight: 400;
   color: #232323;
 }
 div.swiper-button.swiper-button-prev {
@@ -296,4 +296,111 @@ div.ask .img .item .item-content {
 }
 div.ask .gap {
   height: 9vw;
+}
+/* post-win区域  */
+div.post-win {
+  width: calc(100vw - 17px);
+  height: 48vw;
+  padding-top: 3vw;
+}
+div.post-win h1 {
+  width: 13vw;
+  height: 2vw;
+  font-family: Helvetica-Bold;
+  font-size: 2vw;
+  font-weight: 800;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #000000;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5vw;
+}
+div.post-win .content {
+  width: 100vw;
+  height: 38vw;
+  background-color: #f4fcf8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+div.post-win .content img {
+  width: 50vw;
+  height: 38vw;
+}
+div.post-win .content .text {
+  width: 38vw;
+  height: 29vw;
+  margin-right: 6vw;
+}
+div.post-win .content .text h3 {
+  width: 15vw;
+  height: 1vw;
+  font-family: Helvetica-Bold;
+  font-size: 1vw;
+  font-weight: 800;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 1vw;
+}
+div.post-win .content .text p.one {
+  width: 33vw;
+  height: 8vw;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: 600;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 2vw;
+}
+div.post-win .content .text p.one a {
+  font-family: Helvetica-Bold;
+  font-size: 1vw;
+  font-weight: 600;
+  letter-spacing: 0vw;
+  color: #fd831c;
+}
+div.post-win .content .text p.two {
+  width: 23vw;
+  height: 1vw;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 1vw;
+}
+div.post-win .content .text p.three {
+  width: 24vw;
+  height: 3vw;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 1vw;
+}
+div.post-win .content .text p.four {
+  width: 27vw;
+  height: 5vw;
+  font-family: Helvetica;
+  font-size: 1vw;
+  font-weight: 500;
+  font-stretch: normal;
+  line-height: 2vw;
+  letter-spacing: 0vw;
+  color: #131313;
+  margin-bottom: 3vw;
+}
+div.post-win .content .text img {
+  width: 2vw;
+  height: 2vw;
 }
