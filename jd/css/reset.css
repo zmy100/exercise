@@ -1,0 +1,20 @@
+/* 清除内外边距 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 清除a标签下划线 */
+a {
+  text-decoration: none;
+}
+/* 清除列表默认样式 */
+ul,
+ol {
+  list-style: none;
+}
+/* 清除input框默认样式 */
+input {
+  border: none;
+  outline: none;
+}
