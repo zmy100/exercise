@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
 .icon-place:before {
   content: "\e6b0";
 }
