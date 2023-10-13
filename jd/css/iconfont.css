@@ -13,6 +13,26 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-place:before {
+  content: "\e6b0";
+}
+
+.icon-money:before {
+  content: "\e610";
+}
+
+.icon-arrow-right:before {
+  content: "\e665";
+}
+
+.icon-people-sharp:before {
+  content: "\e81a";
+}
+
+.icon-user-edit:before {
+  content: "\ebc1";
+}
+
 .icon-dingdanorder:before {
   content: "\e646";
 }
