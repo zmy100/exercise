@@ -13,15 +13,30 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #333333;
+}
+.tabbar .item.active {
+  color: #1fa4fc;
+}
+.tabbar .item.active .iconfont.one {
+  display: none;
+}
+.tabbar .item.active .iconfont.two {
+  display: inline;
 }
 .tabbar .item .iconfont {
   width: 4.8vw;
   height: 4.5333vw;
 }
+.tabbar .item .iconfont.one {
+  display: inline;
+}
+.tabbar .item .iconfont.two {
+  display: none;
+}
 .tabbar .item .text {
   width: 10vw;
   height: 3.7333vw;
   font-size: 2.4vw;
-  color: #333333;
   text-align: center;
 }
