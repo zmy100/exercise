@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  height: 100vh;
+  height: 164.8vw;
   background-color: #ffffff;
 }
 .container .head {
@@ -104,6 +104,53 @@
   color: #262628;
   text-align: center;
 }
+.container .list {
+  width: 90.4vw;
+  height: 38.9333vw;
+  background: #ffffff;
+  box-shadow: 0 2.1333vw 4.2667vw 0 rgba(0, 0, 0, 0.08);
+  border-radius: 2.1333vw;
+  position: absolute;
+  top: 87.2vw;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .list .item {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 4.2667vw;
+}
+.container .list .item .left .iconfont {
+  display: inline-block;
+  font-size: 3.7333vw;
+  color: #ffffff;
+  border-radius: 2.1333vw;
+  width: 5.8667vw;
+  height: 5.8667vw;
+  line-height: 5.8667vw;
+  text-align: center;
+  margin-right: 2.1333vw;
+}
+.container .list .item .left .iconfont.icon-money {
+  background-color: #ed4a47;
+}
+.container .list .item .left .iconfont.icon-place {
+  background-color: #32c5ff;
+}
+.container .list .item .left .iconfont.icon-people-sharp {
+  background-color: #9013fe;
+}
+.container .list .item .left .text {
+  font-size: 3.7333vw;
+  color: #262626;
+}
+.container .list .item .right .iconfont {
+  color: #c2c4ca;
+}
+
 .tabbar {
   width: 100vw;
   height: 13.0667vw;
@@ -141,8 +188,6 @@
   display: none;
 }
 .tabbar .item .text {
-  width: 10vw;
-  height: 3.7333vw;
-  font-size: 2.4vw;
+  font-size: 2.6667vw;
   text-align: center;
 }
