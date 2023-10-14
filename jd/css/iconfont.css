@@ -13,6 +13,34 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-search:before {
+  content: "\e6ac";
+}
+
+.icon-plussign:before {
+  content: "\e75a";
+}
+
+.icon-lingdang:before {
+  content: "\e623";
+}
+
+.icon-dui:before {
+  content: "\e60d";
+}
+
+.icon-duigoux:before {
+  content: "\ec9e";
+}
+
+.icon-minus:before {
+  content: "\e66d";
+}
+
+.icon-cuo:before {
+  content: "\e6e5";
+}
+
 .icon-arrowbottom:before {
   content: "\e658";
 }

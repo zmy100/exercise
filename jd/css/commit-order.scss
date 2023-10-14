@@ -101,3 +101,116 @@
     }
   }
 }
+// 确定提交弹窗
+.confirm-mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  .modal {
+    width: 80.2667vw;
+    height: 41.8667vw;
+    background: #ffffff;
+    border-radius: 1.0667vw;
+    position: fixed;
+    top: 64.8vw;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6.4vw;
+    .modal-title {
+      font-size: 4.5333vw;
+      font-weight: 600;
+      color: #333333;
+      margin-bottom: 2.1333vw;
+    }
+    .modal-content {
+      font-size: 3.7333vw;
+      color: #666666;
+      margin-bottom: 6.4vw;
+    }
+    .modal-buttons {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .cancel {
+        width: 21.3333vw;
+        height: 8.5333vw;
+        font-size: 3.7333vw;
+        color: #0091ff;
+        border: 0.2667vw solid #4fb0f9;
+        border-radius: 4.2667vw;
+        margin-right: 6.4vw;
+        padding: 1.6vw;
+        text-align: center;
+      }
+      .confirm {
+        width: 21.3333vw;
+        height: 8.5333vw;
+        font-size: 3.7333vw;
+        color: #ffffff;
+        background: #4fb0f9;
+        border: 0.2667vw solid #4fb0f9;
+        border-radius: 4.2667vw;
+        padding: 1.6vw;
+        text-align: center;
+      }
+    }
+  }
+}
+// 支付成功弹窗
+.remind-mask {
+  // display: none;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  .modal {
+    width: 80.2667vw;
+    height: 41.8667vw;
+    background: #ffffff;
+    border-radius: 1.0667vw;
+    position: fixed;
+    top: 68.2667vw;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+    // display: flex;
+    // flex-direction: column;
+    // align-items: center;
+    // padding: 6.4vw;
+    .icon-cuo {
+      color: #666666;
+      position: absolute;
+      top: 3.2vw;
+      right: 3.2vw;
+      font-size: 6.4vw;
+    }
+    .icon-duigoux {
+      color: #000;
+      position: absolute;
+      top: 11.2533vw;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 13.3333vw;
+    }
+    .content {
+      width: 43.2vw;
+      height: 6.6667vw;
+      font-size: 18px;
+      color: #333333;
+      position: absolute;
+      top: 26.4vw;
+      left: 50%;
+      transform: translate(-50%);
+    }
+  }
+}
