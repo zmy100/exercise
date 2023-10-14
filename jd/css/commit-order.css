@@ -156,6 +156,8 @@
   display: flex;
   justify-content: space-between;
   line-height: 13.0667vw;
+  background: #ffffff;
+  box-shadow: 0 -0.2667vw 0.2667vw 0 #f1f1f1;
 }
 .container .foot .left {
   flex-grow: 1;
@@ -244,6 +246,7 @@
 }
 
 .remind-mask {
+  display: none;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -280,7 +283,7 @@
 .remind-mask .modal .content {
   width: 43.2vw;
   height: 6.6667vw;
-  font-size: 18px;
+  font-size: 4.8vw;
   color: #333333;
   position: absolute;
   top: 26.4vw;
