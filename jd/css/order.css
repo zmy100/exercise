@@ -34,6 +34,7 @@
 .tabbar .item {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
   color: #333333;
 }
@@ -46,19 +47,22 @@
 .tabbar .item.active .iconfont.two {
   display: inline;
 }
-.tabbar .item .iconfont {
+.tabbar .item span.iconfont {
   width: 4.8vw;
   height: 4.5333vw;
+  font-size: 5.3333vw;
+  margin-bottom: 0.88vw;
 }
-.tabbar .item .iconfont.one {
+.tabbar .item span.iconfont.one {
   display: inline;
 }
-.tabbar .item .iconfont.two {
+.tabbar .item span.iconfont.two {
   display: none;
 }
 .tabbar .item .text {
-  font-size: 2.6667vw;
+  font-size: 3.2vw;
   text-align: center;
+  transform: translate(0.5333vw);
 }
 
 .container {
