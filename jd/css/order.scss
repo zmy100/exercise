@@ -1,0 +1,64 @@
+@import "./head-common.scss";
+@import "./tabbar-common.scss";
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  .order-list {
+    .order-item {
+      width: 90.4vw;
+      height: 29.3333vw;
+      background: #ffffff;
+      border-radius: 1.0667vw;
+      margin: 4.2667vw auto;
+      padding: 4.2667vw;
+      display: flex;
+      flex-direction: column;
+      .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 4.2667vw;
+        .shop-name {
+          font-size: 4.2667vw;
+          color: #333333;
+          font-weight: 600;
+        }
+        .order-status {
+          font-size: 3.7333vw;
+          color: #999999;
+          text-align: right;
+          font-weight: 500;
+        }
+      }
+      .bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .products {
+          .products-img {
+            width: 10.6667vw;
+            height: 10.6667vw;
+            margin-right: 3.2vw;
+            object-fit: cover;
+            transform: translate(0.5333vw);
+          }
+        }
+        .data {
+          .price {
+            font-size: 3.7333vw;
+            color: #e93b3b;
+            text-align: right;
+            margin-bottom: 1.0667vw;
+          }
+          .count {
+            font-size: 3.2vw;
+            color: #333333;
+            text-align: right;
+            line-height: 3.7333vw;
+          }
+        }
+      }
+    }
+  }
+}
