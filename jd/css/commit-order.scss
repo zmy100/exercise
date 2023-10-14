@@ -1,0 +1,103 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f8f8;
+  .head {
+    width: 100vw;
+    height: 42.4vw;
+    background-image: linear-gradient(
+      0deg,
+      rgba(0, 145, 255, 0) 4%,
+      #0091ff 50%
+    );
+    padding-top: 10.6667vw;
+    text-align: center;
+    .iconfont {
+      color: #ffffff;
+      font-size: 5.8667vw;
+      position: fixed;
+      top: 10.6667vw;
+      left: 4.9333vw;
+    }
+    .title {
+      font-size: 4.2667vw;
+      color: #ffffff;
+    }
+  }
+  .address {
+    width: 90.4vw;
+    height: 29.6vw;
+    background: #ffffff;
+    border-radius: 1.0667vw;
+    position: absolute;
+    top: 22.6667vw;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 4.2667vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .left {
+      .address-title {
+        font-size: 4.2667vw;
+        color: #333333;
+        margin-bottom: 3.7333vw;
+        font-weight: 600;
+      }
+      .order-address {
+        font-size: 3.7333vw;
+        color: #333333;
+        margin-bottom: 1.6vw;
+      }
+      .user-info {
+        font-size: 3.2vw;
+        color: #666666;
+        .username {
+          margin-right: 1.6vw;
+        }
+      }
+    }
+    .right {
+      .iconfont {
+        font-size: 5.8667vw;
+        color: #666666;
+      }
+    }
+  }
+  @import "./cart-list-common.scss";
+  .cart-list {
+    top: 56.5333vw;
+    padding-top: 0;
+  }
+  .foot {
+    width: 100vw;
+    height: 13.0667vw;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 13.0667vw;
+    .left {
+      flex-grow: 1;
+      background: #ffffff;
+      color: #333333;
+      .left-title {
+        font-size: 3.7333vw;
+        text-align: right;
+        margin-left: 6.4vw;
+        margin-right: 1.4133vw;
+      }
+      .left-price {
+        font-size: 4.2667vw;
+        text-align: right;
+      }
+    }
+    .right {
+      width: 26.1333vw;
+      background: #4fb0f9;
+      font-size: 3.7333vw;
+      color: #ffffff;
+      text-align: center;
+    }
+  }
+}
