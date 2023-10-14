@@ -4,7 +4,14 @@
   width: 100vw;
   height: 100vh;
   background-color: #f8f8f8;
+  overflow: hidden;
   .order-list {
+    position: fixed;
+    top: 11.7333vw;
+    bottom: 13.0667vw;
+    left: 0;
+    right: 0;
+    overflow-y: auto;
     .order-item {
       width: 90.4vw;
       height: 29.3333vw;
