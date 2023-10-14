@@ -1,62 +1,70 @@
-.container {
-  width: 100vw;
-  height: 100vh;
-  background-color: #f8f8f8;
-}
-.container .head {
+.head {
   height: 11.7333vw;
   background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   padding: 2.9333vw 4.8vw 0;
-  margin-bottom: 3.2vw;
 }
-.container .head .iconfont {
+.head .iconfont {
   width: 2.48vw;
   height: 4.2667vw;
   color: #b6b6b6;
 }
-.container .head .title {
+.head .title {
   font-size: 4.2667vw;
   color: #333333;
 }
-.container .head .button {
+.head .button {
   font-size: 3.7333vw;
   color: #333333;
   text-align: right;
 }
-.container .info {
+
+.container {
   width: 100vw;
-  height: 59.7333vw;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  height: 100vh;
+  background-color: #f8f8f8;
 }
-.container .info .item .text {
-  font-size: 3.7333vw;
-  color: #666666;
-  line-height: 5.3333vw;
-  margin-left: 4.8vw;
-}
-.container .info .item .item-input {
+.container div.title {
+  margin-top: 4.2667vw;
+  margin-bottom: 3.2vw;
+  padding: 0 4.8vw;
   font-size: 3.7333vw;
   color: #333333;
-  line-height: 5.3333vw;
   font-weight: 500;
 }
-.container .info .item .item-input::-moz-placeholder {
-  font-size: 3.7333vw;
-  color: #999999;
-  line-height: 5.3333vw;
-}
-.container .info .item .item-input::placeholder {
-  font-size: 3.7333vw;
-  color: #999999;
-  line-height: 5.3333vw;
-}
-.container .info .gap {
+.container .address-list .address-item {
   width: 90.4vw;
-  border: 0.2667vw solid #f1f1f1;
-  margin: 0 auto;
+  height: 27.7333vw;
+  background: #ffffff;
+  border-radius: 1.0667vw;
+  margin: 0 auto 4.2667vw;
+  padding: 4.8vw 4.2667vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .address-list .address-item .left .top {
+  margin-bottom: 2.1333vw;
+}
+.container .address-list .address-item .left .top .username {
+  font-size: 3.7333vw;
+  color: #999999;
+  margin-right: 17.6vw;
+}
+.container .address-list .address-item .left .top .phone {
+  font-size: 3.7333vw;
+  color: #999999;
+}
+.container .address-list .address-item .left .bottom .address-info {
+  width: 69.3333vw;
+  height: 10.6667vw;
+  font-size: 3.7333vw;
+  color: #333333;
+  font-weight: 500;
+  line-height: 5.8667vw;
+}
+.container .address-list .address-item .right .iconfont {
+  font-size: 4.2667vw;
+  color: #999999;
 }
