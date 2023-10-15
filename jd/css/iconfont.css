@@ -7,13 +7,21 @@
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 4.2667vw;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-circle-plus-fill:before {
+.icon-dui1:before {
+  content: "\e64d";
+}
+
+.icon-plus:before {
+  content: "\e675";
+}
+
+.icon-plus:before {
   content: "\e604";
 }
 
@@ -21,7 +29,7 @@
   content: "\e6ac";
 }
 
-.icon-circle-plus-fill:before {
+.icon-plussign:before {
   content: "\e75a";
 }
 

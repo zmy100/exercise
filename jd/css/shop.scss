@@ -168,10 +168,13 @@
                 font-size: 3.7333vw;
                 color: #333333;
                 line-height: 4.2667vw;
+                display: inline-block;
+                transform: translateY(-0.5333vw);
+                margin: 0 0.8vw;
               }
-              .icon-circle-plus-fill {
+              .icon-plus {
                 color: #0091ff;
-                font-size: 5.8667vw;
+                font-size: 5.3333vw;
               }
             }
           }
@@ -250,11 +253,108 @@
   .cart-info {
     position: absolute;
     bottom: 0;
-  }
-  .cart-top {
-    width: 100vw;
-    padding: 4.8vw;
-    background-color: #fff;
-    border-bottom: 0.2667vw solid #f1f1f1;
+    .cart-top {
+      width: 100vw;
+      height: 13.8667vw;
+      padding: 4.8vw;
+      background-color: #fff;
+      border-bottom: 0.2667vw solid #f1f1f1;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left {
+        .icon-dui1 {
+          color: #0091ff;
+          font-size: 5.3333vw;
+          margin-right: 2.24vw;
+          display: inline-block;
+          transform: translateY(0.8vw);
+        }
+        .text {
+          font-size: 3.7333vw;
+          color: #333333;
+          line-height: 4.2667vw;
+        }
+      }
+      .button {
+        font-size: 3.7333vw;
+        color: #333333;
+        text-align: right;
+        line-height: 4.2667vw;
+      }
+    }
+    .cart-content {
+      // display: flex;
+      // flex-direction: column;
+      .cart-item {
+        width: 100vw;
+        height: 18.6667vw;
+        background-color: #fff;
+        padding: 4.2667vw 4.8vw 2.1333vw 4.9067vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left {
+        display: flex;
+        align-items: center;
+        .icon-dui1 {
+          color: #0091ff;
+          font-size: 5.3333vw;
+          margin-right: 4.3733vw;
+        }
+        .cart-img {
+          width: 12.2667vw;
+          height: 12.2667vw;
+          margin-right: 4.2667vw;
+        }
+        .product-info {
+          .product-title {
+            font-size: 3.7333vw;
+            color: #333333;
+            margin-bottom: 1.6vw;
+          }
+          .product-data {
+            .current-price {
+              font-size: 3.7333vw;
+              color: #e93b3b;
+              line-height: 5.3333vw;
+              margin-right: 0.5333vw;
+              &::before {
+                content: "¥";
+                display: inline-block;
+                font-size: 2.6667vw;
+                transform-origin: right bottom;
+              }
+            }
+            .previous-price {
+              font-size: 2.6667vw;
+              color: #999999;
+              line-height: 5.3333vw;
+              margin-right: 10.6667vw;
+              text-decoration: line-through;
+            }
+          }
+        }
+      }
+      .right {
+        .icon-minus {
+          color: #666666;
+          font-size: 5.3333vw;
+        }
+        .product-count {
+          font-size: 3.7333vw;
+          color: #333333;
+          line-height: 4.2667vw;
+          display: inline-block;
+          transform: translateY(-0.5333vw);
+          margin: 0 2.1333vw;
+        }
+        .icon-plus {
+          color: #0091ff;
+          font-size: 5.3333vw;
+        }
+      }
+    }
   }
 }
