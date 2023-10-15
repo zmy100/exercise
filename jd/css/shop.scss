@@ -238,3 +238,23 @@
     }
   }
 }
+// 商家详情-遮罩
+.cart-mask {
+  position: fixed;
+  top: 0;
+  bottom: 13.0667vw;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 20;
+  .cart-info {
+    position: absolute;
+    bottom: 0;
+  }
+  .cart-top {
+    width: 100vw;
+    padding: 4.8vw;
+    background-color: #fff;
+    border-bottom: 0.2667vw solid #f1f1f1;
+  }
+}
