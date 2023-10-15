@@ -1,13 +1,23 @@
+@charset "UTF-8";
 .container {
   width: 100vw;
   height: 100vh;
   background-color: #fff;
+  padding-top: 4.2667vw;
 }
 .container .head .icon-arrow-left-bold {
   color: #b6b6b6;
+  position: absolute;
+  top: 5.7067vw;
+  left: 3.3333vw;
+  font-size: 6.4vw;
 }
 .container .head .icon-search {
   color: #b7b7b7;
+  position: absolute;
+  top: 6.4vw;
+  left: 16.8vw;
+  z-index: 10;
 }
 .container .head .search-input {
   width: 82.6667vw;
@@ -15,8 +25,154 @@
   background: #f5f5f5;
   border-radius: 4.2667vw;
   font-size: 3.7333vw;
+  font-weight: 500;
   color: #333333;
   line-height: 4.2667vw;
+  position: absolute;
+  top: 4.2667vw;
+  right: 4.8vw;
+  padding-left: 11.7333vw;
+}
+.container .shop-info {
+  width: 100vw;
+  height: 28.2667vw;
+  position: fixed;
+  top: 13.3333vw;
+  left: 0;
+  right: 0;
+  padding-top: 4.2667vw;
+  display: flex;
+  margin-bottom: 6.4vw;
+}
+.container .shop-info .left {
+  margin-left: 4.8vw;
+  margin-right: 4.2667vw;
+}
+.container .shop-info .left .shop-logo {
+  width: 14.9333vw;
+  height: 14.9333vw;
+  border-radius: 14.9333vw;
+}
+.container .shop-info .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .shop-info .right .shop-title {
+  font-size: 4.2667vw;
+  color: #333333;
+}
+.container .shop-info .right .tags .tag-item {
+  font-size: 3.4667vw;
+  color: #333333;
+}
+.container .shop-info .right .promotion {
+  font-size: 3.4667vw;
+  color: #e93b3b;
+}
+.container .shop-body {
+  width: 100vw;
+  height: 118.4vw;
+  position: fixed;
+  top: 45.8667vw;
+  left: 0;
+  right: 0;
+  display: flex;
+}
+.container .shop-body .category {
+  width: 20.2667vw;
+  background-color: #f5f5f5;
+  overflow-y: auto;
+}
+.container .shop-body .category .category-item {
+  width: 20.2667vw;
+  height: 10.6667vw;
+  background: #f5f5f5;
+  border-radius: 0.5333vw;
+  font-size: 3.7333vw;
+  color: #333333;
+  text-align: center;
+  line-height: 10.6667vw;
+}
+.container .shop-body .category .category-item.active {
+  background: #ffffff;
+}
+.container .shop-body .detail {
+  flex-grow: 1;
+  padding-left: 4.2667vw;
+  padding-right: 4.8vw;
+  padding-top: 2.1333vw;
+  overflow-y: auto;
+}
+.container .shop-body .detail .detail-item {
+  width: 70.6667vw;
+  height: 24.5333vw;
+  background-color: #ffffff;
+  border-bottom: 0.2667vw solid #f1f1f1;
+  display: flex;
+  padding: 3.2vw 0;
+}
+.container .shop-body .detail .detail-item .left {
+  margin-right: 4.2667vw;
+}
+.container .shop-body .detail .detail-item .left .product-img {
+  width: 18.1333vw;
+  height: 18.1333vw;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .shop-body .detail .detail-item .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.container .shop-body .detail .detail-item .right .product-title {
+  height: 5.3333vw;
+  font-size: 3.7333vw;
+  color: #333333;
+}
+.container .shop-body .detail .detail-item .right .product-sale {
+  height: 4.2667vw;
+  font-size: 3.2vw;
+  color: #333333;
+  line-height: 4.2667vw;
+}
+.container .shop-body .detail .detail-item .right .product-data {
+  height: 5.3333vw;
+  display: flex;
+  justify-content: space-between;
+}
+.container .shop-body .detail .detail-item .right .product-data .data-left .current-price {
+  font-size: 3.7333vw;
+  color: #e93b3b;
+  line-height: 5.3333vw;
+  margin-right: 0.5333vw;
+}
+.container .shop-body .detail .detail-item .right .product-data .data-left .current-price::before {
+  content: "¥";
+  display: inline-block;
+  font-size: 10px;
+  transform-origin: right bottom;
+}
+.container .shop-body .detail .detail-item .right .product-data .data-left .previous-price {
+  font-size: 2.6667vw;
+  color: #999999;
+  line-height: 5.3333vw;
+  margin-right: 10.6667vw;
+  text-decoration: line-through;
+}
+.container .shop-body .detail .detail-item .right .product-data .data-right .icon-minus {
+  color: #666666;
+  font-size: 5.3333vw;
+}
+.container .shop-body .detail .detail-item .right .product-data .data-right .product-count {
+  font-size: 3.7333vw;
+  color: #333333;
+  line-height: 4.2667vw;
+}
+.container .shop-body .detail .detail-item .right .product-data .data-right .icon-plussign {
+  color: #0091ff;
+  font-size: 5.8667vw;
 }
 .container .foot {
   width: 100vw;
