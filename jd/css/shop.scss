@@ -147,7 +147,7 @@
                 &::before {
                   content: "¥";
                   display: inline-block;
-                  font-size: 10px;
+                  font-size: 2.6667vw;
                   transform-origin: right bottom;
                 }
               }
@@ -169,7 +169,7 @@
                 color: #333333;
                 line-height: 4.2667vw;
               }
-              .icon-plussign {
+              .icon-circle-plus-fill {
                 color: #0091ff;
                 font-size: 5.8667vw;
               }

@@ -13,11 +13,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-circle-plus-fill:before {
+  content: "\e604";
+}
+
 .icon-search:before {
   content: "\e6ac";
 }
 
-.icon-plussign:before {
+.icon-circle-plus-fill:before {
   content: "\e75a";
 }
 

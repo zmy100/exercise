@@ -151,7 +151,7 @@
 .container .shop-body .detail .detail-item .right .product-data .data-left .current-price::before {
   content: "¥";
   display: inline-block;
-  font-size: 10px;
+  font-size: 2.6667vw;
   transform-origin: right bottom;
 }
 .container .shop-body .detail .detail-item .right .product-data .data-left .previous-price {
@@ -170,7 +170,7 @@
   color: #333333;
   line-height: 4.2667vw;
 }
-.container .shop-body .detail .detail-item .right .product-data .data-right .icon-plussign {
+.container .shop-body .detail .detail-item .right .product-data .data-right .icon-circle-plus-fill {
   color: #0091ff;
   font-size: 5.8667vw;
 }
