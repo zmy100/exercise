@@ -1,0 +1,200 @@
+.tabbar {
+  width: 100vw;
+  height: 13.0667vw;
+  background: #ffffff;
+  box-shadow: 0 -0.2667vw 0.2667vw 0 #f1f1f1;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 1.8933vw;
+}
+.tabbar .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #333333;
+}
+.tabbar .item.active {
+  color: #1fa4fc;
+}
+.tabbar .item.active .iconfont.one {
+  display: none;
+}
+.tabbar .item.active .iconfont.two {
+  display: inline;
+}
+.tabbar .item span.iconfont {
+  width: 4.8vw;
+  height: 4.5333vw;
+  font-size: 5.3333vw;
+  margin-bottom: 0.88vw;
+}
+.tabbar .item span.iconfont.one {
+  display: inline;
+}
+.tabbar .item span.iconfont.two {
+  display: none;
+}
+.tabbar .item .text {
+  font-size: 3.2vw;
+  text-align: center;
+  transform: translate(0.5333vw);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+.container .head {
+  width: 100vw;
+  height: 98px;
+  padding: 16px 18px 12px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #fff;
+}
+.container .head .head-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.container .head .head-info .left .icon-place1 {
+  font-size: 24px;
+  color: #333333;
+  display: inline-block;
+  transform: translateY(3px);
+}
+.container .head .head-info .left .address {
+  font-size: 16px;
+  color: #333333;
+}
+.container .head .head-info .icon-lingdang {
+  font-size: 24px;
+  color: #000;
+}
+.container .head .icon-search {
+  color: #b7b7b7;
+  font-size: 18px;
+  position: fixed;
+  top: 62px;
+  left: 34px;
+}
+.container .head .head-search {
+  width: 339px;
+  height: 32px;
+  background: #f5f5f5;
+  border-radius: 16px;
+  padding-left: 44px;
+  line-height: 32px;
+}
+.container .head .head-search::-moz-placeholder {
+  font-size: 14px;
+  color: #b7b7b7;
+  line-height: 16px;
+}
+.container .head .head-search::placeholder {
+  font-size: 14px;
+  color: #b7b7b7;
+  line-height: 16px;
+}
+.container .banner {
+  margin-top: 98px;
+  text-align: center;
+  font-size: 0;
+}
+.container .banner .banner-img {
+  width: 339px;
+  height: 86px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+}
+.container .category {
+  width: 100vw;
+  height: 174px;
+  padding: 16px 26px;
+  display: flex;
+  flex-direction: column;
+}
+.container .category .category-row {
+  width: 323px;
+  height: 87px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 16px;
+}
+.container .category .category-row .category-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 21px;
+}
+.container .category .category-row .category-item:last-child {
+  margin-right: 0;
+}
+.container .category .category-row .category-item .item-img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 6px;
+}
+.container .category .category-row .category-item .item-title {
+  width: 48px;
+  height: 17px;
+  font-size: 12px;
+  color: #333333;
+  text-align: center;
+}
+.container .gap {
+  width: 375px;
+  height: 10px;
+  background: #f1f1f1;
+}
+.container .nearby {
+  width: 100vw;
+  padding: 16px 18px 65px;
+}
+.container .nearby .nearby-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #333333;
+  margin-bottom: 14px;
+}
+.container .nearby .nearby-item {
+  width: 339px;
+  height: 86px;
+  display: flex;
+}
+.container .nearby .nearby-item .left {
+  margin-left: 4.8vw;
+  margin-right: 4.2667vw;
+}
+.container .nearby .nearby-item .left .shop-logo {
+  width: 14.9333vw;
+  height: 14.9333vw;
+  border-radius: 14.9333vw;
+}
+.container .nearby .nearby-item .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-bottom: 1px solid #f1f1f1;
+  flex-grow: 1;
+}
+.container .nearby .nearby-item .right .shop-title {
+  font-size: 4.2667vw;
+  color: #333333;
+}
+.container .nearby .nearby-item .right .tags .tag-item {
+  font-size: 3.4667vw;
+  color: #333333;
+}
+.container .nearby .nearby-item .right .promotion {
+  font-size: 3.4667vw;
+  color: #e93b3b;
+  margin-bottom: 5px;
+}
