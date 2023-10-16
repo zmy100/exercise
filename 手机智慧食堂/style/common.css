@@ -28,15 +28,20 @@ input::-ms-input-placeholder {
   height: 100%;
   border-radius: 27.5rem;
   padding-left: 46rem;
-  box-sizing: border-box;
+  padding-top: 2rem;
   color: #fff;
+  box-sizing: border-box;
   background: rgba(0, 0, 0, 0.2);
   border: 0 solid rgba(0, 0, 0, 0.1);
   box-shadow: 0 5rem 10rem 0 rgba(0, 0, 0, 0.05);
   border-radius: 27.5rem;
 }
+.header__input::placeholder {
+  color: #fff;
+  font-size: 14rem;
+}
 .header_iconfont {
-  color: #100e0e;
+  color: #fff;
   position: absolute;
   z-index: 20;
   margin-left: 20rem;
