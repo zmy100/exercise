@@ -15,15 +15,7 @@
       {{include "../../components/topbar/topbar.art"}}
       {{include "../../components/main-nav/main-nav.art"}}
       <!-- 页面顶部主要内容 -->
-      <div class="header-con">
-        <div class="center-wrap">
-          <h1>途游网</h1>
-          <div class="soso-box">
-            <input type="text" placeholder="查询目的地/攻略" />
-            <a href="" class="btn iconfont">&#xe62d;</a>
-          </div>
-        </div>
-      </div>
+      {{include "../../components/header-con/header-con.art"}}
     </header>
     <!-- banner -->
     <section class="banner" id="banner">

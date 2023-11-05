@@ -1,0 +1,9 @@
+<div class="header-con">
+  <div class="center-wrap">
+    <h1>途游网</h1>
+    <div class="soso-box">
+      <input type="text" placeholder="查询目的地/攻略" />
+      <a href="" class="btn iconfont">&#xe62d;</a>
+    </div>
+  </div>
+</div>
