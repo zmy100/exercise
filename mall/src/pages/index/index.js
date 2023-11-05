@@ -25,3 +25,11 @@ import "./components/hot-ads/hot-ads.js";
 import "./components/xxsw/xxsw.js";
 // 引入jjzyx.js
 import "./components/jjzyx/jjzyx.js";
+// 引入ddwl.js
+import "./components/ddwl/ddwl.js";
+// 引入tsddty.js
+import "./components/tsddty/tsddty.js";
+// 引入zsjsdlx.js
+import "./components/zsj/zsjsdlx.js";
+// 引入gtbzzy.js
+import "./components/gtbzzy/gtbzzy.js";

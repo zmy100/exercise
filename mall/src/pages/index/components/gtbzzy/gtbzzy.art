@@ -1,0 +1,92 @@
+<section class="gtbzzy content-part common-style">
+  <div class="center-wrap">
+    <div class="hd clearfix">
+      <h2>旅游攻略</h2>
+      <em>旅游需要好的选择，踏实省心</em>
+      <nav>
+        <ul>
+          <li class="current"><a href="">国内攻略</a></li>
+          <li><a href="">海外攻略</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bd">
+      <ul>
+        <li class="big-grid havehover">
+          <a href="">
+            <div class="mask"></div>
+            <div class="circle">
+              <p>旅游攻略</p>
+              <p>CityWalk</p>
+            </div>
+            <div class="word">
+              【City Walk】三亚 —— 大海一望无际 海风可以吹走所以烦恼
+            </div>
+            <img src="./images/yh.png" alt="" />
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <img src="./images/gt2.png" alt="" />
+            </div>
+            <div class="wordbox">
+              每一个去香港的人都会带上些目的，拎着大包小包，从铜锣湾一路北上...
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <img src="./images/gt3.png" alt="" />
+            </div>
+            <div class="wordbox">
+              云南有着美丽的花海、神圣的雪山、波澜壮阔的自然风景。一台摄像机...
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <img src="./images/gt4.png" alt="" />
+            </div>
+            <div class="wordbox">
+              台湾环岛15日(阿里山日月潭)玩法经过日月潭和阿里山的经典线...
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <img src="./images/gt5.png" alt="" />
+            </div>
+            <div class="wordbox">
+              香港自由行全指南！（附3、5、6日行程推荐）每一个去香港的人都...
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <img src="./images/gt6.png" alt="" />
+            </div>
+            <div class="wordbox">
+              下半年优先旅行地大盘点6-8月云南云南有着美丽的花海、神圣的雪山...
+            </div>
+          </a>
+        </li>
+        <li class="more-grid">
+          <a href="">
+            <p>查看更多</p>
+            <p>定制旅游攻略</p>
+            <span class="iconfont">&#xe619;</span>
+            <ul>
+              <li>自助攻略</li>
+              <li>半自助攻略</li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
