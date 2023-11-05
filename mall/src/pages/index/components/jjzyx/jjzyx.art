@@ -1,0 +1,107 @@
+<section class="jjzyx content-part common-style">
+  <div class="center-wrap">
+    <div class="hd clearfix">
+      <h2>酒店预订</h2>
+      <em>挑选全球热门酒店</em>
+      <nav>
+        <ul>
+          <li class="current"><a href="">近期好货</a></li>
+          <li><a href="">新品汇聚</a></li>
+          <li><a href="">双人间</a></li>
+          <li><a href="">单人间</a></li>
+          <li><a href="">家庭套房</a></li>
+          <li><a href="">总统套房</a></li>
+          <li><a href="">折扣房</a></li>
+          <li><a href="">低价房</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="bd">
+      <ul>
+        <li class="big-grid">
+          <a href="">
+            <img src="./images/jjzyx1.png" alt="" />
+          </a>
+          <span class="tag">酒店</span>
+          <div class="info">
+            <p>[樱花季]东京/大阪/名古屋酒店</p>
+            <!-- <p>含税机票【甩尾/多团期】</p> -->
+          </div>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <span class="tag">酒店</span>
+              <img src="./images/jjzyx2.png" alt="" />
+            </div>
+            <div class="wordbox">
+              豪华套房 <br />
+              2000元 / 一晚
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <span class="tag">酒店</span>
+              <img src="./images/jjzyx3.png" alt="" />
+            </div>
+            <div class="wordbox">
+              单人房 <br />
+              2000元 / 一晚
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <span class="tag">酒店</span>
+              <img src="./images/jjzyx4.png" alt="" />
+            </div>
+            <div class="wordbox">
+              家庭套房 <br />
+              2000元 / 一晚
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <span class="tag">酒店</span>
+              <img src="./images/jjzyx5.png" alt="" />
+            </div>
+            <div class="wordbox">
+              双人房 <br />
+              1000元 / 一晚
+            </div>
+          </a>
+        </li>
+        <li class="pro-grid">
+          <a href="">
+            <div class="picbox">
+              <span class="tag">酒店</span>
+              <img src="./images/jjzyx6.png" alt="" />
+            </div>
+            <div class="wordbox">
+              总统套房 <br />
+              3000元 / 一晚
+            </div>
+          </a>
+        </li>
+        <li class="more-grid">
+          <a href="">
+            <p>查看更多</p>
+            <p>酒店预订</p>
+            <span class="iconfont">&#xe619;</span>
+            <ul>
+              <li>酒店</li>
+              <li>机票+酒店</li>
+              <li>门票+酒店</li>
+              <!-- <li>游轮</li> -->
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

@@ -19,3 +19,9 @@ import "components/header-con/header-con.js";
 import "./components/carousel/carousel.js";
 // 引入banner-nav.js
 import "./components/banner-nav/banner-nav.js";
+// 引入hot-ads.js
+import "./components/hot-ads/hot-ads.js";
+// 引入xxsw.js
+import "./components/xxsw/xxsw.js";
+// 引入jjzyx.js
+import "./components/jjzyx/jjzyx.js";

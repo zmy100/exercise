@@ -1,0 +1,74 @@
+<section class="xxsw content-part">
+  <div class="center-wrap">
+    <div class="hd clearfix">
+      <h2>近期热门路线</h2>
+      <em>每日必看好货</em>
+    </div>
+    <ul>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw1.png" alt="" />
+          </div>
+          <div class="wordbox">泰国清迈5日跟团游</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw2.png" alt="" />
+          </div>
+          <div class="wordbox">澳门2-12日自由行三星酒店</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw3.png" alt="" />
+          </div>
+          <div class="wordbox">桂林+阳朔3日跟团游</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw4.png" alt="" />
+          </div>
+          <div class="wordbox">九寨+尕里台草原+黄龙5日跟团游</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw5.png" alt="" />
+          </div>
+          <div class="wordbox">丽江+香格里拉5日跟团游</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw6.png" alt="" />
+          </div>
+          <div class="wordbox">美国西海岸8日半自助游</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw7.png" alt="" />
+          </div>
+          <div class="wordbox">欧洲法国+瑞士+意大利+梵蒂冈4日游</div>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="./images/xxsw8.png" alt="" />
+          </div>
+          <div class="wordbox">日本大阪+京都+横滨+东京6日跟团游</div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>
