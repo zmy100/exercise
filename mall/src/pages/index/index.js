@@ -10,3 +10,5 @@ import "./js/backtotop.js";
 
 // 引入topbar.js
 import "components/topbar/topbar.js";
+// 引入main-nav.js
+import "components/main-nav/main-nav.js";
