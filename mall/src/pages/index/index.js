@@ -7,3 +7,6 @@ import "./css/css.css";
 import "./js/carousel.js";
 import "./js/menu.js";
 import "./js/backtotop.js";
+
+// 引入topbar.js
+import "components/topbar/topbar.js";
