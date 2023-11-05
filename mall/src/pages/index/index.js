@@ -17,3 +17,5 @@ import "components/header-con/header-con.js";
 
 // 引入carousel.js
 import "./components/carousel/carousel.js";
+// 引入banner-nav.js
+import "./components/banner-nav/banner-nav.js";
