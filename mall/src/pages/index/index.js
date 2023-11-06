@@ -1,6 +1,7 @@
 // 引入css
 import "styles/reset.css";
 import "styles/base.css";
+import "styles/common.css";
 import "./css/css.css";
 
 // 引入js
@@ -38,4 +39,3 @@ import "components/footer/footer.js";
 
 // 引入backtotop组件的js
 import "components/backtotop/backtotop.js";
-
