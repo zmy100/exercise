@@ -5,7 +5,6 @@ import "styles/common.css";
 import "./css/css.css";
 
 // 引入js
-import "./js/carousel.js";
 import "./js/menu.js";
 
 // 引入topbar组件的js
