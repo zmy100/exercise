@@ -1,37 +1,37 @@
 {
-	"code": 200,
-	"data": [
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_01.png",
-			"title": "北京直飞马尔代夫6-7天往返含税机票（首都航空/售完为止）"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_02.png",
-			"title": "[甩尾狂欢] 北京/天津直飞日本东京/大阪/冲绳/札幌/福冈4-7天往返含机票和酒店"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_03.png",
-			"title": "[拒签全退][全国25城联运] 北京往返格鲁吉亚+阿塞拜疆7-30天自由行"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_04.png",
-			"title": "[樱花季] 北京直飞东京/大阪/名古屋/冲绳/札幌/福冈/仙台2-30天往返含机票和酒店"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_05.png",
-			"title": "[品质小团/快速确认] 新西兰福克斯冰川直升机观光+冰川徒步（提供含机票和酒店）"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_06.png",
-			"title": "[北欧破冰船] 芬兰+瑞典极地探险号破冰船活动+冰上漂浮+瑞典小含机票和酒店"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_07.png",
-			"title": "[指定班期特惠][全程中文伴游] 摩洛哥全景深度10日游（卡萨进出含机票和酒店)"
-		},
-		{
-			"url": "../src/assets/images/ajax-data/fresh/xxsw_08.png",
-			"title": "马来西亚天空之镜+河口赏鹰+夜游萤火虫+寻找蓝眼泪（马来西亚瓜拉雪含机票和酒店)"
-		}
-	]
+  "code": 200,
+  "data": [
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw1.png",
+      "title": "泰国清迈5日跟团游"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw2.png",
+      "title": "澳门2-12日自由行三星酒店"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw3.png",
+      "title": "桂林+阳朔3日跟团游"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw4.png",
+      "title": "九寨+尕里台草原+黄龙5日跟团游"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw5.png",
+      "title": "丽江+香格里拉5日跟团游"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw6.png",
+      "title": "美国西海岸8日半自助游"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw7.png",
+      "title": "欧洲法国+瑞士+意大利+梵蒂冈4日游"
+    },
+    {
+      "url": "../src/assets/images/ajax-data/fresh/xxsw8.png",
+      "title": "日本大阪+京都+横滨+东京6日跟团游"
+    }
+  ]
 }

@@ -2,7 +2,7 @@
 	"code": 200,
 	"data": [
 		{
-			"title": "内地热门城市",
+			"title": "国内热门城市",
 			"cities": [
 				{ "text": "三亚", "link": "https://www.baidu.com" },
 				{ "text": "东北雪乡", "link": "https://www.baidu.com" },
