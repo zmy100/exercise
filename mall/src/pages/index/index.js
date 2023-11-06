@@ -36,3 +36,6 @@ import "./components/gtbzzy/gtbzzy.js";
 
 // 引入footer组件的js
 import "components/footer/footer.js";
+
+// 引入backtotop组件的js
+import "components/backtotop/backtotop.js";

@@ -46,6 +46,6 @@
       {{include "../../components/footer/footer-part2.art"}}
     </footer>
     <!-- 返回顶部按钮 -->
-    <a href="javascript:;" class="backtotop" id="backtotop"> 返回<br />顶部 </a>
+    {{include "../../components/backtotop/backtotop.art"}}
   </body>
 </html>
