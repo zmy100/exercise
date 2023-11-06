@@ -1,0 +1,9 @@
+{
+	"code": 200,
+	"data": [
+		{ "url": "../src/assets/images/ajax-data/advertisement/small01.png" },
+		{ "url": "../src/assets/images/ajax-data/advertisement/small02.png" },
+		{ "url": "../src/assets/images/ajax-data/advertisement/small03.png" },
+		{ "url": "../src/assets/images/ajax-data/advertisement/small04.png" }
+	]
+}

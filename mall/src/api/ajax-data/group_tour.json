@@ -1,0 +1,35 @@
+{
+	"code": 200,
+	"data": {
+		"one": {
+			"url": "../src/assets/images/ajax-data/FollowGroup/gt_01.png",
+			"title": "[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返",
+			"extra-info": "含机票酒店",
+			"tag": "跟团",
+			"extra-tag": "半自助游"
+		},
+		"items": [
+			{
+				"url": "../src/assets/images/ajax-data/FollowGroup/gt_02.png",
+				"title": "北京/上海/南京/杭州直飞巴厘岛5-7天往返含税机票（赠送旅游意外险）"
+			},
+			{
+				"url": "../src/assets/images/ajax-data/FollowGroup/gt_03.png",
+				"title": "北京/天津直飞日本东京/大阪/东阪/福冈/名古屋冲绳/北海道4-7天往返非常好"
+			},
+			{
+				"url": "../src/assets/images/ajax-data/FollowGroup/gt_04.png",
+				"title": "[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返9日游"
+			},
+			{
+				"url": "../src/assets/images/ajax-data/FollowGroup/gt_05.png",
+				"title": "杭州/上海/宁波/义乌直飞越南芽庄/岘港4-6天往返含税机票（20KG行李免费）"
+			},
+			{
+				"url": "../src/assets/images/ajax-data/FollowGroup/gt_06.png",
+				"title": "[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返"
+			}
+		],
+		"more": { "title": "精品跟团/半自助游", "items": ["跟团", "半自助游"] }
+	}
+}

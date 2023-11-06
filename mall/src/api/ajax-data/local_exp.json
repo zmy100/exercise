@@ -1,0 +1,33 @@
+{
+	"code": 200,
+	"data": [
+		{
+			"url": "../src/assets/images/ajax-data/characteristic/tsdd_01.png",
+			"title": "香港迪士尼乐园门票(一日 / 两日) - 无需换票扫码入园",
+			"score": 4.7999999999999998,
+			"comment_counts": "92833",
+			"join_counts": "2334.69k"
+		},
+		{
+			"url": "../src/assets/images/ajax-data/characteristic/tsdd_02.png",
+			"title": "罗马金宫剧场人妖秀(一日 / 两日) - 无需换票扫码入园",
+			"score": 4.5999999999999996,
+			"comment_counts": "336",
+			"join_counts": "916.57k"
+		},
+		{
+			"url": "../src/assets/images/ajax-data/characteristic/tsdd_03.png",
+			"title": "京都和服体验 - 梦馆(一日 / 两日) - 无需换票扫码入园",
+			"score": 4.5999999999999996,
+			"comment_counts": "3241",
+			"join_counts": "50.60k"
+		},
+		{
+			"url": "../src/assets/images/ajax-data/characteristic/tsdd_04.png",
+			"title": "英国巨石阵 & 温莎城堡 & 巴斯罗马浴场一日游",
+			"score": 4.4000000000000004,
+			"comment_counts": "1073",
+			"join_counts": "17.92k"
+		}
+	]
+}

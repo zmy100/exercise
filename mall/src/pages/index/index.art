@@ -19,7 +19,7 @@
     </header>
     <!-- banner -->
     <section class="banner" id="banner">
-      {{include "./components/carousel/carousel_list.art"}}
+      <div class="slider-layout"></div>
       {{include "./components/carousel/circles.art"}}
       <div class="center-wrap">
         {{include "./components/carousel/buttons.art"}}

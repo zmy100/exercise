@@ -1,0 +1,31 @@
+【banner区域】
+    Banner图片地址： slider.json
+    一级菜单数据地址：menu.json
+    二级菜单数据地址
+        热门出发地 hot.json
+        港澳台 hk.json
+        日本 japan.json
+        亚洲 asia.json
+        欧美 eu.json
+        澳新 au.json
+
+【广告区域】
+    ad.json 
+
+【新鲜甩尾区域】
+    seckill.json
+
+【机酒自由行区域】
+    self_guided_tour.json
+
+【当地玩乐区域】
+    local_fun.json
+
+【特色体验区域】
+    local_exp.json
+
+【最世界区域】
+    special_subject.json
+
+【跟团区域】
+    group_tour.json

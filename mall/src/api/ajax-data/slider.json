@@ -1,0 +1,12 @@
+{
+	"code": 200,
+	"data": [
+		{ "url": "../src/assets/images/ajax-data/slide/banner1.jpg" },
+		{ "url": "../src/assets/images/ajax-data/slide/banner2.jpg" },
+		{ "url": "../src/assets/images/ajax-data/slide/banner3.jpg" },
+		{ "url": "../src/assets/images/ajax-data/slide/banner4.jpg" },
+		{ "url": "../src/assets/images/ajax-data/slide/banner5.jpg" }
+	]
+}
+
+

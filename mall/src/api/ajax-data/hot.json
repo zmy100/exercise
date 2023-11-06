@@ -1,0 +1,60 @@
+{
+	"code": 200,
+	"data": [
+		{
+			"title": "内地热门城市",
+			"cities": [
+				{ "text": "三亚", "link": "https://www.baidu.com" },
+				{ "text": "东北雪乡", "link": "https://www.baidu.com" },
+				{ "text": "大理", "link": "https://www.baidu.com" },
+				{ "text": "丽江", "link": "https://www.baidu.com" },
+				{ "text": "昆明", "link": "https://www.baidu.com" },
+				{ "text": "西双版纳", "link": "https://www.baidu.com" },
+				{ "text": "拉萨", "link": "https://www.baidu.com" },
+				{ "text": "成都", "link": "https://www.baidu.com" },
+				{ "text": "重庆", "link": "https://www.baidu.com" },
+				{ "text": "长白山", "link": "https://www.baidu.com" },
+				{ "text": "厦门", "link": "https://www.baidu.com" },
+				{ "text": "长沙", "link": "https://www.baidu.com" },
+				{ "text": "桂林北京", "link": "https://www.baidu.com" },
+				{ "text": "西安", "link": "https://www.baidu.com" },
+				{ "text": "敦煌", "link": "https://www.baidu.com" },
+				{ "text": "杭州", "link": "https://www.baidu.com" },
+				{ "text": "上海", "link": "https://www.baidu.com" },
+				{ "text": "无锡", "link": "https://www.baidu.com" },
+				{ "text": "南京", "link": "https://www.baidu.com" },
+				{ "text": "广州", "link": "https://www.baidu.com" },
+				{ "text": "黄山", "link": "https://www.baidu.com" },
+				{ "text": "莫干山", "link": "https://www.baidu.com" },
+				{ "text": "新疆", "link": "https://www.baidu.com" },
+				{ "text": "北海", "link": "https://www.baidu.com" },
+				{ "text": "九华山", "link": "https://www.baidu.com" },
+				{ "text": "太原", "link": "https://www.baidu.com" },
+				{ "text": "张家口", "link": "https://www.baidu.com" }
+			]
+		},
+		{
+			"title": "热门景点",
+			"cities": [
+				{ "text": "北京故宫", "link": "https://www.baidu.com" },
+				{ "text": "东北滑雪", "link": "https://www.baidu.com" },
+				{ "text": "恭王府", "link": "https://www.baidu.com" },
+				{ "text": "长城", "link": "https://www.baidu.com" },
+				{ "text": "青城山大熊猫基地", "link": "https://www.baidu.com" },
+				{ "text": "峨眉山", "link": "https://www.baidu.com" },
+				{ "text": "都江堰", "link": "https://www.baidu.com" },
+				{ "text": "长恨歌表演", "link": "https://www.baidu.com" },
+				{ "text": "兵马俑", "link": "https://www.baidu.com" },
+				{ "text": "大唐芙蓉园", "link": "https://www.baidu.com" },
+				{ "text": "三亚日游", "link": "https://www.baidu.com" },
+				{ "text": "厦门鼓浪屿", "link": "https://www.baidu.com" },
+				{ "text": "千岛湖", "link": "https://www.baidu.com" },
+				{ "text": "呼伦贝尔草原", "link": "https://www.baidu.com" },
+				{ "text": "希拉穆仁草原", "link": "https://www.baidu.com" },
+				{ "text": "大理日游", "link": "https://www.baidu.com" },
+				{ "text": "杭州", "link": "https://www.baidu.com" },
+				{ "text": "重庆两江夜游船票", "link": "https://www.baidu.com" }
+			]
+		}
+	]
+}
