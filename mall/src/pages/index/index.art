@@ -41,10 +41,7 @@
     <!-- 旅游攻略 -->
     {{include "./components/gtbzzy/gtbzzy.art"}}
     <!-- 页脚 -->
-    <footer>
-      {{include "../../components/footer/footer-part1.art"}}
-      {{include "../../components/footer/footer-part2.art"}}
-    </footer>
+    {{include "../../components/footer/footer.art"}}
     <!-- 返回顶部按钮 -->
     {{include "../../components/backtotop/backtotop.art"}}
   </body>

@@ -1,0 +1,4 @@
+<footer>
+  {{include "./footer-part1.art"}}
+  {{include "./footer-part2.art"}}
+</footer>

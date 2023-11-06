@@ -1,12 +1,11 @@
 // 引入css
-import "./css/reset.css";
-import "./css/base.css";
+import "styles/reset.css";
+import "styles/base.css";
 import "./css/css.css";
 
 // 引入js
 import "./js/carousel.js";
 import "./js/menu.js";
-import "./js/backtotop.js";
 
 // 引入topbar组件的js
 import "components/topbar/topbar.js";
@@ -39,3 +38,4 @@ import "components/footer/footer.js";
 
 // 引入backtotop组件的js
 import "components/backtotop/backtotop.js";
+

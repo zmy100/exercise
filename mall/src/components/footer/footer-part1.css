@@ -45,7 +45,7 @@ footer .part1 dl::before {
   position: absolute;
   width: 60px;
   height: 60px;
-  background-image: url(./images/icons.png);
+  background-image: url(images/icons.png);
   left: 0;
 }
 footer .part1 dl dd {

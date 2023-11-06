@@ -52,7 +52,7 @@
 .banner .center-wrap .banner-nav > ul > li::before {
   content: "";
   position: absolute;
-  background-image: url(./images/icons.png);
+  background-image: url(images/icons.png);
   top: 50%;
   left: 10px;
   fill: #ff9d00; /* 修改的颜色 */
