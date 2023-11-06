@@ -1,90 +1,90 @@
-<section class="ddwl content-part">
-  <div class="center-wrap">
-    <div class="hd clearfix">
-      <h2>当地玩乐</h2>
-      <em>像当地人一样，体验本土的吃喝玩乐</em>
-      <nav>
-        <ul>
-          <li class="current"><a href="">国内</a></li>
-          <li><a href="">日本</a></li>
-          <li><a href="">瑞士</a></li>
-          <li><a href="">新西兰</a></li>
-          <li><a href="">澳大利亚</a></li>
-          <li><a href="">柬埔寨</a></li>
-          <li><a href="">泰国</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="bd">
-      <div class="col">
-        <div class="bigpicbox">
-          <img src="./images/ddwl1.png" alt="" />
-          <div class="info">
-            <p class="proname">和平古镇——福建美的“城堡式古镇”</p>
-            <div class="bottom clearfix">
-              <p class="tag">城市玩乐</p>
-              <p class="price"><strong>199</strong>元起</p>
-            </div>
+<div class="center-wrap">
+  <div class="hd clearfix">
+    <h2>当地玩乐</h2>
+    <em>像当地人一样，体验本土的吃喝玩乐</em>
+    <nav>
+      <ul>
+        <li class="current"><a href="">国内</a></li>
+        <li><a href="">日本</a></li>
+        <li><a href="">瑞士</a></li>
+        <li><a href="">新西兰</a></li>
+        <li><a href="">澳大利亚</a></li>
+        <li><a href="">柬埔寨</a></li>
+        <li><a href="">泰国</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="bd">
+    <div class="col">
+      <div class="bigpicbox">
+        <img src="{{ one.url }}" alt="" />
+        <div class="info">
+          <p class="proname">{{ one.title }}</p>
+          <div class="bottom clearfix">
+            <p class="tag">{{ one.type }}</p>
+            <p class="price">
+              <strong>{{ one.price }}</strong
+              >元起
+            </p>
           </div>
         </div>
-        <div class="grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/ddwl2.png" alt="" />
-            </div>
-            <div class="wordbox">崇武大岞一日游成半日游,风雨无情人有情</div>
-          </a>
-        </div>
       </div>
-      <div class="col">
-        <div class="grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/ddwl3.png" alt="" />
-            </div>
-            <div class="wordbox">《大鱼海棠》取景地超详攻略</div>
-          </a>
-        </div>
-        <div class="grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/ddwl4.png" alt="" />
-            </div>
-            <div class="wordbox">去福建武夷山游玩，看这篇攻略就够</div>
-          </a>
-        </div>
-        <div class="grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/ddwl5.png" alt="" />
-            </div>
-            <div class="wordbox">穿越千年的繁华，福建泉州超详攻略</div>
-          </a>
-        </div>
+      <div class="grid">
+        <a href="">
+          <div class="picbox">
+            <img src="{{ items[0].url }}" alt="" />
+          </div>
+          <div class="wordbox">{{ items[0].title }}</div>
+        </a>
       </div>
-      <div class="col">
-        <div class="grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/ddwl6.png" alt="" />
-            </div>
-            <div class="wordbox">霞浦：北岐拍日出</div>
-          </a>
-        </div>
-        <div class="more-grid">
-          <a href="">
-            <p>查看更多</p>
-            <p>当地玩乐产品</p>
-            <span class="iconfont">&#xe619;</span>
-            <ul>
-              <li>WiFi/电话卡</li>
-              <li>交通票券</li>
-              <li>景点门票</li>
-              <li>特色体验</li>
-            </ul>
-          </a>
-        </div>
+    </div>
+    <div class="col">
+      <div class="grid">
+        <a href="">
+          <div class="picbox">
+            <img src="{{ items[1].url }}" alt="" />
+          </div>
+          <div class="wordbox">{{ items[1].title }}</div>
+        </a>
+      </div>
+      <div class="grid">
+        <a href="">
+          <div class="picbox">
+            <img src="{{ items[2].url }}" alt="" />
+          </div>
+          <div class="wordbox">{{ items[2].title }}</div>
+        </a>
+      </div>
+      <div class="grid">
+        <a href="">
+          <div class="picbox">
+            <img src="{{ items[3].url }}" alt="" />
+          </div>
+          <div class="wordbox">{{ items[3].title }}</div>
+        </a>
+      </div>
+    </div>
+    <div class="col">
+      <div class="grid">
+        <a href="">
+          <div class="picbox">
+            <img src="{{ items[4].url }}" alt="" />
+          </div>
+          <div class="wordbox">{{ items[4].title }}</div>
+        </a>
+      </div>
+      <div class="more-grid">
+        <a href="">
+          <p>查看更多</p>
+          <p>{{ more.title }}</p>
+          <span class="iconfont">&#xe619;</span>
+          <ul>
+            {{each more.items}}
+            <li>{{ $value }}</li>
+            {{/each}}
+          </ul>
+        </a>
       </div>
     </div>
   </div>
-</section>
+</div>

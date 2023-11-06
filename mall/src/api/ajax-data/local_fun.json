@@ -2,33 +2,33 @@
 	"code": 200,
 	"data": {
 		"one": {
-			"url": "../src/assets/images/ajax-data/LocalPlay/ddwl_01.png",
-			"title": "[亲子佳选]泰国清迈夜间动物园（可选接送；导游；长颈鹿餐厅）",
+			"url": "../src/assets/images/ajax-data/LocalPlay/ddwl1.png",
+			"title": "和平古镇——福建美的“城堡式古镇”",
 			"type": "城市玩乐",
 			"price": 1999
 		},
 		"items": [
 			{
-				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl_02.png",
-				"title": "[樱花季] 北京/天津直飞东京/大阪/名古屋/福冈/广岛/北海道/冲绳往返…"
+				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl2.png",
+				"title": "崇武大岞一日游成半日游,风雨无情人有情"
 			},
 			{
-				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl_03.png",
-				"title": "[网红新选] 泰国清迈黑白蓝庙一日游清莱黑庙 白庙 蓝庙 温泉驿站中文导游+酒店接送+餐赠小…"
+				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl3.png",
+				"title": "《大鱼海棠》取景地超详攻略"
 			},
 			{
-				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl_04.png",
-				"title": "[全岛接送+中文导游] 泰国普吉岛+皇帝岛+珊瑚岛一日游双体帆船海钓 [帆船晚会+浮潜]…"
+				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl4.png",
+				"title": "去福建武夷山游玩，看这篇攻略就够"
 			},
 			{
-				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl_05.png",
-				"title": "享行之旅|泰国苏梅岛一日游 越野车丛林环岛之旅 骑大象纳蒙瀑布"
+				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl5.png",
+				"title": "穿越千年的繁华，福建泉州超详攻略"
 			},
 			{
-				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl_06.png",
-				"title": "[北京领区]日本个人旅游签证(单次/三年/五年多次可选)"
+				"url": "../src/assets/images/ajax-data/LocalPlay/ddwl6.png",
+				"title": "霞浦：北岐拍日出"
 			}
 		],
-		"more": { "title": "当地玩乐产品", "items": ["WiFi/电话卡!", "交通票券!", "景点门票!", "特色体验!"] }
+		"more": { "title": "当地玩乐产品", "items": ["WiFi/电话卡", "交通票券", "景点门票", "特色体验"] }
 	}
 }

@@ -33,7 +33,7 @@
     <!-- 机酒自由行 -->
     {{include "./components/jjzyx/jjzyx.art"}}
     <!-- 当地玩乐 -->
-    {{include "./components/ddwl/ddwl.art"}}
+    <section class="ddwl content-part"></section>
     <!-- 特色当地体验 -->
     {{include "./components/tsddty/tsddty.art"}}
     <!-- 最世界·深度旅行 -->
