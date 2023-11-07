@@ -10,9 +10,9 @@ axios
     document.querySelector("ul#banner-nav-ul").innerHTML = first({
       items: response.data.data,
     });
+    makeMenu();
   })
   .then(getSecondMenu())
-  .then(makeMenu())
   .catch(function (error) {
     console.log(error);
   });
