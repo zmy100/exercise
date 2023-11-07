@@ -1,6 +1,7 @@
 import "./banner-nav.css";
 import axios from "axios";
 import first from "./first-menu.art";
+import second from "./second-menu.art";
 
 // 调用接口
 axios
@@ -10,10 +11,46 @@ axios
       items: response.data.data,
     });
   })
+  .then(getSecondMenu())
   .then(makeMenu())
   .catch(function (error) {
     console.log(error);
   });
+
+function getSecondMenu() {
+  const jsonArray = [
+    {
+      type: "hot",
+      json: "../src/api/ajax-data/hot.json",
+    },
+    {
+      type: "hk",
+      json: "../src/api/ajax-data/hk.json",
+    },
+    {
+      type: "jp",
+      json: "../src/api/ajax-data/japan.json",
+    },
+    {
+      type: "as",
+      json: "../src/api/ajax-data/asia.json",
+    },
+  ];
+  jsonArray.forEach((obj) => {
+    // 调用接口
+    axios
+      .get(obj.json)
+      .then(function (response) {
+        document.querySelector(`div.menu[data-t='${obj.type}']`).innerHTML =
+          second({
+            items: response.data.data,
+          });
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  });
+}
 
 function makeMenu() {
   var bannerNavUl = document.getElementById("banner-nav-ul");
