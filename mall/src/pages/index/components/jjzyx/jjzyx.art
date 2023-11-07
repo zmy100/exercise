@@ -47,10 +47,9 @@
           <p>{{ more.title }}</p>
           <span class="iconfont">&#xe619;</span>
           <ul>
-            <li>{{ more.items[0] }}</li>
-            <li>{{ more.items[1] }}</li>
-            <li>{{ more.items[2] }}</li>
-            <!-- <li>游轮</li> -->
+            {{each more.items}}
+            <li>{{ $value }}</li>
+            {{/each}}
           </ul>
         </a>
       </li>
