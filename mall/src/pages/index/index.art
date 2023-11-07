@@ -31,7 +31,7 @@
     <!-- 新鲜甩尾 -->
     <section class="xxsw content-part"></section>
     <!-- 机酒自由行 -->
-    {{include "./components/jjzyx/jjzyx.art"}}
+    <section class="jjzyx content-part common-style"></section>
     <!-- 当地玩乐 -->
     <section class="ddwl content-part"></section>
     <!-- 特色当地体验 -->

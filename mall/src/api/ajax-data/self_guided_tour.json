@@ -5,32 +5,32 @@
       "url": "../src/assets/images/ajax-data/free/jjzyx1.png",
       "title": "[樱花季]东京/大阪/名古屋酒店",
       "extra-info": "含机票酒店",
-      "type": "机票"
+      "type": "酒店"
     },
     "items": [
       {
         "url": "../src/assets/images/ajax-data/free/jjzyx2.png",
         "title": "豪华套房",
         "price": "2000元 / 一晚",
-        "type": "机票"
+        "type": "酒店"
       },
       {
         "url": "../src/assets/images/ajax-data/free/jjzyx3.png",
         "title": "单人房",
         "price": "2000元 / 一晚",
-        "type": "机票"
+        "type": "酒店"
       },
       {
         "url": "../src/assets/images/ajax-data/free/jjzyx4.png",
         "title": "家庭套房",
         "price": "2000元 / 一晚",
-        "type": "机票"
+        "type": "酒店"
       },
       {
         "url": "../src/assets/images/ajax-data/free/jjzyx5.png",
         "title": "双人房",
         "price": "1000元 / 一晚",
-        "type": "机票"
+        "type": "酒店"
       },
       {
         "url": "../src/assets/images/ajax-data/free/jjzyx6.png",
