@@ -27,7 +27,7 @@
       </div>
     </section>
     <!-- 热门广告 -->
-    {{include "./components/hot-ads/hot-ads.art"}}
+    <section class="hot-ads clearfix"></section>
     <!-- 新鲜甩尾 -->
     {{include "./components/xxsw/xxsw.art"}}
     <!-- 机酒自由行 -->
