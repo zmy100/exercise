@@ -39,7 +39,7 @@
     <!-- 最世界·深度旅行 -->
     <section class="zsjsdlx content-part common-style"></section>
     <!-- 旅游攻略 -->
-    {{include "./components/gtbzzy/gtbzzy.art"}}
+    <section class="gtbzzy content-part common-style"></section>
     <!-- 页脚 -->
     {{include "../../components/footer/footer.art"}}
     <!-- 返回顶部按钮 -->
