@@ -29,7 +29,7 @@
     <!-- 热门广告 -->
     <section class="hot-ads clearfix"></section>
     <!-- 新鲜甩尾 -->
-    {{include "./components/xxsw/xxsw.art"}}
+    <section class="xxsw content-part"></section>
     <!-- 机酒自由行 -->
     {{include "./components/jjzyx/jjzyx.art"}}
     <!-- 当地玩乐 -->
