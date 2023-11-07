@@ -1,67 +1,30 @@
-<section class="tsddty content-part">
-  <div class="center-wrap">
-    <div class="hd">
-      <h2>海外特色体验</h2>
-    </div>
-    <div class="bd">
-      <ul>
-        <li>
-          <a href="">
-            <div class="picbox">
-              <img src="./images/tsddty1.png" alt="" />
-            </div>
-            <div class="wordbox">
-              <p class="proname">韩国3天自由行</p>
-              <p>
-                <span class="score">★ 4.8</span>
-                <span class="comment">（92833评价)2334.69k 人参加过</span>
-              </p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <div class="picbox">
-              <img src="./images/tsddty2.png" alt="" />
-            </div>
-            <div class="wordbox">
-              <p class="proname">希腊深度6晚9日游</p>
-              <p>
-                <span class="score">★ 4.8</span>
-                <span class="comment">（92833评价)2334.69k 人参加过</span>
-              </p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <div class="picbox">
-              <img src="./images/tsddty3.png" alt="" />
-            </div>
-            <div class="wordbox">
-              <p class="proname">港丽岛4晚6日自由行</p>
-              <p>
-                <span class="score">★ 4.8</span>
-                <span class="comment">（92833评价)2334.69k 人参加过</span>
-              </p>
-            </div>
-          </a>
-        </li>
-        <li>
-          <a href="">
-            <div class="picbox">
-              <img src="./images/tsddty4.png" alt="" />
-            </div>
-            <div class="wordbox">
-              <p class="proname">曼谷+芭堤雅6/7日游</p>
-              <p>
-                <span class="score">★ 4.8</span>
-                <span class="comment">(92833评价)2334.69k人参加过</span>
-              </p>
-            </div>
-          </a>
-        </li>
-      </ul>
-    </div>
+<div class="center-wrap">
+  <div class="hd">
+    <h2>海外特色体验</h2>
   </div>
-</section>
+  <div class="bd">
+    <ul>
+      {{each items}}
+      <li>
+        <a href="">
+          <div class="picbox">
+            <img src="{{ $value.url }}" alt="" />
+          </div>
+          <div class="wordbox">
+            <p class="proname">{{ $value.title }}</p>
+            <p>
+              <span class="score">★ {{ $value.score.toFixed(1) }}</span>
+              <span class="comment"
+                >（{{ $value.comment_counts }}评价){{
+                  $value.join_counts
+                }}
+                人参加过</span
+              >
+            </p>
+          </div>
+        </a>
+      </li>
+      {{/each}}
+    </ul>
+  </div>
+</div>

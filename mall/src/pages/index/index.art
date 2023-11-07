@@ -35,7 +35,7 @@
     <!-- 当地玩乐 -->
     <section class="ddwl content-part"></section>
     <!-- 特色当地体验 -->
-    {{include "./components/tsddty/tsddty.art"}}
+    <section class="tsddty content-part"></section>
     <!-- 最世界·深度旅行 -->
     {{include "./components/zsj/zsjsdlx.art"}}
     <!-- 旅游攻略 -->
