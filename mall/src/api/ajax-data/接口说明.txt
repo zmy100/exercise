@@ -6,8 +6,6 @@
         港澳台 hk.json
         日本 japan.json
         亚洲 asia.json
-        欧美 eu.json
-        澳新 au.json
 
 【广告区域】
     ad.json 
