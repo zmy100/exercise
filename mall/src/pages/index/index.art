@@ -23,7 +23,9 @@
       {{include "./components/carousel/circles.art"}}
       <div class="center-wrap">
         {{include "./components/carousel/buttons.art"}}
-        {{include "./components/banner-nav/banner-nav.art"}}
+        <nav class="banner-nav" id="banner-nav">
+          {{include "./components/banner-nav/banner-nav.art"}}
+        </nav>
       </div>
     </section>
     <!-- 热门广告 -->

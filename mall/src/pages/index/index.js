@@ -4,9 +4,6 @@ import "styles/base.css";
 import "styles/common.css";
 import "./css/css.css";
 
-// 引入js
-import "./js/menu.js";
-
 // 引入topbar组件的js
 import "components/topbar/topbar.js";
 // 引入main-nav组件的js
