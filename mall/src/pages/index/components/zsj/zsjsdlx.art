@@ -1,93 +1,52 @@
-<section class="zsjsdlx content-part common-style">
-  <div class="center-wrap">
-    <div class="hd clearfix">
-      <h2>深度旅行</h2>
-      <em>摆脱千篇一律的旅行，探索属于自己的世界</em>
-      <nav>
-        <ul>
-          <li class="current"><a href="">城市漫步</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="bd">
+<div class="center-wrap">
+  <div class="hd clearfix">
+    <h2>深度旅行</h2>
+    <em>摆脱千篇一律的旅行，探索属于自己的世界</em>
+    <nav>
       <ul>
-        <li class="big-grid havehover">
-          <a href="">
-            <div class="mask"></div>
-            <div class="circle">
-              <p>城市</p>
-              <p>CityWalk</p>
-            </div>
-            <div class="word">
-              【City Walk】三亚 —— 大海一望无际 海风可以吹走所以烦恼
-            </div>
-            <img src="./images/yh.png" alt="" />
-          </a>
-        </li>
-        <li class="pro-grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/zsj2.png" alt="" />
-            </div>
-            <div class="wordbox">
-              马尔代夫5日跟团游往返含税机票（赠送旅游意外险…
-            </div>
-          </a>
-        </li>
-        <li class="pro-grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/zsj3.png" alt="" />
-            </div>
-            <div class="wordbox">
-              泰国普吉岛5日跟团游往返含税机票（赠送旅游意外险…
-            </div>
-          </a>
-        </li>
-        <li class="pro-grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/zsj4.png" alt="" />
-            </div>
-            <div class="wordbox">
-              北京双飞5日跟团游往返含税机票（赠送旅游意外险…
-            </div>
-          </a>
-        </li>
-        <li class="pro-grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/zsj5.png" alt="" />
-            </div>
-            <div class="wordbox">
-              云南香格里拉5日跟团游往返含税机票（赠送旅游意外险…
-            </div>
-          </a>
-        </li>
-        <li class="pro-grid">
-          <a href="">
-            <div class="picbox">
-              <img src="./images/zsj6.png" alt="" />
-            </div>
-            <div class="wordbox">
-              永安 桃源洞5日往返含税机票（赠送旅游意外险…
-            </div>
-          </a>
-        </li>
-        <li class="more-grid">
-          <a href="">
-            <p>查看更多</p>
-            <p>深度旅行产品</p>
-            <span class="iconfont">&#xe619;</span>
-            <ul>
-              <li>日游</li>
-              <li>周末</li>
-              <li>亲子</li>
-              <li>长线</li>
-            </ul>
-          </a>
-        </li>
+        <li class="current"><a href="">城市漫步</a></li>
       </ul>
-    </div>
+    </nav>
   </div>
-</section>
+  <div class="bd">
+    <ul>
+      <li class="big-grid havehover">
+        <a href="">
+          <div class="mask"></div>
+          <div class="circle">
+            <p>{{ one.tag }}</p>
+            <p>{{ one["extra-tag"] }}</p>
+          </div>
+          <div class="word">
+            {{ one.title }}
+          </div>
+          <img src="{{ one.url }}" alt="" />
+        </a>
+      </li>
+      {{each items}}
+      <li class="pro-grid">
+        <a href="">
+          <div class="picbox">
+            <img src="{{ $value.url }}" alt="" />
+          </div>
+          <div class="wordbox">
+            {{ $value.title }}
+          </div>
+        </a>
+      </li>
+      {{/each}}
+      <li class="more-grid">
+        <a href="">
+          <p>查看更多</p>
+          <p>{{ more.title }}</p>
+          <span class="iconfont">&#xe619;</span>
+          <ul>
+            {{each more.items}}
+            <li>{{ $value }}</li>
+            {{/each}}
+          </ul>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
