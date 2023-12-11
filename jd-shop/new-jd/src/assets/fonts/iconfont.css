@@ -1,0 +1,118 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4285529 */
+  src: url("../fonts/iconfont.woff2") format("woff2"),
+    url("../fonts/iconfont.woff") format("woff"),
+    url("../fonts/iconfont.ttf") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 4.2667vw;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-place1:before {
+  content: "\e74a";
+}
+
+.icon-dui1:before {
+  content: "\e64d";
+}
+
+.icon-plus:before {
+  content: "\e675";
+}
+
+.icon-circle-plus-fill:before {
+  content: "\e604";
+}
+
+.icon-search:before {
+  content: "\e6ac";
+}
+
+.icon-plussign:before {
+  content: "\e75a";
+}
+
+.icon-lingdang:before {
+  content: "\e623";
+}
+
+.icon-dui:before {
+  content: "\e60d";
+}
+
+.icon-duigoux:before {
+  content: "\ec9e";
+}
+
+.icon-minus:before {
+  content: "\e66d";
+}
+
+.icon-cuo:before {
+  content: "\e6e5";
+}
+
+.icon-arrowbottom:before {
+  content: "\e658";
+}
+
+.icon-arrow-left-bold:before {
+  content: "\e685";
+}
+
+.icon-place:before {
+  content: "\e6b0";
+}
+
+.icon-money:before {
+  content: "\e610";
+}
+
+.icon-arrow-right:before {
+  content: "\e665";
+}
+
+.icon-people-sharp:before {
+  content: "\e81a";
+}
+
+.icon-user-edit:before {
+  content: "\ebc1";
+}
+
+.icon-dingdanorder:before {
+  content: "\e646";
+}
+
+.icon-home_light:before {
+  content: "\e7d4";
+}
+
+.icon-home_fill_light:before {
+  content: "\e7d8";
+}
+
+.icon-user:before {
+  content: "\e73d";
+}
+
+.icon-order-fill:before {
+  content: "\e70e";
+}
+
+.icon-bag:before {
+  content: "\e625";
+}
+
+.icon-bag_fill:before {
+  content: "\e626";
+}
+
+.icon-user-fill:before {
+  content: "\e667";
+}
