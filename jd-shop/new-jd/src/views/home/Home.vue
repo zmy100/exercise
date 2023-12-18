@@ -1,186 +1,38 @@
 <template>
   <div class="container">
-    <div class="head">
-      <div class="head-info">
-        <div class="left">
-          <span class="iconfont icon-place1"></span>
-          <span class="address">北京理工大学国防科技园2号楼10层</span>
-        </div>
-        <span class="iconfont icon-lingdang"></span>
-      </div>
-      <span class="iconfont icon-search"></span>
-      <input
-        type="text"
-        class="head-search"
-        placeholder="山姆会员商店优惠商品"
-      />
-    </div>
-    <div class="banner">
-      <img src="../../assets/img/banner.jpg" alt="" class="banner-img" />
-    </div>
-    <div class="category">
-      <div class="category-row">
-        <div class="category-item">
-          <img src="../../assets/img/超市@3x.png" alt="" class="item-img" />
-          <p class="item-title">超市便利</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/菜市场@3x.png" alt="" class="item-img" />
-          <p class="item-title">菜市场</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/水果店@3x.png" alt="" class="item-img" />
-          <p class="item-title">水果店</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/鲜花@3x.png" alt="" class="item-img" />
-          <p class="item-title">鲜花绿植</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/医药健康@3x.png" alt="" class="item-img" />
-          <p class="item-title">医药健康</p>
-        </div>
-      </div>
-      <div class="category-row">
-        <div class="category-item">
-          <img src="../../assets/img/家居@3x.png" alt="" class="item-img" />
-          <p class="item-title">家居时尚</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/蛋糕@3x.png" alt="" class="item-img" />
-          <p class="item-title">烘培蛋糕</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/签到@3x.png" alt="" class="item-img" />
-          <p class="item-title">签到</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/大牌免运@3x.png" alt="" class="item-img" />
-          <p class="item-title">大牌免运</p>
-        </div>
-        <div class="category-item">
-          <img src="../../assets/img/红包@3x.png" alt="" class="item-img" />
-          <p class="item-title">红包套餐</p>
-        </div>
-      </div>
-    </div>
-    <div class="gap"></div>
-    <div class="nearby">
-      <div class="nearby-title">附近店铺</div>
-      <div class="nearby-item">
-        <div class="left">
-          <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-        </div>
-        <div class="right">
-          <div class="shop-title">沃尔玛</div>
-          <div class="tags">
-            <span class="tag-item">月售1万+</span>
-            <span class="tag-item">起送¥0</span>
-            <span class="tag-item">基础运费¥5</span>
-          </div>
-          <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-        </div>
-      </div>
-      <div class="nearby-item">
-        <div class="left">
-          <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-        </div>
-        <div class="right">
-          <div class="shop-title">沃尔玛</div>
-          <div class="tags">
-            <span class="tag-item">月售1万+</span>
-            <span class="tag-item">起送¥0</span>
-            <span class="tag-item">基础运费¥5</span>
-          </div>
-          <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-        </div>
-      </div>
-      <div class="nearby-item">
-        <div class="left">
-          <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-        </div>
-        <div class="right">
-          <div class="shop-title">沃尔玛</div>
-          <div class="tags">
-            <span class="tag-item">月售1万+</span>
-            <span class="tag-item">起送¥0</span>
-            <span class="tag-item">基础运费¥5</span>
-          </div>
-          <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-        </div>
-      </div>
-      <div class="nearby-item">
-        <div class="left">
-          <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-        </div>
-        <div class="right">
-          <div class="shop-title">沃尔玛</div>
-          <div class="tags">
-            <span class="tag-item">月售1万+</span>
-            <span class="tag-item">起送¥0</span>
-            <span class="tag-item">基础运费¥5</span>
-          </div>
-          <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-        </div>
-      </div>
-      <div class="nearby-item">
-        <div class="left">
-          <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-        </div>
-        <div class="right">
-          <div class="shop-title">沃尔玛</div>
-          <div class="tags">
-            <span class="tag-item">月售1万+</span>
-            <span class="tag-item">起送¥0</span>
-            <span class="tag-item">基础运费¥5</span>
-          </div>
-          <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-        </div>
-      </div>
-      <div class="nearby-item">
-        <div class="left">
-          <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-        </div>
-        <div class="right">
-          <div class="shop-title">沃尔玛</div>
-          <div class="tags">
-            <span class="tag-item">月售1万+</span>
-            <span class="tag-item">起送¥0</span>
-            <span class="tag-item">基础运费¥5</span>
-          </div>
-          <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-        </div>
-      </div>
-    </div>
+    <Header />
+    <Banner />
+    <Category />
+    <Gap />
+    <Nearby />
   </div>
-  <div class="tabbar">
-    <div class="item active">
-      <span class="one iconfont icon-home_light"></span>
-      <span class="two iconfont icon-home_fill_light"></span>
-      <span class="text">首页</span>
-    </div>
-    <div class="item">
-      <span class="one iconfont icon-bag"></span>
-      <span class="two iconfont icon-bag_fill"></span>
-      <span class="text">购物车</span>
-    </div>
-    <div class="item">
-      <span class="one iconfont icon-dingdanorder"></span>
-      <span class="two iconfont icon-order-fill"></span>
-      <span class="text">订单</span>
-    </div>
-    <div class="item">
-      <span class="one iconfont icon-user"></span>
-      <span class="two iconfont icon-user-fill"></span>
-      <span class="text">我的</span>
-    </div>
-  </div>
+  <Tabbar />
 </template>
 
-<script></script>
+<script>
+// 引入组件
+import Header from "./Header.vue";
+import Banner from "./Banner.vue";
+import Category from "./Category.vue";
+import Gap from "./Gap.vue";
+import Nearby from "./Nearby.vue";
+import Tabbar from "@/components/Tabbar.vue";
+export default (await import("vue")).defineComponent({
+  // 注册组件
+  components: {
+    Header,
+    Banner,
+    Category,
+    Gap,
+    Nearby,
+    Tabbar,
+  },
+});
+</script>
 
 <!-- scoped的作用是,为了防止各个组件之间的样式互相干扰 -->
-<style lang="scss" scoped>
+<!-- 在Vue组件中，如果使用了scoped属性来限定CSS样式的作用域，可能会导致样式不生效。你可以尝试将scoped属性去掉，或者使用/deep/或者>>>来穿透作用域 -->
+<style lang="scss">
 @import "../../style/tabbar-common.scss";
 .container {
   width: 100vw;

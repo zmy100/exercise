@@ -1,7 +1,9 @@
 <template>
-  <div></div>
+  <div class="gap"></div>
 </template>
 <script>
-export default {};
+export default {
+  name: "Gap",
+};
 </script>
 <style lang="scss"></style>
