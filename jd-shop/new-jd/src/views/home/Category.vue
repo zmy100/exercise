@@ -51,4 +51,40 @@ export default {
   name: "Category",
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.category {
+  width: 100vw;
+  height: 46.4vw;
+  padding: 4.2667vw 6.9333vw;
+  display: flex;
+  flex-direction: column;
+  .category-row {
+    width: 86.1333vw;
+    height: 23.2vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 4.2667vw;
+    .category-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-right: 5.6vw;
+      &:last-child {
+        margin-right: 0;
+      }
+      .item-img {
+        width: 10.6667vw;
+        height: 10.6667vw;
+        margin-bottom: 1.6vw;
+      }
+      .item-title {
+        width: 12.8vw;
+        height: 4.5333vw;
+        font-size: 3.2vw;
+        color: #333333;
+        text-align: center;
+      }
+    }
+  }
+}
+</style>

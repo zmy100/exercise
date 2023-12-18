@@ -22,4 +22,36 @@ export default {
   },
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.head {
+  width: 100vw;
+  height: 26.1333vw;
+  padding: 4.2667vw 4.8vw 3.2vw;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background-color: #fff;
+  .head-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4.2667vw;
+    .left {
+      .icon-place1 {
+        font-size: 6.4vw;
+        color: #333333;
+        display: inline-block;
+        transform: translateY(0.8vw);
+      }
+      .address {
+        font-size: 4.2667vw;
+        color: #333333;
+      }
+    }
+    .icon-lingdang {
+      font-size: 6.4vw;
+      color: #000;
+    }
+  }
+}
+</style>

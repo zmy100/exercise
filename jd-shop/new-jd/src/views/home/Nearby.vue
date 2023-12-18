@@ -93,4 +93,51 @@ export default {
   name: "Nearby",
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+.nearby {
+  width: 100vw;
+  padding: 4.2667vw 4.8vw 17.3333vw;
+  .nearby-title {
+    font-size: 4.8vw;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 3.7333vw;
+  }
+  .nearby-item {
+    width: 90.4vw;
+    height: 22.9333vw;
+    display: flex;
+    .left {
+      margin-left: 4.8vw;
+      margin-right: 4.2667vw;
+      .shop-logo {
+        width: 14.9333vw;
+        height: 14.9333vw;
+        border-radius: 14.9333vw;
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      border-bottom: 0.2667vw solid #f1f1f1;
+      flex-grow: 1;
+      .shop-title {
+        font-size: 4.2667vw;
+        color: #333333;
+      }
+      .tags {
+        .tag-item {
+          font-size: 3.4667vw;
+          color: #333333;
+        }
+      }
+      .promotion {
+        font-size: 3.4667vw;
+        color: #e93b3b;
+        margin-bottom: 1.3333vw;
+      }
+    }
+  }
+}
+</style>
