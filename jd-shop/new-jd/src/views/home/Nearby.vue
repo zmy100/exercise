@@ -1,88 +1,26 @@
 <template>
   <div class="nearby">
     <div class="nearby-title">附近店铺</div>
-    <div class="nearby-item">
+
+    <div
+      v-for="(item, index) in nearbyItems"
+      :key="item.id"
+      class="nearby-item"
+    >
       <div class="left">
-        <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
+        <img :src="item.logo" alt="" class="shop-logo" />
       </div>
       <div class="right">
-        <div class="shop-title">沃尔玛</div>
+        <div class="shop-title">{{ item.title }}</div>
         <div class="tags">
-          <span class="tag-item">月售1万+</span>
-          <span class="tag-item">起送¥0</span>
-          <span class="tag-item">基础运费¥5</span>
+          <span
+            v-for="(tag, index) of item.tags"
+            :key="index"
+            class="tag-item"
+            >{{ tag }}</span
+          >
         </div>
-        <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-      </div>
-    </div>
-    <div class="nearby-item">
-      <div class="left">
-        <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-      </div>
-      <div class="right">
-        <div class="shop-title">沃尔玛</div>
-        <div class="tags">
-          <span class="tag-item">月售1万+</span>
-          <span class="tag-item">起送¥0</span>
-          <span class="tag-item">基础运费¥5</span>
-        </div>
-        <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-      </div>
-    </div>
-    <div class="nearby-item">
-      <div class="left">
-        <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-      </div>
-      <div class="right">
-        <div class="shop-title">沃尔玛</div>
-        <div class="tags">
-          <span class="tag-item">月售1万+</span>
-          <span class="tag-item">起送¥0</span>
-          <span class="tag-item">基础运费¥5</span>
-        </div>
-        <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-      </div>
-    </div>
-    <div class="nearby-item">
-      <div class="left">
-        <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-      </div>
-      <div class="right">
-        <div class="shop-title">沃尔玛</div>
-        <div class="tags">
-          <span class="tag-item">月售1万+</span>
-          <span class="tag-item">起送¥0</span>
-          <span class="tag-item">基础运费¥5</span>
-        </div>
-        <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-      </div>
-    </div>
-    <div class="nearby-item">
-      <div class="left">
-        <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-      </div>
-      <div class="right">
-        <div class="shop-title">沃尔玛</div>
-        <div class="tags">
-          <span class="tag-item">月售1万+</span>
-          <span class="tag-item">起送¥0</span>
-          <span class="tag-item">基础运费¥5</span>
-        </div>
-        <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
-      </div>
-    </div>
-    <div class="nearby-item">
-      <div class="left">
-        <img src="../../assets/img/shop-logo.png" alt="" class="shop-logo" />
-      </div>
-      <div class="right">
-        <div class="shop-title">沃尔玛</div>
-        <div class="tags">
-          <span class="tag-item">月售1万+</span>
-          <span class="tag-item">起送¥0</span>
-          <span class="tag-item">基础运费¥5</span>
-        </div>
-        <div class="promotion">VIP尊享满89元减4元运费券（每月3张）</div>
+        <div class="promotion">{{ item.promotion }}</div>
       </div>
     </div>
   </div>
@@ -91,6 +29,63 @@
 export default {
   // 组件的名称
   name: "Nearby",
+
+  setup() {
+    const nearbyItems = [
+      {
+        id: 1,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+      {
+        id: 2,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+      {
+        id: 3,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+      {
+        id: 4,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+      {
+        id: 5,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+      {
+        id: 6,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+      {
+        id: 7,
+        logo: "../../assets/img/shop-logo.png",
+        title: "沃尔玛",
+        tags: ["月售1万", "起送¥0", "基础运费¥5"],
+        promotion: "VIP尊享满89元减4元运费券（每月3张）",
+      },
+    ];
+    return {
+      nearbyItems,
+    };
+  },
 };
 </script>
 <style lang="scss" scoped>
